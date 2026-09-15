@@ -60,7 +60,12 @@
           <option value="cfd/openfoam-temel">CFD → OpenFOAM (Temel)</option>
           <option value="acik-donanim">Açık Donanım</option>
           <option value="freecad-makro">FreeCAD Makro</option>
+          <option value="__yeni__">＋ Yeni kurs klasörü aç…</option>
         </select>
+        <div id="yeniKursKutu" style="display:none; margin-top:0.5rem;">
+          <input id="yeniKurs" placeholder="Örn. fem/yeni-kurs (küçük harf, tireli)" />
+          <small style="color:#666;">Yeni klasör menüye otomatik eklenmez; ilk dersten sonra site yöneticisine söyleyin, menüye eklesin.</small>
+        </div>
       </div>
       <div>
         <label>Kurs içindeki sıra no</label>
@@ -78,23 +83,56 @@
         <input id="tarih" type="date" />
       </div>
     </div>
-    <div class="satir">
-      <div>
-        <label>Hazırlayan (ad soyad)</label>
-        <input id="yazar" placeholder="Ad Soyad" />
-      </div>
-      <div>
-        <label>Hazırlayanın YouTube kanalı</label>
-        <input id="yazarKanal" placeholder="https://www.youtube.com/@..." />
-      </div>
-    </div>
-    <label>Yazılım</label>
-    <select id="yazilim">
-      <option>PrePoMax</option><option>FreeCAD FEM</option><option>FreeCAD FEMbyGEN</option>
-      <option>FreeCAD CfdOF</option><option>FreeCAD Makro</option><option>CalculiX</option>
-      <option>Salome-Meca</option><option>OpenFOAM</option><option>HELYX-OS</option>
-      <option>OpenRadioss</option><option>Açık Donanım</option>
+    <label>Hazırlayan (eğitmen) <small>havuzdan seç veya yenisi ekle</small></label>
+    <select id="yazarSec">
+      <option value="">— seçin —</option>
+      <option value="0">Pakrad Amini</option>
+      <option value="1">Mouhammad Almoukaddam</option>
+      <option value="2">Volkan Bayrak</option>
+      <option value="3">Nedir Ymamov</option>
+      <option value="4">Erencan Kahveci</option>
+      <option value="5">Can Karaca Kantarcı</option>
+      <option value="6">Serdar Turgut İnce</option>
+      <option value="7">Ahmet Özkan Canlı</option>
+      <option value="8">Efsun Sultan Bulut</option>
+      <option value="9">Fatih Yegül</option>
+      <option value="10">İbrahim Halil Bedük</option>
+      <option value="11">Batuhan Tangut</option>
+      <option value="12">İbrahim Furkan Ercanlı</option>
+      <option value="13">Hüseyin Kürşad Namlı</option>
+      <option value="14">Sarp Gürenli</option>
+      <option value="15">Asena Çataloluk</option>
+      <option value="16">Bahar Ebru Ezer</option>
+      <option value="17">Kenan Aslan</option>
+      <option value="18">Uğur Can</option>
+      <option value="19">Nuri Taytan</option>
+      <option value="20">Ahmet Emre Yüksel</option>
+      <option value="21">Berat Yağmur</option>
+      <option value="22">Hamza</option>
+      <option value="__yeni__">＋ Yeni eğitmen ekle…</option>
     </select>
+    <div id="yeniYazarKutu" style="display:none; margin-top:0.5rem;">
+      <div class="satir">
+        <div>
+          <label>Yeni eğitmenin adı soyadı</label>
+          <input id="yazarAd" placeholder="Ad Soyad" />
+        </div>
+        <div>
+          <label>YouTube kanalı</label>
+          <input id="yazarKanalYeni" placeholder="https://www.youtube.com/@..." />
+        </div>
+      </div>
+      <label>Eğitmen fotoğrafı <small>(otomatik yuvarlak kırpılır; boş bırakırsan baş harf görünür)</small></label>
+      <input id="yazarFoto" type="file" accept="image/*" />
+    </div>
+    <label>Yazılım <small>kursa göre otomatik dolar; yeni yazılım yazılabilir</small></label>
+    <input id="yazilim" list="yazilimListe" placeholder="Örn. PrePoMax" />
+    <datalist id="yazilimListe">
+      <option value="PrePoMax"></option><option value="FreeCAD FEM"></option><option value="FreeCAD FEMbyGEN"></option>
+      <option value="FreeCAD CfdOF"></option><option value="FreeCAD Makro"></option><option value="CalculiX"></option>
+      <option value="Salome-Meca"></option><option value="OpenFOAM"></option><option value="HELYX-OS"></option>
+      <option value="OpenRadioss"></option><option value="Açık Donanım"></option>
+    </datalist>
     <label>Kısa açıklama <small>(arama motorları için 1 cümle)</small></label>
     <input id="description" placeholder="Örn. İki parça arasında sürtünmeli temas tanımlama." />
     <label>Ders notları <small>(Markdown yazılabilir)</small></label>
@@ -128,6 +166,87 @@ $('title').addEventListener('input', (e) => {
 });
 $('slug').addEventListener('input', (e) => { e.target.dataset.elle = '1'; });
 
+const KURS_YAZILIM = {
+  'fem/prepomax': 'PrePoMax', 'fem/freecad-fem': 'FreeCAD FEM', 'fem/freecad-burkulma': 'FreeCAD FEM',
+  'fem/calculix-fem': 'CalculiX', 'fem/salome-meca': 'Salome-Meca', 'fem/fembygen': 'FreeCAD FEMbyGEN',
+  'fem/openradioss': 'OpenRadioss', 'cfd/freecad-cfd': 'FreeCAD CfdOF', 'cfd/helyxos-cfd': 'HELYX-OS',
+  'cfd/openfoam-temel': 'OpenFOAM', 'acik-donanim': 'Açık Donanım', 'freecad-makro': 'FreeCAD Makro'
+};
+function seciliKurs() {
+  const k = $('kurs').value;
+  if (k === '__yeni__') return $('yeniKurs').value.trim().toLowerCase().replace(/[^a-z0-9\/\-]+/g, '').replace(/^\/+|\/+$/g, '');
+  return k;
+}
+$('kurs').addEventListener('change', () => {
+  const yeni = $('kurs').value === '__yeni__';
+  $('yeniKursKutu').style.display = yeni ? 'block' : 'none';
+  if (!yeni && !$('yazilim').dataset.elle) $('yazilim').value = KURS_YAZILIM[$('kurs').value] || '';
+  guncelleOnizleme();
+});
+$('yazilim').addEventListener('input', (e) => { e.target.dataset.elle = '1'; });
+$('yeniKurs').addEventListener('input', guncelleOnizleme);
+$('yazilim').value = KURS_YAZILIM[$('kurs').value];
+const HAVUZ = [{"ad": "Pakrad Amini", "kanal": ""}, {"ad": "Mouhammad Almoukaddam", "kanal": ""}, {"ad": "Volkan Bayrak", "kanal": ""}, {"ad": "Nedir Ymamov", "kanal": ""}, {"ad": "Erencan Kahveci", "kanal": ""}, {"ad": "Can Karaca Kantarcı", "kanal": ""}, {"ad": "Serdar Turgut İnce", "kanal": ""}, {"ad": "Ahmet Özkan Canlı", "kanal": ""}, {"ad": "Efsun Sultan Bulut", "kanal": ""}, {"ad": "Fatih Yegül", "kanal": ""}, {"ad": "İbrahim Halil Bedük", "kanal": ""}, {"ad": "Batuhan Tangut", "kanal": ""}, {"ad": "İbrahim Furkan Ercanlı", "kanal": ""}, {"ad": "Hüseyin Kürşad Namlı", "kanal": ""}, {"ad": "Sarp Gürenli", "kanal": ""}, {"ad": "Asena Çataloluk", "kanal": ""}, {"ad": "Bahar Ebru Ezer", "kanal": ""}, {"ad": "Kenan Aslan", "kanal": ""}, {"ad": "Uğur Can", "kanal": ""}, {"ad": "Nuri Taytan", "kanal": ""}, {"ad": "Ahmet Emre Yüksel", "kanal": ""}, {"ad": "Berat Yağmur", "kanal": ""}, {"ad": "Hamza", "kanal": "https://www.youtube.com/@Hamza-qp9yn"}];
+function yazarDegeri() {
+  const v = $('yazarSec').value;
+  if (v === '__yeni__') return { ad: $('yazarAd').value.trim(), kanal: $('yazarKanalYeni').value.trim(), yeni: true };
+  if (v === '') return { ad: '', kanal: '', yeni: false };
+  return { ad: HAVUZ[+v].ad, kanal: HAVUZ[+v].kanal, yeni: false };
+}
+$('yazarSec').addEventListener('change', () => {
+  $('yeniYazarKutu').style.display = $('yazarSec').value === '__yeni__' ? 'block' : 'none';
+  guncelleOnizleme();
+});
+function fotoIsle(file) {
+  return new Promise((res, rej) => {
+    const img = new Image();
+    img.onload = () => {
+      const k = Math.min(1, 400 / Math.max(img.width, img.height));
+      const w = Math.max(1, Math.round(img.width * k)), h = Math.max(1, Math.round(img.height * k));
+      const c = document.createElement('canvas'); c.width = w; c.height = h;
+      const ctx = c.getContext('2d');
+      ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, w, h);
+      ctx.drawImage(img, 0, 0, w, h);
+      URL.revokeObjectURL(img.src);
+      res(c.toDataURL('image/jpeg', 0.74).split(',')[1]);
+    };
+    img.onerror = () => rej(new Error('Fotoğraf okunamadı.'));
+    img.src = URL.createObjectURL(file);
+  });
+}
+async function icerikKoy(headers, repoPath, b64icerik, mesaj) {
+  const url = `https://api.github.com/repos/${REPO}/contents/${repoPath}`;
+  let sha = null;
+  try {
+    const g = await fetch(url + '?ref=' + BRANCH, { headers });
+    if (g.status === 200) sha = (await g.json()).sha;
+  } catch (e) {}
+  const govde = { message: mesaj, content: b64icerik, branch: BRANCH };
+  if (sha) govde.sha = sha;
+  const r = await fetch(url, { method: 'PUT', headers: { ...headers, 'Content-Type': 'application/json' }, body: JSON.stringify(govde) });
+  if (!r.ok) throw new Error(mesaj + ' başarısız (' + r.status + ')');
+  return r.json();
+}
+async function egitmenHazirla(headers) {
+  const y = yazarDegeri();
+  if (!y.yeni || !y.ad) return;
+  let foto = '';
+  const f = $('yazarFoto').files[0];
+  if (f) {
+    const b64foto = await fotoIsle(f);
+    foto = 'public/ekip/' + slugify(y.ad) + '.jpg';
+    await icerikKoy(headers, foto, b64foto, `egitmen fotosu: ${y.ad}`);
+  }
+  const g = await fetch(`https://api.github.com/repos/${REPO}/contents/src/data/ekip.json?ref=` + BRANCH, { headers });
+  if (!g.ok) return;
+  const j = await g.json();
+  const liste = JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\s/g, '')))));
+  const norm = (a) => a.toLocaleLowerCase('tr-TR');
+  if (!liste.some((e) => norm(e.ad) === norm(y.ad))) {
+    liste.push({ ad: y.ad, foto: foto ? '/' + foto.replace(/^public\//, '') : '', desc: 'Ders hazırlayan gönüllü eğitmen.', links: y.kanal ? [{ type: 'Youtube', url: y.kanal }] : [] });
+    await icerikKoy(headers, 'src/data/ekip.json', b64(JSON.stringify(liste, null, 1)), `ekip: ${y.ad}`);
+  }
+}
 function dosyaIcerigi() {
   const yt = $('youtube').value.trim();
   const lines = ['---',
@@ -135,14 +254,15 @@ function dosyaIcerigi() {
     `description: "${($('description').value.trim() || $('title').value.trim()).replace(/"/g, '\\"')}"`,
     'sidebar:', `  order: ${$('order').value || 1}`,
     `youtube: "${yt}"`];
-  if ($('yazar').value.trim()) lines.push(`yazar: "${$('yazar').value.trim().replace(/"/g, '\\"')}"`);
-  if ($('yazarKanal').value.trim()) lines.push(`yazarKanal: "${$('yazarKanal').value.trim()}"`);
+  const yz = yazarDegeri();
+  if (yz.ad) lines.push(`yazar: "${yz.ad.replace(/"/g, '\\"')}"`);
+  if (yz.kanal) lines.push(`yazarKanal: "${yz.kanal}"`);
   lines.push(`yazilim: "${$('yazilim').value}"`);
   if ($('tarih').value) lines.push(`tarih: ${$('tarih').value}`);
   lines.push('---', '', $('body').value.trim() || 'Bu ders yakında eklenecektir.', '');
   return lines.join('\n');
 }
-function guncelleOnizleme() { $('onizleme').textContent = `src/content/docs/${$('kurs').value}/${$('slug').value || '...'}.md\n\n` + dosyaIcerigi(); }
+function guncelleOnizleme() { $('onizleme').textContent = `src/content/docs/${seciliKurs() || '...'}/${$('slug').value || '...'}.md\n\n` + dosyaIcerigi(); }
 document.querySelectorAll('input,select,textarea').forEach((el) => el.addEventListener('input', guncelleOnizleme));
 guncelleOnizleme();
 
@@ -156,16 +276,22 @@ $('kaydet').addEventListener('click', async () => {
   if (!token) { $('tokenHata').textContent = 'Önce token gir.'; return; }
   $('tokenHata').textContent = '';
   if (!/^[a-z0-9-]+$/.test(slug)) { alert('Dosya adı sadece küçük harf, rakam ve tire olmalı.'); return; }
+  const kursKlasor = seciliKurs();
+  if (!/^[a-z0-9\-]+(\/[a-z0-9\-]+)+$/.test(kursKlasor)) { alert('Kurs klasörü “grup/klasor” biçiminde olmalı (örn. fem/yeni-kurs).'); return; }
   if (!/^[A-Za-z0-9_-]{11}$/.test(yt)) { $('ytHata').textContent = '11 karakterlik video ID gir (linkin tamamını değil).'; return; }
   $('ytHata').textContent = '';
   if (!$('title').value.trim()) { alert('Başlık boş olamaz.'); return; }
+  if (!yazarDegeri().ad) { alert('Eğitmen seç veya yeni eğitmen adı yaz.'); return; }
 
   localStorage.setItem('am_token', token);
   const btn = $('kaydet'); btn.disabled = true; btn.textContent = 'Gönderiliyor...';
-  const path = `src/content/docs/${$('kurs').value}/${slug}.md`;
+  const path = `src/content/docs/${kursKlasor}/${slug}.md`;
   const url = `https://api.github.com/repos/${REPO}/contents/${path}`;
   const headers = { 'Accept': 'application/vnd.github+json', 'Authorization': 'Bearer ' + token };
   try {
+    btn.textContent = 'Eğitmen hazırlanıyor...';
+    await egitmenHazirla(headers);
+    btn.textContent = 'Gönderiliyor...';
     // dosya var mı?
     let sha = null;
     const var_mi = await fetch(url + '?ref=' + BRANCH, { headers });
@@ -181,7 +307,7 @@ $('kaydet').addEventListener('click', async () => {
       throw new Error('GitHub hatası (' + r.status + '): ' + t.slice(0, 300));
     }
     const j = await r.json();
-    sonucGoster(`✅ Yayınlandı!\nDosya: ${j.content.path}\nGitHub: <a href="${j.content.html_url}" target="_blank">dosyayı gör</a>\n\nSite 1-2 dakika içinde kendini günceller (Cloudflare otomatik derler).`);
+    sonucGoster(`✅ Yayınlandı!\nDosya: ${j.content.path}\nGitHub: <a href="${j.content.html_url}" target="_blank">dosyayı gör</a>\n\nSite 1-2 dakika içinde kendini günceller (Cloudflare otomatik derler). Hazırlayan adı Hakkımızda sayfasına otomatik eklenir.`);
   } catch (e) {
     sonucGoster('❌ Olmadı: ' + e.message + '\n\nToken yanlış olabilir ya da repo yetkisi (repo) eksiktir.');
   }

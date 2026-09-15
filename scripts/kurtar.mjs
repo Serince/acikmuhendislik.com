@@ -37,10 +37,10 @@ const yazar = {
 // youtube verilmezse Wayback'ten kurtarılan ID kullanılır.
 const M = {
   // ---------- FreeCAD FEM (Ağu–Ara 2021) ----------
-  '2021/08/27/freecad-cubuk-egilme-analizi': { k: 'fem/freecad-fem', s: 1, yt: 'K2KMLyhuC6I', y: 'nuri', t: 'FreeCAD Çubuk Eğilme Analizi', d: true },
+  '2021/08/27/freecad-cubuk-egilme-analizi': { k: 'fem/freecad-fem', s: 1, yt: 'K2KMLyhuC6I', y: 'nuri', t: 'FreeCAD Çubuk Eğilme Analizi' },
   '2021/09/01/freecad-fem-shell-eleman-analizi': { k: 'fem/freecad-fem', s: 2, yt: 'B2BRT8-ubfI', y: 'nuri', t: 'FreeCAD FEM Shell Eleman Analizi' },
   '2021/09/02/gmsh-kurulumu': { k: 'fem/freecad-fem', s: 3, yt: 'zmV5pgyh0H8', y: 'pakrad', t: 'Gmsh Kurulumu' },
-  '2021/09/02/freecad-fem-cekme-analizi': { k: 'fem/freecad-fem', s: 4, yt: 'na5uT3bA9Ww', y: 'pakrad', t: 'FreeCAD FEM Çekme Analizi', d: true },
+  '2021/09/02/freecad-fem-cekme-analizi': { k: 'fem/freecad-fem', s: 4, yt: 'na5uT3bA9Ww', y: 'pakrad', t: 'FreeCAD FEM Çekme Analizi' },
   '2021/09/06/fem-shell': { k: 'fem/freecad-fem', s: 5, yt: 'qOuUmdu8P28', y: 'pakrad', t: 'FreeCAD FEM Shell Kalınlığı Tanımlama' },
   '2021/09/07/freecad-fem-cubuk-kesiti-tanimlama': { k: 'fem/freecad-fem', s: 6, yt: '1icWkfumE3g', y: 'pakrad', t: 'FreeCAD FEM Çubuk Kesiti Tanımlama' },
   '2021/09/15/destekli-levha-analizi': { k: 'fem/freecad-fem', s: 7, yt: 'F2D6Xviyeq4', y: 'pakrad', t: 'Destekli Levha Analizi' },
@@ -61,15 +61,15 @@ const M = {
   '2023/11/06/windowsda-salome-meca-kurulumu': { k: 'fem/salome-meca', s: 2, y: 'furkan' },
   '2021/10/07/salome-mecada-bir-boyutlu-kiris-analizi': { k: 'fem/salome-meca', s: 3, yt: '3VdiaGF3ILg', y: 'nedir', t: "Salome-Meca'da Bir Boyutlu Kiriş Analizi" },
   '2021/10/08/salome-meca-da-basit-kiris-analiz': { k: 'fem/salome-meca', s: 4, yt: 'cSnKw6veQMc', y: 'nedir', t: "Salome-Meca'da Basit Kiriş Analizi" },
-  '2021/10/08/salome-mecada-2': { k: 'fem/salome-meca', s: 5, yt: 'cKOQudfSDR0', y: 'nedir', t: "Salome-Meca'da Yüzeye Kalınlık Verme", d: true },
+  '2021/10/08/salome-mecada-2': { k: 'fem/salome-meca', s: 5, yt: 'cKOQudfSDR0', y: 'nedir', t: "Salome-Meca'da Yüzeye Kalınlık Verme" },
   '2021/10/21/salome-mecada-destekli-levha-analizi': { k: 'fem/salome-meca', s: 6, yt: 'wuK-eEX7KMs', y: 'nedir', t: "Salome-Meca'da Destekli Levha Analizi" },
-  '2021/10/25/farkli-boyutlarda-meshleme': { k: 'fem/salome-meca', s: 7, yt: 'jBa1Nu03BUE', y: 'nedir', t: 'Farklı Boyutlarda Meshleme', d: true },
+  '2021/10/25/farkli-boyutlarda-meshleme': { k: 'fem/salome-meca', s: 7, yt: 'jBa1Nu03BUE', y: 'nedir', t: 'Farklı Boyutlarda Meshleme' },
   '2021/11/06/salomede-simetri-sarti-olusturma': { k: 'fem/salome-meca', s: 8, yt: '-9wg2_YXnv4', y: 'nedir', t: "Salome'de Simetri Şartı Oluşturma" },
   '2021/11/06/salomede-contact-ve-displacement': { k: 'fem/salome-meca', s: 9, yt: 'Y22CzBakxEc', y: 'nedir', t: "Salome'de Contact ve Displacement" },
-  '2021/11/06/salomede-eleman-dikme': { k: 'fem/salome-meca', s: 10, yt: 'QOjy8fzaUCM', y: 'nedir', t: "Salome'de Eleman Dikme (Mesh Yüzeylerini Birleştirme)", d: true },
+  '2021/11/06/salomede-eleman-dikme': { k: 'fem/salome-meca', s: 10, yt: 'QOjy8fzaUCM', y: 'nedir', t: "Salome'de Eleman Dikme (Mesh Yüzeylerini Birleştirme)" },
   '2021/11/06/salomede-hidrostatik-basinc': { k: 'fem/salome-meca', s: 11, yt: 'iLYpeSQkGJ8', y: 'nedir', t: "Salome'de Hidrostatik Basınç" },
-  '2021/11/22/kirise-kesit-tanimlama': { k: 'fem/salome-meca', s: 12, yt: '_mSXJXkNOds', y: 'nedir', t: 'Kirişe Kesit Tanımlama (Hollanda Profili)', d: true },
-  '2021/11/22/2d-ve-1d-elemanlari-birlikte-tanimlama': { k: 'fem/salome-meca', s: 13, yt: 'tXtglZG2uKw', y: 'nedir', t: '2D ve 1D Elemanları Birlikte Tanımlama', d: true },
+  '2021/11/22/kirise-kesit-tanimlama': { k: 'fem/salome-meca', s: 12, yt: '_mSXJXkNOds', y: 'nedir', t: 'Kirişe Kesit Tanımlama (Hollanda Profili)' },
+  '2021/11/22/2d-ve-1d-elemanlari-birlikte-tanimlama': { k: 'fem/salome-meca', s: 13, yt: 'tXtglZG2uKw', y: 'nedir', t: '2D ve 1D Elemanları Birlikte Tanımlama' },
   '2021/11/23/salomede-mesh-yakinsama-calismasi': { k: 'fem/salome-meca', s: 14, yt: 'uGH4kIurres', y: 'nedir', t: "Salome'de Mesh Yakınsama Çalışması" },
   '2021/11/23/salomede-dogal-frekans-analizi': { k: 'fem/salome-meca', s: 15, yt: 'REHiCAhyJBk', y: 'nedir', t: "Salome'de Doğal Frekans Analizi" },
   '2024/07/24/salome-mecada-harmonik-titresim-analizi': { k: 'fem/salome-meca', s: 16, y: 'mouhammad' },
@@ -124,7 +124,7 @@ const M = {
   // ---------- Açık Donanım ----------
   '2022/06/20/arduino-ile-yari-otonom-tekne-tasarimi': { k: 'acik-donanim', s: 1, yt: ['tdpd9_HsV-o', 'i3n_Lcj0wfI', 'LraMBl4vgOs', 'R27JORq-vmA'], y: 'pakrad', t: 'Arduino ile Yarı Otonom Tekne Tasarımı' },
   '2022/07/19/cop-kapar-tekne-tasarimi': { k: 'acik-donanim', s: 2, y: 'can' },
-  '2024/07/03/goruntu-isleme-destekli-yon-tayini': { k: 'acik-donanim', s: 3, yt: null, y: 'ibrahim', t: 'Görüntü İşleme Destekli Yön Tayini', d: true },
+  '2024/07/03/goruntu-isleme-destekli-yon-tayini': { k: 'acik-donanim', s: 3, yt: ['fHGLpj_7Hik', 'TIU_w3bSi8I'], y: 'hamza', t: 'Görüntü İşleme Destekli Yön Tayini' },
 
   // ---------- FreeCAD Makro ----------
   '2023/06/15/parametrik-cfd-analizi-ve-makro-yazma': { k: 'freecad-makro', s: 1, y: 'asena' },

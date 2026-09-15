@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+import ekip from '../data/ekip.json';
+
+// Ders dosyalarındaki yazarları topla: listede yoksa otomatik ekip üyesi yap (aynı isim birleşir)
+const dersler = await getCollection('docs');
+const norm = (s) => s.toLocaleLowerCase('tr-TR').replace(/\s+/g, ' ').trim();
+const sabit = new Set(ekip.map((e) => norm(e.ad)));
+const ek = new Map();
+for (const d of dersler) {
+  const y = (d.data.yazar || '').trim();
+  if (!y || sabit.has(norm(y))) continue;
+  if (!ek.has(norm(y))) ek.set(norm(y), { ad: y, kanal: null, yazilimlar: [], ders: 0 });
+  const k = ek.get(norm(y));
+  k.ders++;
+  if (!k.kanal && d.data.yazarKanal) k.kanal = d.data.yazarKanal;
+  if (d.data.yazilim && !k.yazilimlar.includes(d.data.yazilim)) k.yazilimlar.push(d.data.yazilim);
+}
+const yeniler = [...ek.values()];
+const basHarf = (ad) => ad.split(' ').map((w) => w[0]).slice(0, 2).join('').toLocaleUpperCase('tr-TR');
+---
+<div class="ekip" data-karistir>
+  {ekip.map((m) => (
+    <div class="ekip-kart">
+      {m.foto ? <img src={m.foto} alt={m.ad} loading="lazy" /> : <span class="ekip-avatar">{basHarf(m.ad)}</span>}
+      <h3>{m.ad}</h3>
+      <p>{m.desc}</p>
+      {m.links.map((l) => (<a href={l.url} target="_blank" rel="noopener">{l.type}</a>))}
+    </div>
+  ))}
+  {yeniler.map((y) => (
+    <div class="ekip-kart ekip-yeni">
+      <span class="ekip-avatar">{basHarf(y.ad)}</span>
+      <h3>{y.ad}</h3>
+      <p>{y.yazilimlar.length ? y.yazilimlar.join(', ') + ' dersleri hazırlayan gönüllü eğitmen.' : 'Ders hazırlayan gönüllü eğitmen.'} Sitede {y.ders} dersi var.</p>
+      {y.kanal && <a href={y.kanal} target="_blank" rel="noopener">Youtube</a>}
+    </div>
+  ))}
+</div>
+<script>
+  // Her ziyarette kartları karıştır
+  document.querySelectorAll('[data-karistir]').forEach((alan) => {
+    const kartlar = [...alan.children];
+    for (let i = kartlar.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      alan.appendChild(kartlar[j]);
+      kartlar.splice(j, 1);
+    }
+  });
+</script>

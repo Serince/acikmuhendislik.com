@@ -1,5 +1,5 @@
 ---
-const egitmenler = [
+const havuz = [
   { ad: 'Pakrad Amini', alan: 'FreeCAD FEM + CFD', kanal: 'https://www.youtube.com/@muhendislik1012', foto: '/ekip/pakrad.jpg' },
   { ad: 'Nuri Taytan', alan: 'CalculiX', kanal: 'https://www.youtube.com/@nuritaytan7838', foto: '/ekip/nuri.jpg' },
   { ad: 'Nedir Ymamov', alan: 'Salome-Meca', kanal: 'https://www.youtube.com/@nedir.y', foto: '/ekip/nedir.jpg' },
@@ -8,13 +8,17 @@ const egitmenler = [
   { ad: 'Berat Yağmur', alan: 'Burkulma Analizi', kanal: 'https://www.youtube.com/@beratyyagmur', foto: '/ekip/berat.jpg' },
   { ad: 'Batuhan Tangut', alan: 'CFD (CfdOF)', kanal: 'https://www.youtube.com/@Askleipos', foto: '/ekip/batuhan.jpg' },
   { ad: 'Volkan Bayrak', alan: 'Optimizasyon', kanal: 'https://www.youtube.com/@volkanbayrak8896', foto: '/ekip/volkan.jpg' },
+  { ad: 'Efsun Sultan Bulut', alan: 'PrePoMax', kanal: 'https://www.youtube.com/@efsltn', foto: '/ekip/efsun.jpg' },
+  { ad: 'Fatih Yegül', alan: 'FreeCAD Makro', kanal: 'https://www.youtube.com/@FatihYegul-ix1td', foto: '/ekip/fatih.jpg' },
+  { ad: 'Sarp Gürenli', alan: 'OpenFOAM + HELYX-OS', kanal: 'https://www.youtube.com/@sarpgurenli3218', foto: '/ekip/sarp.jpg' },
+  { ad: 'Erencan Kahveci', alan: 'CFD (y+)', kanal: 'https://www.youtube.com/@Cankahveci78', foto: '/ekip/erencan.jpg' },
 ];
 ---
 <h2 class="bolum-baslik">Eğitmenler</h2>
-<p class="bolum-alt">Dersler mühendislik öğrencileri ve mühendisler tarafından hazırlanır. Tüm ekip için <a href="/hakkimizda/">Hakkımızda</a> sayfasına bakın.</p>
+<p class="bolum-alt">Dersler mühendislik öğrencileri ve mühendisler tarafından hazırlanır. Her ziyarette farklı isimler çıkar; tüm ekip için <a href="/hakkimizda/">Hakkımızda</a> sayfasına bakın.</p>
 
-<div class="egitmen-grid">
-  {egitmenler.map((e) => (
+<div class="egitmen-grid" data-karistir data-goster="8">
+  {havuz.map((e) => (
     <a class="egitmen-kart" href={e.kanal} target="_blank" rel="noopener">
       <img class="egitmen-avatar" src={e.foto} alt={e.ad} loading="lazy" />
       <span class="egitmen-bilgi">
@@ -24,3 +28,15 @@ const egitmenler = [
     </a>
   ))}
 </div>
+<script>
+  // Her ziyarette karıştır, rastgele 8 tanesini göster
+  document.querySelectorAll('[data-goster]').forEach((alan) => {
+    const kartlar = [...alan.children];
+    for (let i = kartlar.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [kartlar[i], kartlar[j]] = [kartlar[j], kartlar[i]];
+    }
+    kartlar.forEach((k) => alan.appendChild(k));
+    kartlar.slice(Number(alan.dataset.goster)).forEach((k) => k.style.display = 'none');
+  });
+</script>

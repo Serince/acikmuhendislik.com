@@ -1,18 +1,18 @@
 ---
 title: "Görüntü İşleme Destekli Yön Tayini"
-description: "Görüntü İşleme Destekli Yön Tayini – Açık Donanım video dersi."
+description: "Deniz araçlarının otomatik yön belirlemesi için görüntü işleme destekli yaklaşım: donanım ve yazılım."
 sidebar:
   order: 3
-yazar: "İbrahim Halil Bedük"
-yazarKanal: "https://www.youtube.com/@engineer-e4y"
+youtube:
+  - "fHGLpj_7Hik"
+  - "TIU_w3bSi8I"
+yazar: "Hamza"
+yazarKanal: "https://www.youtube.com/@Hamza-qp9yn"
 yazilim: "Açık Donanım"
 tarih: 2024-07-03
-dogrulama: true
 ---
 
-Bu ders **İbrahim Halil Bedük** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+Deniz araçlarının otomatik yön belirlemesi için görüntü işleme destekli yaklaşım iki videoda anlatılır:
 
-:::caution[Video bulunamadı]
-Bu dersin videosu arşivde/kanalda bulunamadı. `youtube:` alanına video ID'sini ekleyin.
-:::
-
+- **Video 1 – Donanım:** yön tayininde kullanılan donanımın tanıtımı ve kurulumu.
+- **Video 2 – Yazılım:** görüntü işleme tarafı ve yön belirleme yazılımı.

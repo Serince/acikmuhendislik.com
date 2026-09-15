@@ -11,9 +11,8 @@ export default defineConfig({
       locales: { root: { label: 'Türkçe', lang: 'tr' } },
       logo: { src: './src/assets/logo.svg', alt: 'Açık Mühendislik' },
       social: [
-        { icon: 'youtube', label: 'YouTube', href: 'https://www.youtube.com/@acikmuhendislik' },
         { icon: 'telegram', label: 'Telegram', href: 'https://t.me/acikmuhendislik' },
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/acikmuhendislik' },
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/Serince/acikmuhendislik.com' },
       ],
       customCss: ['./src/styles/custom.css'],
       components: {
@@ -47,7 +46,7 @@ export default defineConfig({
         { label: 'Hakkımızda', slug: 'hakkimizda' },
         { label: 'Ders Nasıl Eklenir?', slug: 'katkida-bulun' },
       ],
-      editLink: { baseUrl: 'https://github.com/acikmuhendislik/acikmuhendislik.com/edit/main/' },
+      editLink: { baseUrl: 'https://github.com/Serince/acikmuhendislik.com/edit/main/' },
       lastUpdated: false,
       pagination: true,
     }),
