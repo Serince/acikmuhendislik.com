@@ -1,5 +1,11 @@
 ---
 import kurslar from '../data/kurslar.json';
+
+const gruplar = [
+  { id: 'FEM', baslik: 'FEM — Sonlu Elemanlar', alt: 'Parça ve yapıların dayanım, titreşim ve burkulma analizleri.' },
+  { id: 'CFD', baslik: 'CFD — Akışkanlar Dinamiği', alt: 'Boru içi akış, dış akış, çift fazlı akış ve mesh teknikleri.' },
+  { id: 'Diger', baslik: 'Atölye — Donanım ve Otomasyon', alt: 'Açık donanım projeleri ve FreeCAD programlama.' },
+];
 ---
 <section class="istatistik" aria-label="Site istatistikleri">
   <div><strong>71</strong><span>video ders</span></div>
@@ -8,22 +14,25 @@ import kurslar from '../data/kurslar.json';
   <div><strong>%100</strong><span>ücretsiz</span></div>
 </section>
 
-<h2 id="kurslar" class="bolum-baslik">Kurslar</h2>
-<p class="bolum-alt">Her kurs kurulumdan ileri konulara doğru sıralanmıştır. Bir karta tıklayın, ilk dersten başlayın.</p>
-
-<div class="kurs-grid">
-  {kurslar.map((k) => (
-    <a class="kurs-kart" href={k.href}>
-      <span class="kurs-kapak">
-        <img src={`https://i.ytimg.com/vi/${k.kapak}/hqdefault.jpg`} alt={`${k.baslik} kurs kapağı`} loading="lazy" />
-        <span class="kurs-seviye">{k.seviye}</span>
-      </span>
-      <span class="kurs-govde">
-        <span class="kurs-yazilim">{k.yazilim}</span>
-        <strong class="kurs-baslik">{k.baslik}</strong>
-        <span class="kurs-aciklama">{k.aciklama}</span>
-        <span class="kurs-meta">{k.ders} ders →</span>
-      </span>
-    </a>
-  ))}
-</div>
+{gruplar.map((g) => (
+  <>
+    <h2 id={'grup-' + g.id.toLowerCase()} class="bolum-baslik">{g.baslik}</h2>
+    <p class="bolum-alt">{g.alt}</p>
+    <div class="kurs-grid">
+      {kurslar.filter((k) => k.grup === g.id).map((k) => (
+        <a class="kurs-kart" href={k.href}>
+          <span class="kurs-kapak">
+            <img src={k.img} alt={`${k.baslik} kurs kapağı`} loading="lazy" />
+            <span class="kurs-seviye">{k.seviye}</span>
+          </span>
+          <span class="kurs-govde">
+            <span class="kurs-yazilim">{k.yazilim}</span>
+            <strong class="kurs-baslik">{k.baslik}</strong>
+            <span class="kurs-aciklama">{k.aciklama}</span>
+            <span class="kurs-meta">{k.ders} ders →</span>
+          </span>
+        </a>
+      ))}
+    </div>
+  </>
+))}
