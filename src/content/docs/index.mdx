@@ -1,0 +1,48 @@
+---
+title: Açık Mühendislik
+description: Açık kaynak mühendislik yazılımları (FreeCAD, CalculiX, Salome-Meca, PrePoMax, OpenFOAM, CfdOF) için öğrencilerin hazırladığı Türkçe video dersler.
+template: splash
+hero:
+  tagline: Ticari mühendislik yazılımlarının açık kaynak alternatiflerini öğrencilerin hazırladığı Türkçe video derslerle öğrenin. Ücretsiz, reklamsız, kâr amacı gütmeyen.
+  actions:
+    - text: Buradan Başla
+      link: /buradan-basla/
+      icon: right-arrow
+    - text: YouTube
+      link: https://www.youtube.com/@acikmuhendislik
+      icon: youtube
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Kurslar
+
+<CardGrid>
+  <LinkCard title="PrePoMax" description="CalculiX çözücüsü için kolay ön/son işlemci. Kurulum, eğilme, burulma, modal ve harmonik analiz." href="/fem/prepomax/prepomax-kurulumu-cubuk-egilme-analizi/" />
+  <LinkCard title="FreeCAD FEM" description="Sıfırdan sonlu elemanlar: mesh, sınır şartları, contact, doğal frekans." href="/fem/freecad-fem/freecad-cubuk-egilme-analizi/" />
+  <LinkCard title="Salome-Meca" description="Code_Aster ile kiriş, levha, mesh yakınsama ve titreşim analizleri." href="/fem/salome-meca/linuxda-salome-meca-kurulumu/" />
+  <LinkCard title="CalculiX FEM" description="Girdi dosyasıyla doğrudan CalculiX: 1D/2D elemanlar, S8R ve B32R." href="/fem/calculix-fem/linuxda-calculix-yazilimini-kurma/" />
+  <LinkCard title="FreeCAD CFD (CfdOF)" description="OpenFOAM'ı FreeCAD içinden kullanın: boru akışı, dış akış, çift fazlı akış, y+." href="/cfd/freecad-cfd/freecad-cfdof-kurulumu/" />
+  <LinkCard title="OpenFOAM (Temel)" description="3 günlük OpenFOAM eğitimi: kurulum, case yapısı, ilk simülasyonlar." href="/cfd/openfoam-temel/openfoam-v4-1-kurulumu/" />
+  <LinkCard title="Yapısal Optimizasyon (FEMbyGEN)" description="Parametrik tasarım, topoloji optimizasyonu ve istatistiksel karar verme." href="/fem/fembygen/fembygen-kurulumu-ve-braket-analizi/" />
+  <LinkCard title="Açık Donanım" description="Arduino/Ardupilot ile yarı otonom ve çöp toplayan tekne projeleri." href="/acik-donanim/arduino-ile-yari-otonom-tekne-tasarimi/" />
+  <LinkCard title="FreeCAD Makro" description="Python makrolarıyla gemi kesiti çizimi, animasyon ve parametrik CFD." href="/freecad-makro/parametrik-cfd-analizi-ve-makro-yazma/" />
+</CardGrid>
+
+## Nasıl çalışıyor?
+
+<CardGrid stagger>
+  <Card title="Öğrenciler hazırlar" icon="pencil">
+    Dersler, gemi inşaatı ve makine mühendisliği öğrencileri tarafından hazırlanır ve kendi YouTube kanallarına yüklenir.
+  </Card>
+  <Card title="Sıralı öğrenme" icon="list-format">
+    Her kurs kurulumdan ileri analizlere doğru sıralanmıştır; sayfa altındaki "sonraki" bağlantısıyla ilerleyin.
+  </Card>
+  <Card title="Tamamen açık" icon="open-book">
+    Anlatılan tüm yazılımlar ücretsiz ve açık kaynaklıdır. Site içeriği de açıktır; hata görürseniz düzeltme gönderin.
+  </Card>
+  <Card title="Siz de katkı verin" icon="add-document">
+    Bir açık kaynak mühendislik aracını iyi biliyor musunuz? [Ders ekleme rehberine](/katkida-bulun/) göz atın.
+  </Card>
+</CardGrid>

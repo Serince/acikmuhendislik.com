@@ -1,0 +1,123 @@
+# Pages CMS yapılandırması — https://pagescms.org/docs/configuration/
+# Kullanım: app.pagescms.org → GitHub ile giriş → bu depoyu seç.
+media:
+  input: public/gorseller
+  output: /gorseller
+
+content:
+  - name: dersler
+    label: Dersler
+    description: Her ders bir Markdown dosyasıdır. Kurs klasörünü seçip "Add entry" ile yeni ders ekleyin.
+    type: collection
+    path: src/content/docs
+    subfolders: true
+    filename: "{fields.slug}.md"
+    exclude: ["index.mdx", "hakkimizda.mdx", "buradan-basla.md", "katkida-bulun.md"]
+    view:
+      fields: [title, yazar, yazilim, tarih]
+      sort: [tarih, title]
+      default:
+        sort: tarih
+        order: desc
+    fields:
+      - name: title
+        label: Ders başlığı
+        type: string
+        required: true
+      - name: slug
+        label: Dosya adı (URL)
+        description: Küçük harf, Türkçe karaktersiz, tire ile ayrılmış. Örn. prepomax-temas-analizi
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9-]+$"
+          message: "Sadece küçük harf, rakam ve tire kullanın."
+      - name: description
+        label: Kısa açıklama (arama motorları için, 1 cümle)
+        type: string
+      - name: youtube
+        label: YouTube video ID
+        description: "Video linkindeki v= sonrası 11 karakter. Örn. https://www.youtube.com/watch?v=5s2o0gQy4kY → 5s2o0gQy4kY"
+        type: string
+        required: true
+        pattern:
+          regex: "^[A-Za-z0-9_-]{11}$"
+          message: "11 karakterlik video ID girin (linkin tamamını değil)."
+      - name: sidebar
+        label: Menü
+        type: object
+        fields:
+          - name: order
+            label: Kurs içindeki sıra numarası
+            type: number
+            required: true
+      - name: yazar
+        label: Hazırlayan (ad soyad)
+        type: string
+        required: true
+      - name: yazarKanal
+        label: Hazırlayanın YouTube kanalı
+        type: string
+      - name: yazilim
+        label: Yazılım
+        type: select
+        options:
+          values:
+            - PrePoMax
+            - FreeCAD FEM
+            - FreeCAD FEMbyGEN
+            - FreeCAD CfdOF
+            - FreeCAD Makro
+            - CalculiX
+            - Salome-Meca
+            - OpenFOAM
+            - HELYX-OS
+            - OpenRadioss
+            - Açık Donanım
+      - name: tarih
+        label: Yayın tarihi
+        type: date
+        default: "{year}-{month}-{day}"
+      - name: dogrulama
+        label: Eşleşme doğrulanacak (arşivden otomatik geldi)
+        type: boolean
+        default: false
+      - name: body
+        label: Ders notları
+        description: Videoda anlatılanlar, kullanılan sürüm, dosya bağlantıları. Markdown kullanabilirsiniz.
+        type: rich-text
+
+  - name: sayfalar
+    label: Sabit sayfalar
+    type: collection
+    path: src/content/docs
+    subfolders: false
+    exclude: ["index.mdx", "hakkimizda.mdx"]
+    fields:
+      - name: title
+        label: Başlık
+        type: string
+        required: true
+      - name: description
+        label: Açıklama
+        type: string
+      - name: body
+        label: İçerik
+        type: rich-text
+
+  - name: hakkimizda
+    label: Hakkımızda (ekip)
+    type: file
+    path: src/content/docs/hakkimizda.mdx
+    fields:
+      - name: title
+        label: Başlık
+        type: string
+      - name: description
+        label: Açıklama
+        type: string
+      - name: body
+        label: İçerik (MDX)
+        type: code
+        options:
+          language: markdown

@@ -1,0 +1,20 @@
+---
+import Default from '@astrojs/starlight/components/MarkdownContent.astro';
+import YouTube from './YouTube.astro';
+const { entry } = Astro.locals.starlightRoute;
+const d = entry.data;
+const videos = d.youtube ? (Array.isArray(d.youtube) ? d.youtube : [d.youtube]) : [];
+const tarih = d.tarih ? new Date(d.tarih).toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' }) : null;
+---
+{(d.yazar || d.yazilim || tarih) && (
+  <p class="ders-meta">
+    {d.yazilim && <span class="etiket">{d.yazilim}</span>}
+    {d.yazar && <span>Hazırlayan: {d.yazarKanal ? <a href={d.yazarKanal} target="_blank" rel="noopener">{d.yazar}</a> : d.yazar}</span>}
+    {tarih && <span>· {tarih}</span>}
+  </p>
+)}
+{d.dogrulama && (
+  <p class="uyari">⚠️ Bu dersin video eşleşmesi arşivden otomatik kurtarıldı; lütfen doğru video olduğunu kontrol edin.</p>
+)}
+{videos.map((id) => <YouTube id={id} title={d.title} />)}
+<Default><slot /></Default>
