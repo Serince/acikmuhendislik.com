@@ -5,7 +5,15 @@ description: Açık Mühendislik'e yeni bir video ders eklemek için adım adım
 
 Bu site tamamen Markdown dosyalarından oluşur ve GitHub'da durur. Ders eklemek için **iki yol** var.
 
-## Yol 1 – Web paneli (kod bilmeyenler için)
+## Yol 0 – Site içi panel (en kolayı, kod yok)
+
+1. Videonuzu kendi YouTube kanalınıza yükleyin.
+2. Sitenin **`/admin.html`** adresini açın (ör. `https://acikmuhendislik.com/admin.html`).
+3. İlk kutuya GitHub **token'ınızı** bir kez girin (tarayıcınız hatırlar, kimseye gitmez).
+4. Formu doldurun: başlık, kurs, sıra numarası, YouTube video ID'si (`watch?v=` sonrası 11 karakter), adınız ve ders notları.
+5. **Kaydet ve Yayınla** deyin. Site 1–2 dakika içinde kendini günceller.
+
+## Yol 1 – Pages CMS (alternatif panel)
 
 1. Videonuzu kendi YouTube kanalınıza yükleyin.
 2. Site yöneticisinden GitHub deposuna **davet** isteyin (GitHub hesabınız olmalı).

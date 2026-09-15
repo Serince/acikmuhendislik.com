@@ -2,7 +2,7 @@
 title: "Linux'ta HELYX-OS Kurulumu"
 description: "Linux'ta HELYX-OS Kurulumu – HELYX-OS video dersi."
 sidebar:
-  order: 1
+  order: 2
 youtube: "DxplTKr2E6c"
 yazar: "Sarp Gürenli"
 yazarKanal: "https://www.youtube.com/@sarpgurenli3218"

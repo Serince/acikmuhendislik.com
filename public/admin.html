@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ders Ekle · Açık Mühendislik Yönetim</title>
+<style>
+  :root { --ana: #0f6e56; --hata: #b3261e; }
+  body { font-family: system-ui, sans-serif; margin: 0; background: #f4f6f5; color: #222; }
+  header { background: var(--ana); color: #fff; padding: 0.9rem 1.5rem; font-weight: 700; }
+  header a { color: #fff; }
+  main { max-width: 760px; margin: 1.5rem auto; padding: 0 1rem 3rem; }
+  .kart { background: #fff; border: 1px solid #ddd; border-radius: 10px; padding: 1.2rem; margin-bottom: 1rem; }
+  label { display: block; font-weight: 600; margin: 0.8rem 0 0.25rem; }
+  label small { font-weight: 400; color: #666; }
+  input, select, textarea { width: 100%; box-sizing: border-box; padding: 0.55rem 0.65rem; border: 1px solid #bbb; border-radius: 6px; font-size: 1rem; }
+  textarea { min-height: 140px; font-family: inherit; }
+  .satir { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+  button { background: var(--ana); color: #fff; border: 0; border-radius: 8px; padding: 0.7rem 1.4rem; font-size: 1rem; font-weight: 700; cursor: pointer; }
+  button:disabled { opacity: 0.6; cursor: wait; }
+  .hata { color: var(--hata); font-size: 0.9rem; min-height: 1.2em; }
+  #sonuc { white-space: pre-wrap; background: #0b3b2f; color: #d8efe7; border-radius: 8px; padding: 1rem; font-size: 0.9rem; display: none; }
+  #sonuc a { color: #8fe3c3; }
+  pre#onizleme { background: #f0f0f0; border-radius: 8px; padding: 0.8rem; font-size: 0.8rem; overflow: auto; max-height: 260px; }
+</style>
+</head>
+<body>
+<header>🛠 Açık Mühendislik · Ders Ekleme Paneli &nbsp; <a href="/">← siteye dön</a></header>
+<main>
+  <div class="kart">
+    <label>GitHub token <small>(sadece bu tarayıcıda saklanır, kimseye gönderilmez. Settings → Developer settings → Personal access tokens → Tokens (classic) → <b>repo</b> yetkili)</small></label>
+    <input type="password" id="token" placeholder="ghp_..." autocomplete="off" />
+    <div class="hata" id="tokenHata"></div>
+  </div>
+
+  <div class="kart">
+    <div class="satir">
+      <div>
+        <label>Ders başlığı</label>
+        <input id="title" placeholder="Örn. PrePoMax ile Temas Analizi" />
+      </div>
+      <div>
+        <label>Dosya adı (slug) <small>otomatik dolar, değiştirebilirsin</small></label>
+        <input id="slug" placeholder="prepomax-temas-analizi" />
+      </div>
+    </div>
+    <div class="satir">
+      <div>
+        <label>Kurs klasörü</label>
+        <select id="kurs">
+          <option value="fem/prepomax">FEM → PrePoMax</option>
+          <option value="fem/freecad-fem">FEM → FreeCAD FEM</option>
+          <option value="fem/freecad-burkulma">FEM → FreeCAD Burkulma</option>
+          <option value="fem/calculix-fem">FEM → CalculiX FEM</option>
+          <option value="fem/salome-meca">FEM → Salome-Meca</option>
+          <option value="fem/fembygen">FEM → Yapısal Optimizasyon (FEMbyGEN)</option>
+          <option value="fem/openradioss">FEM → OpenRadioss</option>
+          <option value="cfd/freecad-cfd">CFD → FreeCAD CFD (CfdOF)</option>
+          <option value="cfd/helyxos-cfd">CFD → HelyxOS CFD</option>
+          <option value="cfd/openfoam-temel">CFD → OpenFOAM (Temel)</option>
+          <option value="acik-donanim">Açık Donanım</option>
+          <option value="freecad-makro">FreeCAD Makro</option>
+        </select>
+      </div>
+      <div>
+        <label>Kurs içindeki sıra no</label>
+        <input id="order" type="number" min="1" value="1" />
+      </div>
+    </div>
+    <div class="satir">
+      <div>
+        <label>YouTube video ID <small>linkteki v= sonrası 11 karakter</small></label>
+        <input id="youtube" placeholder="5s2o0gQy4kY" maxlength="11" />
+        <div class="hata" id="ytHata"></div>
+      </div>
+      <div>
+        <label>Yayın tarihi</label>
+        <input id="tarih" type="date" />
+      </div>
+    </div>
+    <div class="satir">
+      <div>
+        <label>Hazırlayan (ad soyad)</label>
+        <input id="yazar" placeholder="Ad Soyad" />
+      </div>
+      <div>
+        <label>Hazırlayanın YouTube kanalı</label>
+        <input id="yazarKanal" placeholder="https://www.youtube.com/@..." />
+      </div>
+    </div>
+    <label>Yazılım</label>
+    <select id="yazilim">
+      <option>PrePoMax</option><option>FreeCAD FEM</option><option>FreeCAD FEMbyGEN</option>
+      <option>FreeCAD CfdOF</option><option>FreeCAD Makro</option><option>CalculiX</option>
+      <option>Salome-Meca</option><option>OpenFOAM</option><option>HELYX-OS</option>
+      <option>OpenRadioss</option><option>Açık Donanım</option>
+    </select>
+    <label>Kısa açıklama <small>(arama motorları için 1 cümle)</small></label>
+    <input id="description" placeholder="Örn. İki parça arasında sürtünmeli temas tanımlama." />
+    <label>Ders notları <small>(Markdown yazılabilir)</small></label>
+    <textarea id="body" placeholder="Bu derste..."></textarea>
+  </div>
+
+  <div class="kart">
+    <label>Önizleme (oluşacak dosya)</label>
+    <pre id="onizleme"></pre>
+    <p><button id="kaydet">💾 Kaydet ve Yayınla</button></p>
+    <div id="sonuc"></div>
+  </div>
+</main>
+
+<script>
+const REPO = 'Serince/acikmuhendislik.com';
+const BRANCH = 'main';
+const $ = (id) => document.getElementById(id);
+const trMap = { 'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u' };
+
+// kayıtlı token varsa doldur
+$('token').value = localStorage.getItem('am_token') || '';
+$('tarih').valueAsDate = new Date();
+
+function slugify(t) {
+  return t.toLowerCase().replace(/[çğıöşü]/g, (c) => trMap[c])
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80);
+}
+$('title').addEventListener('input', (e) => {
+  if (!$('slug').dataset.elle) $('slug').value = slugify(e.target.value);
+});
+$('slug').addEventListener('input', (e) => { e.target.dataset.elle = '1'; });
+
+function dosyaIcerigi() {
+  const yt = $('youtube').value.trim();
+  const lines = ['---',
+    `title: "${$('title').value.trim().replace(/"/g, '\\"')}"`,
+    `description: "${($('description').value.trim() || $('title').value.trim()).replace(/"/g, '\\"')}"`,
+    'sidebar:', `  order: ${$('order').value || 1}`,
+    `youtube: "${yt}"`];
+  if ($('yazar').value.trim()) lines.push(`yazar: "${$('yazar').value.trim().replace(/"/g, '\\"')}"`);
+  if ($('yazarKanal').value.trim()) lines.push(`yazarKanal: "${$('yazarKanal').value.trim()}"`);
+  lines.push(`yazilim: "${$('yazilim').value}"`);
+  if ($('tarih').value) lines.push(`tarih: ${$('tarih').value}`);
+  lines.push('---', '', $('body').value.trim() || 'Bu ders yakında eklenecektir.', '');
+  return lines.join('\n');
+}
+function guncelleOnizleme() { $('onizleme').textContent = `src/content/docs/${$('kurs').value}/${$('slug').value || '...'}.md\n\n` + dosyaIcerigi(); }
+document.querySelectorAll('input,select,textarea').forEach((el) => el.addEventListener('input', guncelleOnizleme));
+guncelleOnizleme();
+
+function b64(s) { return btoa(unescape(encodeURIComponent(s))); }
+function sonucGoster(html) { const d = $('sonuc'); d.style.display = 'block'; d.innerHTML = html; }
+
+$('kaydet').addEventListener('click', async () => {
+  const token = $('token').value.trim();
+  const slug = $('slug').value.trim();
+  const yt = $('youtube').value.trim();
+  if (!token) { $('tokenHata').textContent = 'Önce token gir.'; return; }
+  $('tokenHata').textContent = '';
+  if (!/^[a-z0-9-]+$/.test(slug)) { alert('Dosya adı sadece küçük harf, rakam ve tire olmalı.'); return; }
+  if (!/^[A-Za-z0-9_-]{11}$/.test(yt)) { $('ytHata').textContent = '11 karakterlik video ID gir (linkin tamamını değil).'; return; }
+  $('ytHata').textContent = '';
+  if (!$('title').value.trim()) { alert('Başlık boş olamaz.'); return; }
+
+  localStorage.setItem('am_token', token);
+  const btn = $('kaydet'); btn.disabled = true; btn.textContent = 'Gönderiliyor...';
+  const path = `src/content/docs/${$('kurs').value}/${slug}.md`;
+  const url = `https://api.github.com/repos/${REPO}/contents/${path}`;
+  const headers = { 'Accept': 'application/vnd.github+json', 'Authorization': 'Bearer ' + token };
+  try {
+    // dosya var mı?
+    let sha = null;
+    const var_mi = await fetch(url + '?ref=' + BRANCH, { headers });
+    if (var_mi.status === 200) {
+      const j = await var_mi.json(); sha = j.sha;
+      if (!confirm('Bu dosya zaten var. Üzerine yazılsın mı?')) { btn.disabled = false; btn.textContent = '💾 Kaydet ve Yayınla'; return; }
+    }
+    const govde = { message: `ders ekle: ${slug}`, content: b64(dosyaIcerigi()), branch: BRANCH };
+    if (sha) govde.sha = sha;
+    const r = await fetch(url, { method: 'PUT', headers: { ...headers, 'Content-Type': 'application/json' }, body: JSON.stringify(govde) });
+    if (!r.ok) {
+      const t = await r.text();
+      throw new Error('GitHub hatası (' + r.status + '): ' + t.slice(0, 300));
+    }
+    const j = await r.json();
+    sonucGoster(`✅ Yayınlandı!\nDosya: ${j.content.path}\nGitHub: <a href="${j.content.html_url}" target="_blank">dosyayı gör</a>\n\nSite 1-2 dakika içinde kendini günceller (Cloudflare otomatik derler).`);
+  } catch (e) {
+    sonucGoster('❌ Olmadı: ' + e.message + '\n\nToken yanlış olabilir ya da repo yetkisi (repo) eksiktir.');
+  }
+  btn.disabled = false; btn.textContent = '💾 Kaydet ve Yayınla';
+});
+</script>
+</body>
+</html>

@@ -1,15 +1,14 @@
 ---
 const egitmenler = [
-  { ad: 'Pakrad Amini', alan: 'FreeCAD FEM + CFD', kanal: 'https://www.youtube.com/@muhendislik1012' },
-  { ad: 'Nuri Taytan', alan: 'CalculiX', kanal: 'https://www.youtube.com/@nuritaytan7838' },
-  { ad: 'Nedir Ymamov', alan: 'Salome-Meca', kanal: 'https://www.youtube.com/@nedir.y' },
-  { ad: 'Uğur Can', alan: 'OpenFOAM', kanal: 'https://www.youtube.com/@ugurcan4366' },
-  { ad: 'Bahar Ebru Ezer', alan: 'PrePoMax', kanal: 'https://www.youtube.com/@baharebruezer6894' },
-  { ad: 'Berat Yağmur', alan: 'Burkulma Analizi', kanal: 'https://www.youtube.com/@beratyyagmur' },
-  { ad: 'Batuhan Tangut', alan: 'CFD (CfdOF)', kanal: 'https://www.youtube.com/@Askleipos' },
-  { ad: 'Volkan Bayrak', alan: 'Optimizasyon', kanal: 'https://www.youtube.com/@volkanbayrak8896' },
+  { ad: 'Pakrad Amini', alan: 'FreeCAD FEM + CFD', kanal: 'https://www.youtube.com/@muhendislik1012', foto: '/ekip/pakrad.jpg' },
+  { ad: 'Nuri Taytan', alan: 'CalculiX', kanal: 'https://www.youtube.com/@nuritaytan7838', foto: '/ekip/nuri.jpg' },
+  { ad: 'Nedir Ymamov', alan: 'Salome-Meca', kanal: 'https://www.youtube.com/@nedir.y', foto: '/ekip/nedir.jpg' },
+  { ad: 'Uğur Can', alan: 'OpenFOAM', kanal: 'https://www.youtube.com/@ugurcan4366', foto: '/ekip/ugur.jpg' },
+  { ad: 'Bahar Ebru Ezer', alan: 'PrePoMax', kanal: 'https://www.youtube.com/@baharebruezer6894', foto: '/ekip/bahar.jpg' },
+  { ad: 'Berat Yağmur', alan: 'Burkulma Analizi', kanal: 'https://www.youtube.com/@beratyyagmur', foto: '/ekip/berat.jpg' },
+  { ad: 'Batuhan Tangut', alan: 'CFD (CfdOF)', kanal: 'https://www.youtube.com/@Askleipos', foto: '/ekip/batuhan.jpg' },
+  { ad: 'Volkan Bayrak', alan: 'Optimizasyon', kanal: 'https://www.youtube.com/@volkanbayrak8896', foto: '/ekip/volkan.jpg' },
 ];
-const basHarf = (ad) => ad.split(' ').map((w) => w[0]).slice(0, 2).join('');
 ---
 <h2 class="bolum-baslik">Eğitmenler</h2>
 <p class="bolum-alt">Dersler mühendislik öğrencileri ve mühendisler tarafından hazırlanır. Tüm ekip için <a href="/hakkimizda/">Hakkımızda</a> sayfasına bakın.</p>
@@ -17,7 +16,7 @@ const basHarf = (ad) => ad.split(' ').map((w) => w[0]).slice(0, 2).join('');
 <div class="egitmen-grid">
   {egitmenler.map((e) => (
     <a class="egitmen-kart" href={e.kanal} target="_blank" rel="noopener">
-      <span class="egitmen-avatar" aria-hidden="true">{basHarf(e.ad)}</span>
+      <img class="egitmen-avatar" src={e.foto} alt={e.ad} loading="lazy" />
       <span class="egitmen-bilgi">
         <strong>{e.ad}</strong>
         <span>{e.alan}</span>

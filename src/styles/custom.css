@@ -43,7 +43,8 @@
 .egitmen-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.9rem; margin-top: 1.25rem; }
 .egitmen-kart { display: flex; align-items: center; gap: 0.8rem; border: 1px solid var(--sl-color-gray-5); border-radius: 0.8rem; padding: 0.75rem 0.9rem; text-decoration: none !important; background: var(--sl-color-gray-6); transition: border-color 0.15s ease, transform 0.15s ease; }
 .egitmen-kart:hover { border-color: var(--sl-color-accent); transform: translateY(-2px); }
-.egitmen-avatar { flex-shrink: 0; width: 2.8rem; height: 2.8rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; color: #fff; background: linear-gradient(135deg, var(--sl-color-accent), #0b3b2f); }
+.egitmen-avatar { flex-shrink: 0; width: 2.8rem; height: 2.8rem; border-radius: 50%; object-fit: cover; background: var(--sl-color-gray-5); }
+.ekip-kart img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 0.5rem; margin-bottom: 0.6rem; background: var(--sl-color-gray-5); }
 .egitmen-bilgi { display: flex; flex-direction: column; }
 .egitmen-bilgi strong { font-size: 0.95rem; color: var(--sl-color-white); }
 .egitmen-bilgi span { font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); }
