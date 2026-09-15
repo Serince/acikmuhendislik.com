@@ -49,3 +49,4 @@ Her `git push` (veya Pages CMS'ten her kayıt) siteyi otomatik yeniden derler.
 `DOGRULANACAK.md` içindeki 8 ders için video eşleşmesi elle kontrol edilmelidir.
 # acikmuhendislik.com
 # acikmuhendislik.com
+# acikmuhendislik.com
