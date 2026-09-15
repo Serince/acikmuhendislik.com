@@ -47,6 +47,3 @@ Her `git push` (veya Pages CMS'ten her kayıt) siteyi otomatik yeniden derler.
 
 `scripts/kurtar.mjs`, Wayback Machine ve YouTube'dan toplanan `kurtarma-paketi.json` verisinden ders dosyalarını üretti.
 `DOGRULANACAK.md` içindeki 8 ders için video eşleşmesi elle kontrol edilmelidir.
-# acikmuhendislik.com
-# acikmuhendislik.com
-# acikmuhendislik.com

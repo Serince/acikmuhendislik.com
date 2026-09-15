@@ -1,0 +1,29 @@
+---
+import kurslar from '../data/kurslar.json';
+---
+<section class="istatistik" aria-label="Site istatistikleri">
+  <div><strong>71</strong><span>video ders</span></div>
+  <div><strong>12</strong><span>kurs</span></div>
+  <div><strong>22</strong><span>gönüllü eğitmen</span></div>
+  <div><strong>%100</strong><span>ücretsiz</span></div>
+</section>
+
+<h2 id="kurslar" class="bolum-baslik">Kurslar</h2>
+<p class="bolum-alt">Her kurs kurulumdan ileri konulara doğru sıralanmıştır. Bir karta tıklayın, ilk dersten başlayın.</p>
+
+<div class="kurs-grid">
+  {kurslar.map((k) => (
+    <a class="kurs-kart" href={k.href}>
+      <span class="kurs-kapak">
+        <img src={`https://i.ytimg.com/vi/${k.kapak}/hqdefault.jpg`} alt={`${k.baslik} kurs kapağı`} loading="lazy" />
+        <span class="kurs-seviye">{k.seviye}</span>
+      </span>
+      <span class="kurs-govde">
+        <span class="kurs-yazilim">{k.yazilim}</span>
+        <strong class="kurs-baslik">{k.baslik}</strong>
+        <span class="kurs-aciklama">{k.aciklama}</span>
+        <span class="kurs-meta">{k.ders} ders →</span>
+      </span>
+    </a>
+  ))}
+</div>

@@ -1,0 +1,110 @@
+[
+  {
+    "baslik": "PrePoMax",
+    "yazilim": "PrePoMax + CalculiX",
+    "aciklama": "Kurulum, çubuk eğilme, burulma, modal ve harmonik analiz, kabuk elemanlar.",
+    "href": "/fem/prepomax/prepomax-kurulumu-cubuk-egilme-analizi/",
+    "kapak": "5s2o0gQy4kY",
+    "ders": 6,
+    "seviye": "Başlangıç"
+  },
+  {
+    "baslik": "FreeCAD FEM",
+    "yazilim": "FreeCAD",
+    "aciklama": "Sıfırdan sonlu elemanlar: mesh, sınır şartları, contact, yakınsama, doğal frekans.",
+    "href": "/fem/freecad-fem/freecad-cubuk-egilme-analizi/",
+    "kapak": "K2KMLyhuC6I",
+    "ders": 13,
+    "seviye": "Başlangıç"
+  },
+  {
+    "baslik": "Salome-Meca",
+    "yazilim": "Salome-Meca + Code_Aster",
+    "aciklama": "Kiriş ve levha analizleri, mesh yakınsama, titreşim ve harmonik analizler.",
+    "href": "/fem/salome-meca/linuxda-salome-meca-kurulumu/",
+    "kapak": "S5bdkfmysIY",
+    "ders": 16,
+    "seviye": "Orta"
+  },
+  {
+    "baslik": "CalculiX FEM",
+    "yazilim": "CalculiX",
+    "aciklama": "Girdi dosyasını elle yazarak öğrenin: 1D/2D elemanlar, S8R ve B32R.",
+    "href": "/fem/calculix-fem/linuxda-calculix-yazilimini-kurma/",
+    "kapak": "kQXc8mUNtBI",
+    "ders": 3,
+    "seviye": "Orta"
+  },
+  {
+    "baslik": "FreeCAD Burkulma",
+    "yazilim": "FreeCAD",
+    "aciklama": "Statik analiz ile burkulma analizi arasındaki fark ve burkulma modları.",
+    "href": "/fem/freecad-burkulma/freecadde-burkulma-analizi/",
+    "kapak": "iZaYncYblFo",
+    "ders": 2,
+    "seviye": "Orta"
+  },
+  {
+    "baslik": "Yapısal Optimizasyon",
+    "yazilim": "FreeCAD FEMbyGEN",
+    "aciklama": "Parametrik tasarım, topoloji optimizasyonu, istatistiksel karar verme.",
+    "href": "/fem/fembygen/fembygen-kurulumu-ve-braket-analizi/",
+    "kapak": "mX0QiXiYDkE",
+    "ders": 3,
+    "seviye": "İleri"
+  },
+  {
+    "baslik": "OpenRadioss",
+    "yazilim": "OpenRadioss",
+    "aciklama": "Kurulum, HyperView ve ParaView ile örnek explicit analizler.",
+    "href": "/fem/openradioss/openradioss-hyperview-ve-paraview-kurulumu-ornek-analizler/",
+    "kapak": "8g0e19BbdLM",
+    "ders": 1,
+    "seviye": "Orta"
+  },
+  {
+    "baslik": "FreeCAD CFD (CfdOF)",
+    "yazilim": "FreeCAD + OpenFOAM",
+    "aciklama": "Boru içi akış, dış akış, çift fazlı akış, y+ ve mesh iyileştirme.",
+    "href": "/cfd/freecad-cfd/freecad-cfdof-kurulumu/",
+    "kapak": "qCBrJcmU47w",
+    "ders": 12,
+    "seviye": "Başlangıç"
+  },
+  {
+    "baslik": "OpenFOAM (Temel)",
+    "yazilim": "OpenFOAM",
+    "aciklama": "3 günlük eğitim serisi: kurulum, case yapısı, ilk simülasyonlar.",
+    "href": "/cfd/openfoam-temel/openfoam-v4-1-kurulumu/",
+    "kapak": "DxA2ihyLokI",
+    "ders": 8,
+    "seviye": "Orta"
+  },
+  {
+    "baslik": "HelyxOS CFD",
+    "yazilim": "HELYX-OS",
+    "aciklama": "Linux üzerine HELYX-OS kurulumu ve ilk adımlar.",
+    "href": "/cfd/helyxos-cfd/linuxda-helyx-os-kurulumu/",
+    "kapak": "DxplTKr2E6c",
+    "ders": 1,
+    "seviye": "Başlangıç"
+  },
+  {
+    "baslik": "Açık Donanım",
+    "yazilim": "Arduino + Ardupilot",
+    "aciklama": "Yarı otonom tekne ve çöp toplayan tekne projeleri, adım adım.",
+    "href": "/acik-donanim/arduino-ile-yari-otonom-tekne-tasarimi/",
+    "kapak": "tdpd9_HsV-o",
+    "ders": 3,
+    "seviye": "Orta"
+  },
+  {
+    "baslik": "FreeCAD Makro",
+    "yazilim": "FreeCAD + Python",
+    "aciklama": "Makrolarla gemi kesiti çizimi, animasyon ve parametrik CFD.",
+    "href": "/freecad-makro/parametrik-cfd-analizi-ve-makro-yazma/",
+    "kapak": "RGxtYLf4Ejw",
+    "ders": 3,
+    "seviye": "Orta"
+  }
+]
