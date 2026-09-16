@@ -31,6 +31,7 @@ export default defineConfig({
             { label: 'Salome-Meca', autogenerate: { directory: 'fem/salome-meca' } },
             { label: 'Yapısal Optimizasyon (FEMbyGEN)', autogenerate: { directory: 'fem/fembygen' } },
             { label: 'OpenRadioss', autogenerate: { directory: 'fem/openradioss' } },
+            { label: 'FEniCS', autogenerate: { directory: 'fem/fenics' } },
           ],
         },
         {

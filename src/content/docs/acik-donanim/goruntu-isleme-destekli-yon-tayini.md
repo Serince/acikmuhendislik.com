@@ -6,7 +6,7 @@ sidebar:
 youtube:
   - "fHGLpj_7Hik"
   - "TIU_w3bSi8I"
-yazar: "Hamza"
+yazar: "Hamza Gerekan"
 yazarKanal: "https://www.youtube.com/@Hamza-qp9yn"
 yazilim: "Açık Donanım"
 tarih: 2024-07-03

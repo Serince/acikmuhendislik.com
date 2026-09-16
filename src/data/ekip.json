@@ -274,13 +274,46 @@
   ]
  },
  {
-  "ad": "Hamza",
+  "ad": "Hamza Gerekan",
   "foto": "",
   "desc": "Açık donanım dersleri hazırlayan gönüllü eğitmen.",
   "links": [
    {
     "type": "Youtube",
     "url": "https://www.youtube.com/@Hamza-qp9yn"
+   }
+  ]
+ },
+ {
+  "ad": "Fatma Özdağlı",
+  "foto": "",
+  "desc": "OpenFOAM dersleri hazırlayan gönüllü eğitmen.",
+  "links": [
+   {
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@fnurozdagl"
+   }
+  ]
+ },
+ {
+  "ad": "Muhammet Furkan Sarı",
+  "foto": "",
+  "desc": "FEniCS dersleri hazırlayan gönüllü eğitmen.",
+  "links": [
+   {
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@muhammetfurkansar9418"
+   }
+  ]
+ },
+ {
+  "ad": "Enes Durukan",
+  "foto": "",
+  "desc": "Salome-Meca dersleri hazırlayan gönüllü eğitmen.",
+  "links": [
+   {
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@EnesDurukan-r4p"
    }
   ]
  }

@@ -24,7 +24,7 @@
     "yazilim": "Salome-Meca + Code_Aster",
     "aciklama": "Kiriş ve levha analizleri, mesh yakınsama, titreşim ve harmonik analizler.",
     "href": "/fem/salome-meca/linuxda-salome-meca-kurulumu/",
-    "ders": 16,
+    "ders": 17,
     "seviye": "Orta",
     "img": "/kurslar/salome-meca.jpg",
     "grup": "FEM"
@@ -74,7 +74,7 @@
     "yazilim": "FreeCAD + OpenFOAM",
     "aciklama": "Boru içi akış, dış akış, çift fazlı akış, y+ ve mesh iyileştirme.",
     "href": "/cfd/freecad-cfd/freecad-cfdof-kurulumu/",
-    "ders": 12,
+    "ders": 13,
     "seviye": "Başlangıç",
     "img": "/kurslar/freecad-cfd.jpg",
     "grup": "CFD"
@@ -84,7 +84,7 @@
     "yazilim": "OpenFOAM",
     "aciklama": "3 günlük eğitim serisi: kurulum, case yapısı, ilk simülasyonlar.",
     "href": "/cfd/openfoam-temel/openfoam-v4-1-kurulumu/",
-    "ders": 8,
+    "ders": 10,
     "seviye": "Orta",
     "img": "/kurslar/openfoam.jpg",
     "grup": "CFD"
@@ -118,5 +118,15 @@
     "seviye": "Orta",
     "img": "/kurslar/freecad-makro.jpg",
     "grup": "Diger"
+  },
+  {
+    "baslik": "FEniCS",
+    "yazilim": "FEniCS",
+    "aciklama": "Akustik analiz: ses dalgalarının yayılımı, Helmholtz ve dalga denklemleri.",
+    "href": "/fem/fenics/yapisal-akustik-analizi/",
+    "img": "/kurslar/fenics.jpg",
+    "ders": 1,
+    "seviye": "İleri",
+    "grup": "FEM"
   }
 ]

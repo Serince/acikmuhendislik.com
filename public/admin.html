@@ -108,7 +108,10 @@
       <option value="19">Nuri Taytan</option>
       <option value="20">Ahmet Emre Yüksel</option>
       <option value="21">Berat Yağmur</option>
-      <option value="22">Hamza</option>
+      <option value="22">Hamza Gerekan</option>
+      <option value="23">Fatma Özdağlı</option>
+      <option value="24">Muhammet Furkan Sarı</option>
+      <option value="25">Enes Durukan</option>
       <option value="__yeni__">＋ Yeni eğitmen ekle…</option>
     </select>
     <div id="yeniYazarKutu" style="display:none; margin-top:0.5rem;">
@@ -186,7 +189,7 @@ $('kurs').addEventListener('change', () => {
 $('yazilim').addEventListener('input', (e) => { e.target.dataset.elle = '1'; });
 $('yeniKurs').addEventListener('input', guncelleOnizleme);
 $('yazilim').value = KURS_YAZILIM[$('kurs').value];
-const HAVUZ = [{"ad": "Pakrad Amini", "kanal": ""}, {"ad": "Mouhammad Almoukaddam", "kanal": ""}, {"ad": "Volkan Bayrak", "kanal": ""}, {"ad": "Nedir Ymamov", "kanal": ""}, {"ad": "Erencan Kahveci", "kanal": ""}, {"ad": "Can Karaca Kantarcı", "kanal": ""}, {"ad": "Serdar Turgut İnce", "kanal": ""}, {"ad": "Ahmet Özkan Canlı", "kanal": ""}, {"ad": "Efsun Sultan Bulut", "kanal": ""}, {"ad": "Fatih Yegül", "kanal": ""}, {"ad": "İbrahim Halil Bedük", "kanal": ""}, {"ad": "Batuhan Tangut", "kanal": ""}, {"ad": "İbrahim Furkan Ercanlı", "kanal": ""}, {"ad": "Hüseyin Kürşad Namlı", "kanal": ""}, {"ad": "Sarp Gürenli", "kanal": ""}, {"ad": "Asena Çataloluk", "kanal": ""}, {"ad": "Bahar Ebru Ezer", "kanal": ""}, {"ad": "Kenan Aslan", "kanal": ""}, {"ad": "Uğur Can", "kanal": ""}, {"ad": "Nuri Taytan", "kanal": ""}, {"ad": "Ahmet Emre Yüksel", "kanal": ""}, {"ad": "Berat Yağmur", "kanal": ""}, {"ad": "Hamza", "kanal": "https://www.youtube.com/@Hamza-qp9yn"}];
+const HAVUZ = [{"ad": "Pakrad Amini", "kanal": ""}, {"ad": "Mouhammad Almoukaddam", "kanal": ""}, {"ad": "Volkan Bayrak", "kanal": ""}, {"ad": "Nedir Ymamov", "kanal": ""}, {"ad": "Erencan Kahveci", "kanal": ""}, {"ad": "Can Karaca Kantarcı", "kanal": ""}, {"ad": "Serdar Turgut İnce", "kanal": ""}, {"ad": "Ahmet Özkan Canlı", "kanal": ""}, {"ad": "Efsun Sultan Bulut", "kanal": ""}, {"ad": "Fatih Yegül", "kanal": ""}, {"ad": "İbrahim Halil Bedük", "kanal": ""}, {"ad": "Batuhan Tangut", "kanal": ""}, {"ad": "İbrahim Furkan Ercanlı", "kanal": ""}, {"ad": "Hüseyin Kürşad Namlı", "kanal": ""}, {"ad": "Sarp Gürenli", "kanal": ""}, {"ad": "Asena Çataloluk", "kanal": ""}, {"ad": "Bahar Ebru Ezer", "kanal": ""}, {"ad": "Kenan Aslan", "kanal": ""}, {"ad": "Uğur Can", "kanal": ""}, {"ad": "Nuri Taytan", "kanal": ""}, {"ad": "Ahmet Emre Yüksel", "kanal": ""}, {"ad": "Berat Yağmur", "kanal": ""}, {"ad": "Hamza Gerekan", "kanal": "https://www.youtube.com/@Hamza-qp9yn"}, {"ad": "Fatma Özdağlı", "kanal": "https://www.youtube.com/@fnurozdagl"}, {"ad": "Muhammet Furkan Sarı", "kanal": "https://www.youtube.com/@muhammetfurkansar9418"}, {"ad": "Enes Durukan", "kanal": "https://www.youtube.com/@EnesDurukan-r4p"}];
 function yazarDegeri() {
   const v = $('yazarSec').value;
   if (v === '__yeni__') return { ad: $('yazarAd').value.trim(), kanal: $('yazarKanalYeni').value.trim(), yeni: true };
