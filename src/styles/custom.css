@@ -18,7 +18,9 @@
 .ekip-kart { border: 1px solid var(--sl-color-gray-5); border-radius: 0.6rem; padding: 1rem; }
 .ekip-kart h3 { margin: 0 0 0.3rem; font-size: 1.05rem; }
 .ekip-kart p { margin: 0 0 0.5rem; font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); }
-.ekip-kart a { margin-right: 0.5rem; font-size: var(--sl-text-sm); }
+.sosyal-satir { display: flex; gap: 0.55rem; justify-content: center; margin-top: 0.5rem; }
+.sosyal { color: var(--sl-color-gray-2); display: inline-flex; transition: color 0.15s ease, transform 0.15s ease; }
+.sosyal:hover { color: var(--sl-color-accent); transform: translateY(-2px); }
 
 /* ---- Ana sayfa: kurs kataloğu (AstroWind havası) ---- */
 .istatistik { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; margin: 1.5rem 0 2.5rem; }

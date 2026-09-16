@@ -5,8 +5,8 @@
   "desc": "Gemi İnşaatı Bölümünde okuyor. Mühendislik programlamaya ilgi duyuyor. Açık kaynak FEM uygulamalarının kullanılması için içerik üretiyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/channel/UCfqoiKRJAKdbIVuqEm-Ssdw",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@muhendislik1012"
    }
   ]
  },
@@ -16,8 +16,8 @@
   "desc": "Gemi İnşaatı Mühendisi. Açık kaynak programlarla titreşim analizleri üzerine çalışıyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/@acikmuhendislik",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@acikmuhendislik"
    }
   ]
  },
@@ -27,12 +27,12 @@
   "desc": "Gemi İnşa mühendisi olarak çalışmaktadır. Mühendislik programlama ile ilgilenmektedir.",
   "links": [
    {
-    "type": "https://www.youtube.com/@volkanbayrak8896",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@volkanbayrak8896"
    },
    {
-    "type": "https://www.linkedin.com/in/volkanbyrk/",
-    "url": "Linkedin"
+    "type": "Linkedin",
+    "url": "https://www.linkedin.com/in/volkanbyrk/"
    }
   ]
  },
@@ -42,8 +42,8 @@
   "desc": "Gemi İnşaatı Bölümünde okuyor. Mühendislik programlamaya ilgi duyuyor. Açık kaynak FEM uygulamalarının kullanılması için içerik üretiyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/channel/UCHlljHYFSMSkW2zzb8bV_RA",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@nedir.y"
    }
   ]
  },
@@ -53,8 +53,8 @@
   "desc": "Gemi İnşaatı Bölümünde okuyor. Mühendislik programlamaya ilgi duyuyor. Açık kaynak CFD uygulamaları üzerine çalışıyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/@erencankahveci4222",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@Cankahveci78"
    }
   ]
  },
@@ -64,8 +64,8 @@
   "desc": "Gemi İnşaatı Bölümünden mezun. Açık donanımlarla mühendislik araçları gelitiriyor. Açık donanımlar için içerik üretiyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/channel/UCDukn4l87Rg6_tRCAMhj0Ew",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@cankantarc6507"
    }
   ]
  },
@@ -75,12 +75,16 @@
   "desc": "Mühendislik programlama, Nümerik yöntemler ve Gemi Mukavemeti Alanında çalışıyor ve açık kaynak mühendislik yazılımlarına ilgi duyuyor",
   "links": [
    {
-    "type": "https://www.linkedin.com/in/s-turgut-ince-a1b54b45/",
-    "url": "Linkedin"
+    "type": "Linkedin",
+    "url": "https://www.linkedin.com/in/s-turgut-ince-a1b54b45/"
    },
    {
-    "type": "https://twitter.com/sturgutince",
-    "url": "Twitter"
+    "type": "Twitter",
+    "url": "https://twitter.com/sturgutince"
+   },
+   {
+    "type": "E-posta",
+    "url": "mailto:sturgutince@gmail.com"
    }
   ]
  },
@@ -90,8 +94,8 @@
   "desc": "Gemi İnşaatı Bölümünde okuyor. Mühendislik programlama ve Makine öğrenmesine ilgi duyuyor. Açık kaynak FEM uygulamaları, makine öğrenmesi ile analiz sonucu tahmini ve yapısal optimizasyon üzerine çalışıyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/@AhmetOzkanCanli",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@AhmetOzkanCanli"
    }
   ]
  },
@@ -101,12 +105,12 @@
   "desc": "Gemi İnşa mühendisi, açık kaynak sonlu elemanlar hesaplarıyla ilgileniyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/@efsunsultanbulut3777/",
-    "url": "Youtube"
+    "type": "Linkedin",
+    "url": "https://www.linkedin.com/in/efsun-sultan-bulut-29b44b226/"
    },
    {
-    "type": "https://www.linkedin.com/in/efsun-sultan-bulut-29b44b226/",
-    "url": "Linkedin"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@efsltn"
    }
   ]
  },
@@ -116,12 +120,12 @@
   "desc": "Gemi İnşaatı Bölümünde okuyor. Mühendislik Programlama üzerine çalışıyor",
   "links": [
    {
-    "type": "https://www.youtube.com/@FatihYegul-ix1td",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@FatihYegul-ix1td"
    },
    {
-    "type": "https://github.com/fetza23/",
-    "url": "Github"
+    "type": "Github",
+    "url": "https://github.com/fetza23/"
    }
   ]
  },
@@ -131,8 +135,8 @@
   "desc": "Gemi İnşaatı Mühendisi. Mühendislik programlama ve istatistiksel karar vermeye ilgi duyuyor. Açık kaynak FEM uygulamaları ve yapısal optimizasyon üzerine çalışıyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/@IbrahimBeduk-ss7bu",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@engineer-e4y"
    }
   ]
  },
@@ -142,8 +146,8 @@
   "desc": "Gemi İnşaatı Mühendisi. Açık kaynak akış analizlerine ilgi duyuyor, Akış analizleri ile ilgili içerik oluşturuyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/@Askleipos/videos",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@Askleipos"
    }
   ]
  },
@@ -153,8 +157,8 @@
   "desc": "Gemi İnşa mühendisi, açık kaynak akış analizleri ile ilgileniyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/@fercanl2442",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@fercanl2442"
    }
   ]
  },
@@ -164,8 +168,8 @@
   "desc": "Gemi İnşaatı Bölümünde okuyor. Sonlu elemanlar analizi ve Yorulma üzerine çalışıyor",
   "links": [
    {
-    "type": "https://www.youtube.com/@huseyinkursadnamli1015",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@huseyinkursadnamli1015"
    }
   ]
  },
@@ -175,16 +179,16 @@
   "desc": "Gemi inşaatı ve gemi makineleri mühendisliği bölümünde okuyor. Açık kaynaklı mühendislik programları geliştirmeye ve kullanmaya ilgi duyuyor. Açık kaynak CFD uygulamalarının kullanılması için içerik üretiyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/channel/UCe9ea9jywRQzFR6Y7k122vg",
-    "url": "Youtube"
+    "type": "Linkedin",
+    "url": "https://www.linkedin.com/in/sarp-g-17bb8211a/"
    },
    {
-    "type": "https://www.linkedin.com/in/sarp-g-17bb8211a/",
-    "url": "LinkedIn"
+    "type": "Twitter",
+    "url": "https://twitter.com/sarpgurenli"
    },
    {
-    "type": "https://twitter.com/sarpgurenli",
-    "url": "Twitter"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@sarpgurenli3218"
    }
   ]
  },
@@ -194,8 +198,8 @@
   "desc": "Gemi İnşaatı Bölümünde okuyor. Mühendislik programlamaya ilgi duyuyor. Açık kaynak CFD uygulamaları ve parametrik analiz üzerine çalışıyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/@asenacataloluk2419",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@asenacataloluk2419"
    }
   ]
  },
@@ -205,8 +209,8 @@
   "desc": "Gemi İnşaatı Bölümünde okuyor. Mühendislik programlamaya ilgi duyuyor. Açık kaynak FEM uygulamaları ve yapısal optimizasyon üzerine çalışıyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/@baharebruezer6894",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@baharebruezer6894"
    }
   ]
  },
@@ -216,8 +220,8 @@
   "desc": "Gemi inşaatı ve gemi makineleri mühendisliği bölümünden mezun. Açık kaynak mühendislik, yazılım ve otonom sistemlerler ilgileniyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/channel/UCObBhNW1tWKkMlcg7-Td_yA",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@kenanaslan1702"
    }
   ]
  },
@@ -227,12 +231,12 @@
   "desc": "Gemi inşaatı alanında Amerika'da doktora eğitimine devam ediyor. Açık kaynaklı mühendislik programları geliştirmeye ve kullanmaya ilgi duyuyor. Açık kaynak CFD uygulamalarının kullanılması için içerik üretiyor.",
   "links": [
    {
-    "type": "https://www.linkedin.com/in/ugurrcan/",
-    "url": "LinkedIn"
+    "type": "Linkedin",
+    "url": "https://www.linkedin.com/in/ugurrcan/"
    },
    {
-    "type": "https://www.youtube.com/channel/UCGOI9RVj-HcRc8k_vQj6xEA",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@ugurcan4366"
    }
   ]
  },
@@ -242,12 +246,12 @@
   "desc": "Mühendislik programlamaya ilgi duyuyor. Özellikle açık kaynak FEM uygulamalarının kullanılması için içerik üretiyor.",
   "links": [
    {
-    "type": "https://www.linkedin.com/in/nuri-taytan/",
-    "url": "Lİnkedin"
+    "type": "Linkedin",
+    "url": "https://www.linkedin.com/in/nuri-taytan/"
    },
    {
-    "type": "https://www.youtube.com/channel/UCSALE7TbWAw_-diO9iST4_w/about",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@nuritaytan7838"
    }
   ]
  },
@@ -257,8 +261,8 @@
   "desc": "Gemi İnşa mühendisi, açık kaynak explicite sonlu elemanlar hesaplarıyla ilgileniyor.",
   "links": [
    {
-    "type": "https://www.youtube.com/@ahmetemreyuksel3694",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@ahmetemreyuksel3694"
    }
   ]
  },
@@ -268,8 +272,8 @@
   "desc": "Gemi İnşaatı Bölümünde okuyor. Açık kaynak FEM uygulamaları ve burkulma analizi üzerine çalışıyor",
   "links": [
    {
-    "type": "https://www.youtube.com/@beratyagmur9354",
-    "url": "Youtube"
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@beratyyagmur"
    }
   ]
  },
