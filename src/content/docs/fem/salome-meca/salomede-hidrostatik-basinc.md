@@ -2,7 +2,7 @@
 title: "Salome'de Hidrostatik Basınç"
 description: "Salome'de Hidrostatik Basınç – Salome-Meca video dersi."
 sidebar:
-  order: 11
+  order: 13
 youtube: "iLYpeSQkGJ8"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

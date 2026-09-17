@@ -2,7 +2,7 @@
 title: "Salome'de Eleman Dikme (Mesh Yüzeylerini Birleştirme)"
 description: "Salome'de Eleman Dikme (Mesh Yüzeylerini Birleştirme) – Salome-Meca video dersi."
 sidebar:
-  order: 10
+  order: 12
 youtube: "QOjy8fzaUCM"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

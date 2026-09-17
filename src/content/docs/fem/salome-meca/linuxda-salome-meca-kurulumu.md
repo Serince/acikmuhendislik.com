@@ -2,7 +2,7 @@
 title: "Linux'ta Salome-Meca Kurulumu"
 description: "Linux'ta Salome-Meca Kurulumu – Salome-Meca video dersi."
 sidebar:
-  order: 1
+  order: 3
 youtube: "S5bdkfmysIY"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

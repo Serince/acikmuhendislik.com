@@ -2,7 +2,7 @@
 title: "Salome'de Mesh Yakınsama Çalışması"
 description: "Salome'de Mesh Yakınsama Çalışması – Salome-Meca video dersi."
 sidebar:
-  order: 14
+  order: 16
 youtube: "uGH4kIurres"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

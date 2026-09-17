@@ -2,7 +2,7 @@
 title: "Kirişe Kesit Tanımlama (Hollanda Profili)"
 description: "Kirişe Kesit Tanımlama (Hollanda Profili) – Salome-Meca video dersi."
 sidebar:
-  order: 12
+  order: 14
 youtube: "_mSXJXkNOds"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

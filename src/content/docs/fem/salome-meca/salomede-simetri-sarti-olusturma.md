@@ -2,7 +2,7 @@
 title: "Salome'de Simetri Şartı Oluşturma"
 description: "Salome'de Simetri Şartı Oluşturma – Salome-Meca video dersi."
 sidebar:
-  order: 8
+  order: 10
 youtube: "-9wg2_YXnv4"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

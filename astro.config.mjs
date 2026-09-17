@@ -37,7 +37,14 @@ export default defineConfig({
         {
           label: 'CFD (Akışkanlar)',
           items: [
-            { label: 'FreeCAD CFD (CfdOF)', autogenerate: { directory: 'cfd/freecad-cfd' } },
+            {
+              label: 'FreeCAD CFD (CfdOF)',
+              items: [
+                { label: 'Temel Giriş', autogenerate: { directory: 'cfd/freecad-cfd/temel-giris' } },
+                { label: 'Akış Analizleri', autogenerate: { directory: 'cfd/freecad-cfd/akis-analizleri' } },
+                { label: 'Termal Analizler', autogenerate: { directory: 'cfd/freecad-cfd/termal-analizler' } },
+              ],
+            },
             { label: 'HelyxOS CFD', autogenerate: { directory: 'cfd/helyxos-cfd' } },
             { label: 'OpenFOAM (Temel)', autogenerate: { directory: 'cfd/openfoam-temel' } },
           ],

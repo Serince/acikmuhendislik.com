@@ -2,7 +2,7 @@
 title: "Farklı Boyutlarda Meshleme"
 description: "Farklı Boyutlarda Meshleme – Salome-Meca video dersi."
 sidebar:
-  order: 7
+  order: 9
 youtube: "jBa1Nu03BUE"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

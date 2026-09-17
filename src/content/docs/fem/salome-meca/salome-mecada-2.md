@@ -2,7 +2,7 @@
 title: "Salome-Meca'da Yüzeye Kalınlık Verme"
 description: "Salome-Meca'da Yüzeye Kalınlık Verme – Salome-Meca video dersi."
 sidebar:
-  order: 5
+  order: 7
 youtube: "cKOQudfSDR0"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

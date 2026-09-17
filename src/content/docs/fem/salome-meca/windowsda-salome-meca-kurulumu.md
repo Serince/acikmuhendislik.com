@@ -2,7 +2,7 @@
 title: "Windows’da Salome-Meca kurulumu"
 description: "Windows’da Salome-Meca kurulumu – Salome-Meca video dersi."
 sidebar:
-  order: 2
+  order: 4
 youtube: "m9liEFg7Ks4"
 yazar: "Furkan Arıkan"
 yazarKanal: "https://www.youtube.com/@FurkanAr%C4%B1kan-y2f"

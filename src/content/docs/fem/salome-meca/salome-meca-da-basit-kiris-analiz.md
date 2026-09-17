@@ -2,7 +2,7 @@
 title: "Salome-Meca'da Basit Kiriş Analizi"
 description: "Salome-Meca'da Basit Kiriş Analizi – Salome-Meca video dersi."
 sidebar:
-  order: 4
+  order: 6
 youtube: "cSnKw6veQMc"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

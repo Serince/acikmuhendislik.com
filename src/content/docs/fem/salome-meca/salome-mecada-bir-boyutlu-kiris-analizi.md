@@ -2,7 +2,7 @@
 title: "Salome-Meca'da Bir Boyutlu Kiriş Analizi"
 description: "Salome-Meca'da Bir Boyutlu Kiriş Analizi – Salome-Meca video dersi."
 sidebar:
-  order: 3
+  order: 5
 youtube: "3VdiaGF3ILg"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

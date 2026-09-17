@@ -2,7 +2,7 @@
 title: "Salome'de Doğal Frekans Analizi"
 description: "Salome'de Doğal Frekans Analizi – Salome-Meca video dersi."
 sidebar:
-  order: 15
+  order: 17
 youtube: "REHiCAhyJBk"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

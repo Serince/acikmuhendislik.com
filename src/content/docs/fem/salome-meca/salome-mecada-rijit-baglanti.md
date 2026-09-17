@@ -3,7 +3,7 @@ title: "Salome-Meca'da Rijit Bağlantı"
 description: "LIAISON_DDL ile noktalar arası bağımlılık ve kuvvet aktarımı simülasyonu."
 youtube: "umxpYVELJcc"
 sidebar:
-  order: 17
+  order: 19
 yazar: "Enes Durukan"
 yazarKanal: "https://www.youtube.com/@EnesDurukan-r4p"
 yazilim: "Salome-Meca"

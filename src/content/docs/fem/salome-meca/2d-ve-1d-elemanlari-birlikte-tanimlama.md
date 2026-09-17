@@ -2,7 +2,7 @@
 title: "2D ve 1D Elemanları Birlikte Tanımlama"
 description: "2D ve 1D Elemanları Birlikte Tanımlama – Salome-Meca video dersi."
 sidebar:
-  order: 13
+  order: 15
 youtube: "tXtglZG2uKw"
 yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"

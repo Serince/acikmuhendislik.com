@@ -4,7 +4,7 @@
     "yazilim": "PrePoMax + CalculiX",
     "aciklama": "Kurulum, çubuk eğilme, burulma, modal ve harmonik analiz, kabuk elemanlar.",
     "href": "/fem/prepomax/prepomax-kurulumu-cubuk-egilme-analizi/",
-    "ders": 6,
+    "ders": 8,
     "seviye": "Başlangıç",
     "img": "/kurslar/prepomax.jpg",
     "grup": "FEM"
@@ -24,7 +24,7 @@
     "yazilim": "Salome-Meca + Code_Aster",
     "aciklama": "Kiriş ve levha analizleri, mesh yakınsama, titreşim ve harmonik analizler.",
     "href": "/fem/salome-meca/linuxda-salome-meca-kurulumu/",
-    "ders": 17,
+    "ders": 19,
     "seviye": "Orta",
     "img": "/kurslar/salome-meca.jpg",
     "grup": "FEM"
@@ -54,7 +54,7 @@
     "yazilim": "FreeCAD FEMbyGEN",
     "aciklama": "Parametrik tasarım, topoloji optimizasyonu, istatistiksel karar verme.",
     "href": "/fem/fembygen/fembygen-kurulumu-ve-braket-analizi/",
-    "ders": 3,
+    "ders": 4,
     "seviye": "İleri",
     "img": "/kurslar/fembygen.jpg",
     "grup": "FEM"
@@ -64,7 +64,7 @@
     "yazilim": "OpenRadioss",
     "aciklama": "Kurulum, HyperView ve ParaView ile örnek explicit analizler.",
     "href": "/fem/openradioss/openradioss-hyperview-ve-paraview-kurulumu-ornek-analizler/",
-    "ders": 1,
+    "ders": 2,
     "seviye": "Orta",
     "img": "/kurslar/openradioss.jpg",
     "grup": "FEM"
@@ -73,8 +73,8 @@
     "baslik": "FreeCAD CFD (CfdOF)",
     "yazilim": "FreeCAD + OpenFOAM",
     "aciklama": "Boru içi akış, dış akış, çift fazlı akış, y+ ve mesh iyileştirme.",
-    "href": "/cfd/freecad-cfd/freecad-cfdof-kurulumu/",
-    "ders": 13,
+    "href": "/cfd/freecad-cfd/temel-giris/freecad-cfdof-kurulumu/",
+    "ders": 16,
     "seviye": "Başlangıç",
     "img": "/kurslar/freecad-cfd.jpg",
     "grup": "CFD"
@@ -114,7 +114,7 @@
     "yazilim": "FreeCAD + Python",
     "aciklama": "Makrolarla gemi kesiti çizimi, animasyon ve parametrik CFD.",
     "href": "/freecad-makro/parametrik-cfd-analizi-ve-makro-yazma/",
-    "ders": 3,
+    "ders": 4,
     "seviye": "Orta",
     "img": "/kurslar/freecad-makro.jpg",
     "grup": "Diger"

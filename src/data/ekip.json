@@ -320,5 +320,93 @@
     "url": "https://www.youtube.com/@EnesDurukan-r4p"
    }
   ]
+ },
+ {
+  "ad": "Muhammet Ali Akyüz",
+  "foto": "",
+  "desc": "Salome-Meca dersleri hazırlayan gönüllü eğitmen.",
+  "links": [
+   {
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@muhammetali-g7v"
+   }
+  ]
+ },
+ {
+  "ad": "Tolga Yıldız",
+  "foto": "",
+  "desc": "Yapısal optimizasyon dersleri hazırlayan gönüllü eğitmen.",
+  "links": [
+   {
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@tolgayildiz2110"
+   }
+  ]
+ },
+ {
+  "ad": "Ahmet Furkan Oymak",
+  "foto": "",
+  "desc": "CFD dersleri hazırlayan gönüllü eğitmen.",
+  "links": [
+   {
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@AhmetFurkanOymak"
+   }
+  ]
+ },
+ {
+  "ad": "Kaan Kırmızıgül",
+  "foto": "",
+  "desc": "PrePoMax dersleri hazırlayan gönüllü eğitmen.",
+  "links": [
+   {
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@zibidibabbubbaov3538"
+   }
+  ]
+ },
+ {
+  "ad": "Ahmet Erdem",
+  "foto": "",
+  "desc": "FreeCAD makro dersleri hazırlayan gönüllü eğitmen.",
+  "links": [
+   {
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@ahmeterdm12"
+   }
+  ]
+ },
+ {
+  "ad": "Tunç Uçar",
+  "foto": "",
+  "desc": "PrePoMax dersleri hazırlayan gönüllü eğitmen.",
+  "links": [
+   {
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@tuunch"
+   }
+  ]
+ },
+ {
+  "ad": "Yiğit İslamoğlu",
+  "foto": "",
+  "desc": "Salome-Meca dersleri hazırlayan gönüllü eğitmen.",
+  "links": [
+   {
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@yigitislamoglu1"
+   }
+  ]
+ },
+ {
+  "ad": "Taygan Taşkıran",
+  "foto": "",
+  "desc": "CFD dersleri hazırlayan gönüllü eğitmen.",
+  "links": [
+   {
+    "type": "Youtube",
+    "url": "https://www.youtube.com/@taygantaskran8711"
+   }
+  ]
  }
 ]

@@ -2,7 +2,7 @@
 title: "Salome-Meca’da Harmonik Titreşim Analizi"
 description: "Salome-Meca’da Harmonik Titreşim Analizi – Salome-Meca video dersi."
 sidebar:
-  order: 16
+  order: 18
 youtube: "-SUvhm-VZPE"
 yazar: "Mouhammad Almoukaddam"
 yazarKanal: "https://www.youtube.com/@acikmuhendislik"
