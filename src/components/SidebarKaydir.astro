@@ -1,0 +1,26 @@
+---
+import Default from '@astrojs/starlight/components/Sidebar.astro';
+---
+
+<Default />
+
+<script>
+  // Aktif ders menüde görünür alana kaydırılsın:
+  // sayfa açılışında ve Starlight sayfa geçişlerinde çalışır.
+  function aktifLinkiGoster() {
+    const aktif = document.querySelector('#starlight__sidebar a[aria-current="page"]');
+    if (!aktif) return;
+    let hedef = aktif.parentElement;
+    while (hedef && hedef !== document.body) {
+      const st = getComputedStyle(hedef);
+      if (hedef.scrollHeight > hedef.clientHeight + 4 && /auto|scroll/.test(st.overflowY)) {
+        hedef.scrollTo({ top: aktif.offsetTop - hedef.clientHeight / 2 + 40, behavior: 'smooth' });
+        return;
+      }
+      hedef = hedef.parentElement;
+    }
+    aktif.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  }
+  document.addEventListener('astro:page-load', aktifLinkiGoster);
+  aktifLinkiGoster();
+</script>
