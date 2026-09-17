@@ -2,7 +2,7 @@
 title: "LinearSpring Yöntemi ile Mooring Analizi"
 description: "OpenFOAM CFD'de LinearSpring yöntemi ile mooring (demirleme) analizi."
 sidebar:
-  order: 7
+  order: 9
 youtube: "pxVJ3kHLxrs"
 yazar: "Ahmet Furkan Oymak"
 yazarKanal: "https://www.youtube.com/@AhmetFurkanOymak"

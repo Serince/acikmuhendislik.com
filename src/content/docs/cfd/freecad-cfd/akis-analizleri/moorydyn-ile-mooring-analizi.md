@@ -2,7 +2,7 @@
 title: "MoorDyn ile Mooring Analizi"
 description: "OpenFOAM CFD'de moorDynR2 yöntemi ile mooring analizi."
 sidebar:
-  order: 8
+  order: 10
 youtube: "74AuoQ1d52Q"
 yazar: "Ahmet Furkan Oymak"
 yazarKanal: "https://www.youtube.com/@AhmetFurkanOymak"

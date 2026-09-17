@@ -74,7 +74,7 @@
     "yazilim": "FreeCAD + OpenFOAM",
     "aciklama": "Boru içi akış, dış akış, çift fazlı akış, y+ ve mesh iyileştirme.",
     "href": "/cfd/freecad-cfd/temel-giris/freecad-cfdof-kurulumu/",
-    "ders": 16,
+    "ders": 18,
     "seviye": "Başlangıç",
     "img": "/kurslar/freecad-cfd.jpg",
     "grup": "CFD"
@@ -84,7 +84,7 @@
     "yazilim": "OpenFOAM",
     "aciklama": "3 günlük eğitim serisi: kurulum, case yapısı, ilk simülasyonlar.",
     "href": "/cfd/openfoam-temel/openfoam-v4-1-kurulumu/",
-    "ders": 10,
+    "ders": 8,
     "seviye": "Orta",
     "img": "/kurslar/openfoam.jpg",
     "grup": "CFD"
