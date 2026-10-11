@@ -9,7 +9,8 @@ const tarih = d.tarih ? new Date(d.tarih).toLocaleDateString('tr-TR', { year: 'n
 const govde = entry.body || '';
 // 1. oncelik: yazar/yazilim cumlesi disinda, sira baglantisi olmayan gercek icerik.
 // 2. oncelik (icerik yoksa): kurs ici baglam cumlesi — bos kutu birakmamak icin.
-const paragraflar = govde.split(/\n\s*\n/).map((p) => p.replace(/^#+\s+.*/gm, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[*_`]/g, '').trim());
+// MDX import/satir ici JS hicbir zaman kutuya giremez.
+const paragraflar = govde.split(/\n\s*\n/).map((p) => p.replace(/^import\s+.*$/gm, '').replace(/^#+\s+.*/gm, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[*_`]/g, '').replace(/\bfrom\s+['"][^'"]+['"]\s*;?/g, '').trim());
 const gercek = paragraflar.filter((p) => p.length > 60 && !/^bu ders\b/i.test(p) && !/^(←|-|\*|→)/.test(p) && !/^(önceki ders|sonraki ders|sıradaki adımlar|bu dersi bitirdikten)/i.test(p))[0];
 const yedek = paragraflar.filter((p) => p.length > 40 && !/^(←|-|\*|→)/.test(p))[0];
 const hedefParagraf = (gercek || yedek)?.slice(0, 220) || null;
@@ -25,7 +26,7 @@ const hedefParagraf = (gercek || yedek)?.slice(0, 220) || null;
   <p class="uyari">⚠️ Bu dersin video eşleşmesi arşivden otomatik kurtarıldı; lütfen doğru video olduğunu kontrol edin.</p>
 )}
 {videos.map((id, i) => <YouTube id={id} title={d.title} eager={i === 0} />)}
-{hedefParagraf && (
+{videos.length > 0 && hedefParagraf && (
   <p class="ogrenme-hedefi">
     <strong>Bu derste:</strong> {hedefParagraf}
   </p>
