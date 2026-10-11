@@ -11,3 +11,8 @@ tarih: 2021-11-06
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Akış Modelinde Bölgesel Mesh (Boundary Layer)](./akis-modelin-bolgesel-mesh/)
+- **Sonraki ders:** [y+ hesaplama ve mesh iyileştirme](./y-hesaplama-ve-mesh-iyilestirme/) →

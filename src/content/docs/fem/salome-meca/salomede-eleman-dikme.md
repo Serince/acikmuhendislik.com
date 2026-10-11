@@ -11,3 +11,8 @@ tarih: 2021-11-06
 ---
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Salome'de Contact ve Displacement](./salomede-contact-ve-displacement/)
+- **Sonraki ders:** [Salome'de Hidrostatik Basınç](./salomede-hidrostatik-basinc/) →

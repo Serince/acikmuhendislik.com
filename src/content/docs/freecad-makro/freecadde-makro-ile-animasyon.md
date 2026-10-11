@@ -13,3 +13,8 @@ tarih: 2024-03-05
 Freecad’in güçlü python desteği ile tekrar eden işlemleri makro ile yapmak işleri oldukça kolaylaştırıyor.
 
 FreeCAD’de dönerken ilerleyen bir tekerin animasyonun makro ile nasıl yapılacağı bu videoda anlatılıyor. Böylece parametrik modelin ufak scriptler le nasıl değiştirilebileceğini bu video ile öğrenebileceksiniz
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [FreeCad’de Makro ile Gemi Kesiti Çizme](./freecadde-makro-ile-gemi-kesiti-cizme/)
+- **Sonraki ders:** [FEMbyGEN ile Parametrik CFD Analizi](./fembygen-ile-parametrik-cfd-analizi/) →

@@ -11,3 +11,8 @@ tarih: 2021-11-02
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Sürgülü Valf Analizi ve y+ Gösterimi](./surgulu-valf-analizi-ve-y-gosterimi/)
+- **Sonraki ders:** [Çift Fazlı Akış Analizi](./cift-fazli-akis-analizi/) →

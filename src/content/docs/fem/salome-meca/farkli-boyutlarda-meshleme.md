@@ -11,3 +11,8 @@ tarih: 2021-10-25
 ---
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Salome-Meca'da Destekli Levha Analizi](./salome-mecada-destekli-levha-analizi/)
+- **Sonraki ders:** [Salome'de Simetri Şartı Oluşturma](./salomede-simetri-sarti-olusturma/) →

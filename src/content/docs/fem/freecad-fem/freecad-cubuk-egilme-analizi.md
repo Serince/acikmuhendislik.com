@@ -11,3 +11,9 @@ tarih: 2021-08-27
 ---
 
 Bu ders **Nuri Taytan** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- **Sonraki ders:** [FreeCAD FEM Shell Eleman Analizi](./freecad-fem-shell-eleman-analizi/) →
+
+Bu dersi bitirdikten sonra kursa kaldığınız yerden devam edin. Tüm [FreeCAD FEM dersleri](../) sıralı listede.

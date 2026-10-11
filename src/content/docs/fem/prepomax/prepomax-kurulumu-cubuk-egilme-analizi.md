@@ -19,3 +19,9 @@ Prepomax programını şu linkten indirebilirisiniz
 ### Bağlantılar
 
 - <https://prepomax.fs.um.si/downloads/>
+
+## Sıradaki adımlar
+
+- **Sonraki ders:** [PrePoMax ile Burulma Analizi](./prepomax-ile-burulma-analizi/) →
+
+Bu dersi bitirdikten sonra kursa kaldığınız yerden devam edin. Tüm [PrePoMax dersleri](../) sıralı listede.

@@ -11,3 +11,8 @@ tarih: 2024-04-17
 ---
 
 Prepomax’da yüzeylerden oluşan bir sistemin analizi gerçekleştirilmiştir.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Modal ve Harmonik Analiz](./modal-ve-harmonik-analiz/)
+- **Sonraki ders:** [Prepomax kabuk eleman kalınlık tanımlama](./prepomax-kabuk-eleman-kalinlik-tanimlama/) →

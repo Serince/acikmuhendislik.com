@@ -13,3 +13,8 @@ tarih: 2024-01-22
 Freecad’in güçlü python desteği ile tekrar eden işlemleri makro ile yapmak işleri oldukça kolaylaştırıyor.
 
 Python Konsol aracılığıu ile yapılan işlemlerin FreeCad API’deki kod karşılığı konsol ekranında yazdırılıyor. Bu kodları kopyalayarak ve ilgili yerleri değiştirerek hızlıca makro ile çizim yapabilmekk mümkün.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Parametrik CFD analizi ve Makro Yazma](./parametrik-cfd-analizi-ve-makro-yazma/)
+- **Sonraki ders:** [FreeCad’de Makro ile Animasyon](./freecadde-makro-ile-animasyon/) →

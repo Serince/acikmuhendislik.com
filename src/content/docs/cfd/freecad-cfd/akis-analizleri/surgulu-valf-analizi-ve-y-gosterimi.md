@@ -15,3 +15,9 @@ Tek fazlı akışta bir valf analizi gerçekleştirildi. Bu analizde mesh boyutl
 simpleFoam -postProcess -latestTime -func yPlus
 
 Eğer sonrasında paraviewde görselleştirmek isterseniz. paraFoam komutunu vererek paraview açıp oradan filitreler arasında threshold filter aracılığı ile görselleştirebilirisiniz.
+
+## Sıradaki adımlar
+
+- **Sonraki ders:** [Dış Akış Analizi](./dis-akis-analizi/) →
+
+Bu dersi bitirdikten sonra kursa kaldığınız yerden devam edin. Tüm [FreeCAD CFD (Akış) dersleri](../) sıralı listede.

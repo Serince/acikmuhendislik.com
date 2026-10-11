@@ -11,3 +11,8 @@ tarih: 2021-09-02
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Gmsh Kurulumu](./gmsh-kurulumu/)
+- **Sonraki ders:** [FreeCAD FEM Shell Kalınlığı Tanımlama](./fem-shell/) →

@@ -11,3 +11,7 @@ tarih: 2021-12-21
 ---
 
 Bu ders **Sarp Gürenli** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [OpenFOAM v4.1 Kurulumu (Ön Koşul)](./openfoam-v41-kurulumu-on-kosul/)

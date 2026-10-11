@@ -11,3 +11,8 @@ tarih: 2021-11-06
 ---
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Salome'de Simetri Şartı Oluşturma](./salomede-simetri-sarti-olusturma/)
+- **Sonraki ders:** [Salome'de Eleman Dikme (Mesh Yüzeylerini Birleştirme)](./salomede-eleman-dikme/) →

@@ -11,3 +11,8 @@ tarih: 2026-09-17
 ---
 
 Gerçek yükler çoğu zaman statik değil, zamana bağlı değişir. Bu derste Salome-Meca'da basit bir şaft modeli üzerinde transient analiz yapılır: zaman adımları, yük geçmişi ve çözüm ayarları anlatılır. Modal ve harmonik analizlerden sonra izlendiğinde, dinamik analiz türleri arasındaki farkı netleştirir.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [1D Kolon Burkulma Analizi](./salome-mecada-1d-kolon-burkulma-analizi/)
+- **Sonraki ders:** [Linux'ta Salome-Meca Kurulumu](./linuxda-salome-meca-kurulumu/) →

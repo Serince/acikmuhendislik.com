@@ -11,3 +11,8 @@ tarih: 2021-10-17
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [FreeCAD CfdOF Kurulumu](./freecad-cfdof-kurulumu/)
+- **Sonraki ders:** [Laminer Akış Analizi](./laminer-akis-analizi/) →

@@ -11,3 +11,9 @@ tarih: 2021-11-14
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- **Sonraki ders:** [Shell and Tube Isı Eşanjörü Analizi](./shell-and-tube-isi-esanjoru/) →
+
+Bu dersi bitirdikten sonra kursa kaldığınız yerden devam edin. Tüm [FreeCAD CFD (Termal) dersleri](../) sıralı listede.

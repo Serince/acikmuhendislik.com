@@ -11,3 +11,7 @@ tarih: 2026-09-17
 ---
 
 LinearSpring basitleştirmesi yetmediğinde, halat dinamiğini daha gerçekçi çözen moorDyn devreye girer. Bu derste bir önceki LinearSpring analizinin devamı olarak moorDynR2 yöntemi ile mooring analizi kurulur: halat segmentleri, hidrodinamik katsayılar ve OpenFOAM ile eşleşme ayarları anlatılır. İki dersi peş peşe izlemek, iki yöntemin farkını net gösterir.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [LinearSpring Yöntemi ile Mooring Analizi](./linearspring-ile-mooring-analizi/)

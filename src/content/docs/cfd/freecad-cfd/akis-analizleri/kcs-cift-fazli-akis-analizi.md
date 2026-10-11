@@ -13,3 +13,8 @@ tarih: 2025-01-31
 Bu videoda KCS modeli çift fazlı akış analizi gerçekleştirilmiştir. Mesh yakınsama için modele uygun bir şekilde mesh hassasiyetleri artırılmıştır. Dİrenç hesabı için raporlama modülünden ekstra sonuçlar üretilmiştir.
 
 Doğru bir analiz gerçekleştirmek için modele özgü mesh de düzenlemeler yapmak gereklidir.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Çift Fazlı Akış Analizi](./cift-fazli-akis-analizi/)
+- **Sonraki ders:** [Darpa Denizaltı Analizi](./darpa-denizalti-analizi/) →

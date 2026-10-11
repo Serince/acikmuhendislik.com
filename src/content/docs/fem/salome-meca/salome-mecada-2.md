@@ -11,3 +11,8 @@ tarih: 2021-10-08
 ---
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Salome-Meca'da Basit Kiriş Analizi](./salome-meca-da-basit-kiris-analiz/)
+- **Sonraki ders:** [Salome-Meca'da Destekli Levha Analizi](./salome-mecada-destekli-levha-analizi/) →

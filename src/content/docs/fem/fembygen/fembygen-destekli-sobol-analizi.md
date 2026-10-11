@@ -11,3 +11,7 @@ tarih: 2026-09-17
 ---
 
 Hangi tasarım parametresinin sonucu en çok etkilediğini tahminle değil, sayıyla bilmek gerekir. Bu derste FEMbyGEN desteğiyle Sobol duyarlılık analizi yapılır: parametre uzayı örneklenir, her varyant çözülür ve her parametrenin çıktıdaki payı hesaplanır. İstatistiksel karar verme dersinden sonra izlendiğinde parametrik tasarım akışı tamamlanır.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Parametrik Dizaynda İstatistiksel Karar Verme](./parametrik-dizaynda-istatistiksel-karar-verme/)

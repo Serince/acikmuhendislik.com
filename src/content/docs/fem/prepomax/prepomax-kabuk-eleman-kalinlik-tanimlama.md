@@ -11,3 +11,8 @@ tarih: 2024-04-17
 ---
 
 3D elemanlarla modellemek sonlu elemanlar anaizleri için bazı durumlarda daha iyi sonuç üretmez. Genelde ayrıtları arasında ciddi anlamda fark bulunan yapıları (levhalardan oluşan) 2D elemanlar modellemek hem hızlı sonuca ulaşmayı hem de ağ modeli oluşturulurken sürekliliğin sağlanmasını öenmlli ölçüde kolaylatırdığı için tercih edilir. Bu çalışmada yüzey olarak modellenen bir levhanın kalınlık tanımlanmasının yapılışı anlatılmıştır.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Prepomax kabuk eleman analizi](./prepomax-kabuk-eleman-analizi/)
+- **Sonraki ders:** [Prepomax’da Kuvvet Türleri](./prepomaxda-kuvvet-turleri/) →

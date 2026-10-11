@@ -11,3 +11,9 @@ tarih: 2021-10-13
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- **Sonraki ders:** [FreeCAD'de Boru İçi Akış](./freecadde-boru-ici-akis/) →
+
+Bu dersi bitirdikten sonra kursa kaldığınız yerden devam edin. Tüm [FreeCAD CFD (Temel Giriş) dersleri](../) sıralı listede.

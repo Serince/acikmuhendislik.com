@@ -11,3 +11,8 @@ tarih: 2021-09-10
 ---
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Basit Şaft Transient Analizi](./salome-mecada-basit-saft-transient-analizi/)
+- **Sonraki ders:** [Windows’da Salome-Meca kurulumu](./windowsda-salome-meca-kurulumu/) →

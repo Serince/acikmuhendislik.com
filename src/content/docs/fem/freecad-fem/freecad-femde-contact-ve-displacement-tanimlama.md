@@ -11,3 +11,8 @@ tarih: 2021-09-23
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Destekli Levha Analizi](./destekli-levha-analizi/)
+- **Sonraki ders:** [FreeCAD FEM'de Mesh Yakınsama Çalışması](./freecad-femde-mesh-yakinsama-calismasi/) →

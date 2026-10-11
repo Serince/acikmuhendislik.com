@@ -11,3 +11,8 @@ tarih: 2024-07-24
 ---
 
 Salome meca’da oldukça gellişmiş teorik alt yapıya sahip açık kaynak sonlu elemanlar analizi programıdır. Bu videoda bir harmonik titreşim analizi örneği bir şaft üzerinde gösterilmiştir.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Salome'de Doğal Frekans Analizi](./salomede-dogal-frekans-analizi/)
+- **Sonraki ders:** [Salome-Meca'da Rijit Bağlantı](./salome-mecada-rijit-baglanti/) →

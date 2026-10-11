@@ -15,3 +15,7 @@ Bu videoda y+’değerini iyileştimek için nasıl bir yaklaşımda bulunulmas�
 simpleFoam -postProcess -latestTime -func yPlus
 
 Eğer solver’ınız farklı ise ki bunu config dosyasından öğrenebilirsiniz komutu solver ismi ile değiştirmelisiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Hex Mesh ve Gözenekli Bölge](./hex-mesh-ve-gozenekli/)

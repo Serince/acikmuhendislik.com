@@ -15,3 +15,9 @@ Parametrik analiz mühendislik tasarımlarında optimum tasarımı seçebilmek i
 Bu videoda freecad spreadsheet kullanarak daha
 
 Bu videonun iyice anlaşılabilmesi için öncesinde freecad spreadsheet kullanımı ile ilgili ön bilgiye sahip olmak öğrenmeyi hızlandıracaktır.
+
+## Sıradaki adımlar
+
+- **Sonraki ders:** [FreeCad’de Makro ile Gemi Kesiti Çizme](./freecadde-makro-ile-gemi-kesiti-cizme/) →
+
+Bu dersi bitirdikten sonra kursa kaldığınız yerden devam edin. Tüm [FreeCAD Makro dersleri](../) sıralı listede.

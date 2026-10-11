@@ -11,3 +11,8 @@ tarih: 2021-11-23
 ---
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [2D ve 1D Elemanları Birlikte Tanımlama](./2d-ve-1d-elemanlari-birlikte-tanimlama/)
+- **Sonraki ders:** [Salome'de Doğal Frekans Analizi](./salomede-dogal-frekans-analizi/) →

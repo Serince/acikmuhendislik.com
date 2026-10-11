@@ -11,3 +11,8 @@ tarih: 2021-10-08
 ---
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Salome-Meca'da Bir Boyutlu Kiriş Analizi](./salome-mecada-bir-boyutlu-kiris-analizi/)
+- **Sonraki ders:** [Salome-Meca'da Yüzeye Kalınlık Verme](./salome-mecada-2/) →

@@ -16,3 +16,7 @@ Deniz araçlarının otomatik yön belirlemesi için görüntü işleme destekli
 
 - **Video 1 – Donanım:** yön tayininde kullanılan donanımın tanıtımı ve kurulumu.
 - **Video 2 – Yazılım:** görüntü işleme tarafı ve yön belirleme yazılımı.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Çöp Kapar Tekne Tasarımı](./cop-kapar-tekne-tasarimi/)

@@ -11,3 +11,8 @@ tarih: 2025-06-25
 ---
 
 Overset mesh (Hareketli) ile pervane analizi, gerçek zamanlı hareketin hassasiyetini yakalamak için önemli bir yöntemdir.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [OpenFOAM'da MRF Metodu ile Pervane Analizi](./openfoamda-mrf-metodu-ile-pervane-analizi/)
+- **Sonraki ders:** [LinearSpring Yöntemi ile Mooring Analizi](./linearspring-ile-mooring-analizi/) →

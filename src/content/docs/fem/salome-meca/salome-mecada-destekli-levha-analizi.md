@@ -11,3 +11,8 @@ tarih: 2021-10-21
 ---
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Salome-Meca'da Yüzeye Kalınlık Verme](./salome-mecada-2/)
+- **Sonraki ders:** [Farklı Boyutlarda Meshleme](./farkli-boyutlarda-meshleme/) →

@@ -11,3 +11,7 @@ tarih: 2025-08-04
 ---
 
 Salome-Meca yazılım ortamında noktalar arası bağımlılık (LIAISON_DDL) kullanarak kuvvet aktarımının nasıl simüle edildiğini adım adım açıklamaktadır. Video, bir vida mekanizması üzerinden kuvvetin bir yüzeyden diğerine nasıl aktarıldığını göstermektedir.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Salome-Meca’da Harmonik Titreşim Analizi](./salome-mecada-harmonik-titresim-analizi/)

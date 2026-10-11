@@ -15,3 +15,9 @@ Bası yükleri altında hasar sadece akma sınırı üzerindeki gerilmeler ile g
 Akma sınırının altıda gerçekleşecek burkulma oldukça tehlikelidir. Bu sebeple bir sistemde bası yükleri altında ayrıca burkulma analizine tabi tutulması önemlidir.
 
 Burkulma analizi sonrasında elde edilece burkulma faktörüne göre tasarım desteklenir. İlgili mod şekline göre olası burkulma durumunda yapıın alacağı şekil için bakılır.
+
+## Sıradaki adımlar
+
+- **Sonraki ders:** [FreeCAD’de Burkulma Modları](./freecadde-burkulma-analizi-2/) →
+
+Bu dersi bitirdikten sonra kursa kaldığınız yerden devam edin. Tüm [FreeCAD Burkulma dersleri](../) sıralı listede.

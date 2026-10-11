@@ -15,3 +15,9 @@ tarih: 2022-06-20
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- **Sonraki ders:** [Çöp Kapar Tekne Tasarımı](./cop-kapar-tekne-tasarimi/) →
+
+Bu dersi bitirdikten sonra kursa kaldığınız yerden devam edin. Tüm [Açık Donanım dersleri](../) sıralı listede.

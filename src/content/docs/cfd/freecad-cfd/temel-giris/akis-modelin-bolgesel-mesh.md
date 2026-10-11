@@ -11,3 +11,8 @@ tarih: 2021-10-29
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Laminer Akış Analizi](./laminer-akis-analizi/)
+- **Sonraki ders:** [Hex Mesh ve Gözenekli Bölge](./hex-mesh-ve-gozenekli/) →

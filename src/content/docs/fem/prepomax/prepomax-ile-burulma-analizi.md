@@ -13,3 +13,8 @@ tarih: 2023-05-29
 Prepomax ile bir kirişe burulma momenti uygulanarak burulma analizi gerçekleştirilmiştir. Bunun için dönme merkezi belirlenmiş ve sonrasında sınır şartları uygulanarak bir analiz geçekleştirilmiştir.
 
 Prepomax oldukça kolay bir sonlu elemanlar pre-post programı. Güvenirliliğini ispatlamış Calculix çözücüsü için girdi dosyalarını hazırlayabildiğiniz ve çıktılarını görselleştirebileceğiniz hızlı bir program.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [PrePoMax Kurulumu & Çubuk Eğilme Analizi](./prepomax-kurulumu-cubuk-egilme-analizi/)
+- **Sonraki ders:** [Modal ve Harmonik Analiz](./modal-ve-harmonik-analiz/) →

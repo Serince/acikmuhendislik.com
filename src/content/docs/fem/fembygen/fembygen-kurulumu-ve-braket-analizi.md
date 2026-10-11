@@ -15,3 +15,9 @@ FembyGen, parametrik analiz için bir FreeCAD eklentisi. Eklenti ile oluşturula
 FemByGen eklentisi ile çoklu yükleme şartlarını da içeren parametrik optimizasyon eklentisidir.
 
 Bu videoda, FemBygen eklentisinin kurulumu ve bir braket örneği üzerinden 8 farklı paretmetrik analiz uygulamsı hazırlanmıştır.
+
+## Sıradaki adımlar
+
+- **Sonraki ders:** [Topoloji Optimizasyonu](./topoloji-optimizasyonu/) →
+
+Bu dersi bitirdikten sonra kursa kaldığınız yerden devam edin. Tüm [FEMbyGEN dersleri](../) sıralı listede.

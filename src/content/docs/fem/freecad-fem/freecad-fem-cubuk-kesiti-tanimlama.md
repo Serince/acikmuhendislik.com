@@ -11,3 +11,8 @@ tarih: 2021-09-07
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [FreeCAD FEM Shell Kalınlığı Tanımlama](./fem-shell/)
+- **Sonraki ders:** [Destekli Levha Analizi](./destekli-levha-analizi/) →

@@ -19,3 +19,9 @@ Prepomax programını şu linkten indirebilirisiniz
 ### Bağlantılar
 
 - <https://prepomax.fs.um.si/downloads/>
+
+## Sıradaki adımlar
+
+- **Sonraki ders:** [Kompozit Çekme Testi Simülasyonu](./kompozit-cekme-testi-simulasyonu/) →
+
+Bu dersi bitirdikten sonra kursa kaldığınız yerden devam edin. Tüm [OpenRadioss dersleri](../) sıralı listede.

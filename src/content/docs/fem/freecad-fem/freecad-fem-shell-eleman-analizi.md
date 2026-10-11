@@ -11,3 +11,8 @@ tarih: 2021-09-01
 ---
 
 Bu ders **Nuri Taytan** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [FreeCAD Çubuk Eğilme Analizi](./freecad-cubuk-egilme-analizi/)
+- **Sonraki ders:** [Gmsh Kurulumu](./gmsh-kurulumu/) →

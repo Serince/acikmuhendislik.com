@@ -11,3 +11,8 @@ tarih: 2025-06-25
 ---
 
 Çift fazlı analizlerde OpenFOAM'un sunduğu dalga formülasyonlarından yararlanılarak dalgalı su analizleri gerçekleştirilebilir.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Darpa Denizaltı Analizi](./darpa-denizalti-analizi/)
+- **Sonraki ders:** [OpenFOAM'da MRF Metodu ile Pervane Analizi](./openfoamda-mrf-metodu-ile-pervane-analizi/) →

@@ -11,3 +11,8 @@ tarih: 2021-10-07
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [FreeCAD'de Bölgesel Mesh ve Basınç](./freecadde-bolgesel-mesh-ve-basinc/)
+- **Sonraki ders:** [Simetri Şartı ve Kesit Görüntüleme](./simetri-sarti-ve-kesit-goruntuleme/) →

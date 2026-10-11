@@ -11,3 +11,7 @@ tarih: 2026-09-17
 ---
 
 Aynı analizi onlarca farklı ölçüyle tekrarlamak yerine parametreleri tanımlayıp hepsini otomatik çözdürmek gerekir. Bu derste FreeCAD'de FEMbyGEN eklentisiyle parametrik bir CFD analizi kurulur: tasarım değişkenleri, analiz zinciri ve sonuçların karşılaştırılması gösterilir. Makro derslerinden sonra izlendiğinde, FreeCAD'de otomasyonun iki yolu bir arada öğrenilmiş olur.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [FreeCad’de Makro ile Animasyon](./freecadde-makro-ile-animasyon/)

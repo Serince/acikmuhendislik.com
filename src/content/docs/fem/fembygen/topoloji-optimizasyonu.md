@@ -15,3 +15,8 @@ Topoloji optimizasyonu gerçekleştirilirken sonlu elemanlar analizi sonuçları
 Topoloji optimizasyonu, tasarımın kütlesinin yükleme şartları altında dayanımını en az etkileyecek şekilde optimize edilmesidir. İteratif olarak başlangıç tasarımından kütle azaltımı yaparak hedef kütleye gelene kadar analizler yaparak optimimum tasarım önerisi oluşturur.
 
 Bu videoda, FemBygen eklentisinin içerisinde yer alan topoloji optimizasyonu özelliğinin kullanımı anlatılmıştır.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [FEMbyGEN Kurulumu ve Braket Analizi](./fembygen-kurulumu-ve-braket-analizi/)
+- **Sonraki ders:** [Parametrik Dizaynda İstatistiksel Karar Verme](./parametrik-dizaynda-istatistiksel-karar-verme/) →

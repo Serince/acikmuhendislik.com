@@ -11,3 +11,8 @@ tarih: 2021-11-22
 ---
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Kirişe Kesit Tanımlama (Hollanda Profili)](./kirise-kesit-tanimlama/)
+- **Sonraki ders:** [Salome'de Mesh Yakınsama Çalışması](./salomede-mesh-yakinsama-calismasi/) →

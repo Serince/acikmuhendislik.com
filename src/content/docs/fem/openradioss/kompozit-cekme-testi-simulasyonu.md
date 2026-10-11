@@ -11,3 +11,7 @@ tarih: 2026-09-17
 ---
 
 Kompozit malzemelerin çekme davranışını anlamak için fiziksel testten önce simülasyon yapmak hem zaman hem maliyet kazandırır. Bu derste Radioss/OpenRadioss ile bir kompozit çekme testi modellenir: katmanlı malzeme tanımı, sınır şartları ve yükleme adım adım kurulur. Çözüm sonrası gerilme dağılımı ve hasar başlangıcı ParaView ile görselleştirilir. Kompozit analizlere giriş için iyi bir başlangıç noktasıdır.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [OpenRadioss Hyperview ve Paraview Kurulumu & Örnek Analizler](./openradioss-hyperview-ve-paraview-kurulumu-ornek-analizler/)

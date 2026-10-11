@@ -11,3 +11,8 @@ tarih: 2026-09-17
 ---
 
 Yüzen yapıların dalga altında nasıl hareket edeceğini hesaplamak için demirleme (mooring) hatlarının doğru modellenmesi şarttır. Bu derste OpenFOAM CFD ortamında LinearSpring yöntemi ile mooring analizi yapılır: yay katsayıları, bağlantı noktaları ve dalga koşulları tanımlanır. Açık deniz yapılarına ilgi duyanlar için uygulamalı bir giriş niteliğindedir.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [OpenFOAM'da Overset Mesh ile Pervane Analizi](./openfoamda-overset-mesh-ile-pervane-analizi/)
+- **Sonraki ders:** [MoorDyn ile Mooring Analizi](./moorydyn-ile-mooring-analizi/) →

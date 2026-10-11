@@ -1,0 +1,13 @@
+# Derslere 301 yönlendirmesi — Google'da kayıtlı eski adresler
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+/pagefind/*
+  Cache-Control: public, max-age=86400
+/ekip/*
+  Cache-Control: public, max-age=2592000, immutable
+/kurslar/*
+  Cache-Control: public, max-age=2592000, immutable
+/gorseller/*
+  Cache-Control: public, max-age=2592000, immutable
+/admin.html
+  X-Robots-Tag: noindex, nofollow

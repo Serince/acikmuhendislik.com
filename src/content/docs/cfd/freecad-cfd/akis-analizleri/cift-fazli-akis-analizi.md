@@ -13,3 +13,8 @@ tarih: 2024-06-21
 Bu videoda çiftfazlı bir akış analizi Freecad cfdof eklentisi aracılığı ile oluşturulmuş ve openfoam ile analiz edilmiştir. Analizin doğruluğundan ziyade modelin kurulmasına odaklanılmıştır.
 
 Çift fazlı akışlar, iki farklı akışkanın etkilediği sistemler için kullanılır.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Dış Akış Analizi](./dis-akis-analizi/)
+- **Sonraki ders:** [KCS çift fazlı akış analizi](./kcs-cift-fazli-akis-analizi/) →

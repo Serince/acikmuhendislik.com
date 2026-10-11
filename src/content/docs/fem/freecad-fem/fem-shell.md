@@ -11,3 +11,8 @@ tarih: 2021-09-06
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [FreeCAD FEM Çekme Analizi](./freecad-fem-cekme-analizi/)
+- **Sonraki ders:** [FreeCAD FEM Çubuk Kesiti Tanımlama](./freecad-fem-cubuk-kesiti-tanimlama/) →

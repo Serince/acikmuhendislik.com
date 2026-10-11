@@ -11,3 +11,7 @@ tarih: 2021-09-01
 ---
 
 Bu ders **Nuri Taytan** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [CalculiX'te 1D ve 2D Elemanlara Kalınlık ve Genişlik Tanımlama](./calculixde-1d-ve-2d-elemanlara-kalinlik-ve-genislik-tanimlama/)

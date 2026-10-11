@@ -11,3 +11,8 @@ tarih: 2021-11-06
 ---
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Farklı Boyutlarda Meshleme](./farkli-boyutlarda-meshleme/)
+- **Sonraki ders:** [Salome'de Contact ve Displacement](./salomede-contact-ve-displacement/) →

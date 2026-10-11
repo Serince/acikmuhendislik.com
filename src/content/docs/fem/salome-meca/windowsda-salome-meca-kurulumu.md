@@ -13,3 +13,8 @@ tarih: 2023-11-06
 Salome meca, code aster çözücüsüyle birlikte herşeyi içeren bir sonlu elemanlar çözüm programıdır. pre, post ve solver aynı paket içinde yer almaktadır. Öncelikle Salome-Meca’yı yükleme ile ilgili videoda izlenen yolları şu linkten erişebilirisiniz.
 
 https://fea4free.com/install-salome-meca-2021-on-windows-10-and-11/
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Linux'ta Salome-Meca Kurulumu](./linuxda-salome-meca-kurulumu/)
+- **Sonraki ders:** [Salome-Meca'da Bir Boyutlu Kiriş Analizi](./salome-mecada-bir-boyutlu-kiris-analizi/) →

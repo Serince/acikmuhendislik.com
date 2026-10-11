@@ -24,3 +24,8 @@ Videodaki kaçınma sistemini için yazılan kodları şu linkten bulabilirsiniz
 ### Bağlantılar
 
 - <https://github.com/Wstery34/obstacleavoiding->
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Arduino ile Yarı Otonom Tekne Tasarımı](./arduino-ile-yari-otonom-tekne-tasarimi/)
+- **Sonraki ders:** [Görüntü İşleme Destekli Yön Tayini](./goruntu-isleme-destekli-yon-tayini/) →

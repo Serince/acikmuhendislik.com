@@ -11,3 +11,7 @@ tarih: 2026-09-17
 ---
 
 Isı eşanjörleri, akış ve ısı transferinin birlikte çözülmesi gereken klasik mühendislik problemlerindendir. Bu derste OpenFOAM ile gövde-boru (shell and tube) tipi bir eşanjörün termal analizi yapılır: sıcak ve soğuk akışkan bölgeleri, arayüz şartları ve sıcaklık dağılımı adım adım kurulur. Temel akış derslerinden sonra izlendiğinde, termal analizlere geçiş sağlanır.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Sabit Sıcaklıkta Termal Analiz](./terma/)

@@ -11,3 +11,8 @@ tarih: 2021-10-21
 ---
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [FreeCAD'de Boru İçi Akış](./freecadde-boru-ici-akis/)
+- **Sonraki ders:** [Akış Modelinde Bölgesel Mesh (Boundary Layer)](./akis-modelin-bolgesel-mesh/) →

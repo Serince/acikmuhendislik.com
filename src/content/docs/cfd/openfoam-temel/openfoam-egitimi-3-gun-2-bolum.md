@@ -11,3 +11,8 @@ tarih: 2022-01-29
 ---
 
 Bu ders **Uğur Can** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [OpenFOAM Eğitimi – 3. Gün 1. Bölüm](./openfoam-egitimi-3-gun-1-bolum/)
+- **Sonraki ders:** [OpenFOAM Eğitimi – 3. Gün 3. Bölüm](./openfoam-egitimi-3-gun-3-bolum/) →

@@ -11,3 +11,8 @@ tarih: 2025-06-25
 ---
 
 MRF (Multiple Reference Frame): Akışkanlar mekaniğinde, dönen bir bölgeyi sabit koordinat sisteminde modellemek için kullanılır. Yani dönen parçaların hareketi zamanda sabit, ancak uzayda dönermiş gibi simüle edilir.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [FreeCAD CfdOF'da OpenFOAM Dalga Formu Oluşturma](./freecad-cfdofda-openfoam-dalga-formu-olusturma/)
+- **Sonraki ders:** [OpenFOAM'da Overset Mesh ile Pervane Analizi](./openfoamda-overset-mesh-ile-pervane-analizi/) →

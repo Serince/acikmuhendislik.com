@@ -11,3 +11,8 @@ tarih: 2021-11-23
 ---
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
+
+## Sıradaki adımlar
+
+- ← **Önceki ders:** [Salome'de Mesh Yakınsama Çalışması](./salomede-mesh-yakinsama-calismasi/)
+- **Sonraki ders:** [Salome-Meca’da Harmonik Titreşim Analizi](./salome-mecada-harmonik-titresim-analizi/) →
