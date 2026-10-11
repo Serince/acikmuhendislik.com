@@ -1,0 +1,63 @@
+---
+import Default from '@astrojs/starlight/components/Head.astro';
+
+const { entry } = Astro.locals.starlightRoute;
+const d = entry?.data ?? {};
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const videos = d.youtube ? (Array.isArray(d.youtube) ? d.youtube : [d.youtube]) : [];
+const ilkVideo = videos[0];
+const kapak = ilkVideo ? `https://i.ytimg.com/vi/${ilkVideo}/hqdefault.jpg` : undefined;
+const aciklama = d.description || 'Açık kaynak mühendislik yazılımları için öğrencilerin hazırladığı Türkçe video dersler.';
+
+// VideoObject: Google'ın video açısından zengin sonuç göstermesi için.
+// Ders süresi bilinmediği için duration yazılmaz; yanlış süre yazmak hiç yazmamaktan kötüdür.
+const videoNesneleri = videos.map((id, i) => ({
+  '@context': 'https://schema.org',
+  '@type': 'VideoObject',
+  name: videos.length > 1 ? `${d.title} — Bölüm ${i + 1}` : d.title,
+  description: aciklama,
+  thumbnailUrl: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+  uploadDate: d.tarih ? new Date(d.tarih).toISOString().slice(0, 10) : undefined,
+  embedUrl: `https://www.youtube-nocookie.com/embed/${id}`,
+  inLanguage: 'tr-TR',
+}));
+
+// BreadcrumbList: arama sonucunda "Ana sayfa › FEM › PrePoMax" kırıntısı için.
+const kirintilar = [
+  { ad: 'Ana Sayfa', url: '/' },
+  ...(d.yazilim ? [{ ad: d.yazilim, url: Astro.url.pathname.split('/').slice(0, 3).join('/') + '/' }] : []),
+  { ad: d.title, url: Astro.url.pathname },
+];
+const kirintiNesnesi = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: kirintilar.map((k, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: k.ad,
+    item: new URL(k.url, Astro.site).href,
+  })),
+};
+---
+<Default><slot /></Default>
+<link rel="canonical" href={canonicalURL.href} />
+<meta property="og:locale" content="tr_TR" />
+<meta property="og:site_name" content="Açık Mühendislik" />
+{kapak && <meta property="og:image" content={kapak} />}
+{kapak && <meta property="og:image:alt" content={`${d.title} ders videosu`} />}
+{kapak && <meta name="twitter:image" content={kapak} />}
+<meta name="twitter:card" content="summary_large_image" />
+{videoNesneleri.map((v) => <script type="application/ld+json" set:html={JSON.stringify(v)} />)}
+<script type="application/ld+json" set:html={JSON.stringify(kirintiNesnesi)} />
+<script type="application/ld+json" set:html={JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Açık Mühendislik',
+  url: Astro.site?.href,
+  inLanguage: 'tr-TR',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: 'https://acikmuhendislik.com/search/?q={search_term_string}' },
+    'query-input': 'required name=search_term_string',
+  },
+})} />

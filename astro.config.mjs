@@ -18,8 +18,9 @@ export default defineConfig({
       components: {
         // Ders sayfalarında videoyu ve yazar bilgisini içeriğin üstüne otomatik ekler
         MarkdownContent: './src/components/DersIcerik.astro',
-        // Aktif dersi sol menüde görünür alana kaydırır
+        // Aktif dersi sol menüde görünür alana kaydırır + tıklayınca-yüklenen video mantığı
         Sidebar: './src/components/SidebarKaydir.astro',
+        Head: './src/components/SeoHead.astro',
       },
       sidebar: [
         { label: 'Buradan Başla', slug: 'buradan-basla' },

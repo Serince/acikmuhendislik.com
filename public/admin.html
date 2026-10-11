@@ -31,6 +31,8 @@
     <label>GitHub token <small>(sadece bu tarayıcıda saklanır, kimseye gönderilmez. Settings → Developer settings → Personal access tokens → Tokens (classic) → <b>repo</b> yetkili)</small></label>
     <input type="password" id="token" placeholder="ghp_..." autocomplete="off" />
     <div class="hata" id="tokenHata"></div>
+    <label>Kapak resmi <small>(isteğe bağlı — boş bırakılırsa kursun varsayılan kapağı kullanılır)</small></label>
+    <input id="kapak" type="file" accept="image/*" />
   </div>
 
   <div class="kart">
@@ -208,11 +210,12 @@ $('yazarSec').addEventListener('change', () => {
   $('yeniYazarKutu').style.display = $('yazarSec').value === '__yeni__' ? 'block' : 'none';
   guncelleOnizleme();
 });
-function fotoIsle(file) {
+function fotoIsle(file, genislik) {
+  const hedef = genislik || 400;
   return new Promise((res, rej) => {
     const img = new Image();
     img.onload = () => {
-      const k = Math.min(1, 400 / Math.max(img.width, img.height));
+      const k = Math.min(1, hedef / Math.max(img.width, img.height));
       const w = Math.max(1, Math.round(img.width * k)), h = Math.max(1, Math.round(img.height * k));
       const c = document.createElement('canvas'); c.width = w; c.height = h;
       const ctx = c.getContext('2d');
@@ -224,6 +227,15 @@ function fotoIsle(file) {
     img.onerror = () => rej(new Error('Fotoğraf okunamadı.'));
     img.src = URL.createObjectURL(file);
   });
+}
+async function kapakYukle(headers, slug) {
+  const f = $('kapak').files[0];
+  if (!f) return '';
+  btn.textContent = 'Kapak yükleniyor...';
+  const b64kapak = await fotoIsle(f, 800);
+  const yol = 'public/gorseller/' + slug + '.jpg';
+  await icerikKoy(headers, yol, b64kapak, `ders kapagi: ${slug}`);
+  return '/' + yol.replace(/^public\//, '');
 }
 async function icerikKoy(headers, repoPath, b64icerik, mesaj) {
   const url = `https://api.github.com/repos/${REPO}/contents/${repoPath}`;
@@ -258,13 +270,14 @@ async function egitmenHazirla(headers) {
     await icerikKoy(headers, 'src/data/ekip.json', b64(JSON.stringify(liste, null, 1)), `ekip: ${y.ad}`);
   }
 }
-function dosyaIcerigi() {
+function dosyaIcerigi(kapakYolu) {
   const yt = $('youtube').value.trim();
   const lines = ['---',
     `title: "${$('title').value.trim().replace(/"/g, '\\"')}"`,
     `description: "${($('description').value.trim() || $('title').value.trim()).replace(/"/g, '\\"')}"`,
     'sidebar:', `  order: ${$('order').value || 1}`,
     `youtube: "${yt}"`];
+  if (kapakYolu) lines.push(`kapak: "${kapakYolu}"`);
   const yz = yazarDegeri();
   if (yz.ad) lines.push(`yazar: "${yz.ad.replace(/"/g, '\\"')}"`);
   if (yz.kanal) lines.push(`yazarKanal: "${yz.kanal}"`);
@@ -302,6 +315,7 @@ $('kaydet').addEventListener('click', async () => {
   try {
     btn.textContent = 'Eğitmen hazırlanıyor...';
     await egitmenHazirla(headers);
+    const kapakYolu = await kapakYukle(headers, slug);
     btn.textContent = 'Gönderiliyor...';
     // dosya var mı?
     let sha = null;
@@ -310,7 +324,7 @@ $('kaydet').addEventListener('click', async () => {
       const j = await var_mi.json(); sha = j.sha;
       if (!confirm('Bu dosya zaten var. Üzerine yazılsın mı?')) { btn.disabled = false; btn.textContent = '💾 Kaydet ve Yayınla'; return; }
     }
-    const govde = { message: `ders ekle: ${slug}`, content: b64(dosyaIcerigi()), branch: BRANCH };
+    const govde = { message: `ders ekle: ${slug}`, content: b64(dosyaIcerigi(kapakYolu)), branch: BRANCH };
     if (sha) govde.sha = sha;
     const r = await fetch(url, { method: 'PUT', headers: { ...headers, 'Content-Type': 'application/json' }, body: JSON.stringify(govde) });
     if (!r.ok) {

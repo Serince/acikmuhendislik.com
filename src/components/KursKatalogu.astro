@@ -6,6 +6,9 @@ const gruplar = [
   { id: 'CFD', baslik: 'CFD — Akışkanlar Dinamiği', alt: 'Boru içi akış, dış akış, çift fazlı akış ve mesh teknikleri.' },
   { id: 'Diger', baslik: 'Atölye — Donanım ve Otomasyon', alt: 'Açık donanım projeleri ve FreeCAD programlama.' },
 ];
+
+// Kapak: önce kursa özel resim, yoksa ilk dersin YouTube küçük resmi (her zaman bir şey görünür).
+const kapak = (k) => k.img || (k.ilkVideo ? `https://i.ytimg.com/vi/${k.ilkVideo}/hqdefault.jpg` : '/kurslar/freecad-fem.jpg');
 ---
 <section class="istatistik" aria-label="Site istatistikleri">
   <div><strong>87</strong><span>video ders</span></div>
@@ -22,7 +25,7 @@ const gruplar = [
       {kurslar.filter((k) => k.grup === g.id).map((k) => (
         <a class="kurs-kart" href={k.href}>
           <span class="kurs-kapak">
-            <img src={k.img} alt={`${k.baslik} kurs kapağı`} loading="lazy" />
+            <img src={kapak(k)} alt={`${k.baslik} kurs kapağı`} loading="lazy" decoding="async" width="640" height="360" />
             <span class="kurs-seviye">{k.seviye}</span>
           </span>
           <span class="kurs-govde">

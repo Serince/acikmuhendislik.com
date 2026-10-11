@@ -16,5 +16,5 @@ const tarih = d.tarih ? new Date(d.tarih).toLocaleDateString('tr-TR', { year: 'n
 {d.dogrulama && (
   <p class="uyari">⚠️ Bu dersin video eşleşmesi arşivden otomatik kurtarıldı; lütfen doğru video olduğunu kontrol edin.</p>
 )}
-{videos.map((id) => <YouTube id={id} title={d.title} />)}
+{videos.map((id, i) => <YouTube id={id} title={d.title} eager={i === 0} />)}
 <Default><slot /></Default>

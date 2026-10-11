@@ -7,7 +7,8 @@
     "ders": 8,
     "seviye": "Başlangıç",
     "img": "/kurslar/prepomax.jpg",
-    "grup": "FEM"
+    "grup": "FEM",
+    "ilkVideo": "5s2o0gQy4kY"
   },
   {
     "baslik": "FreeCAD FEM",
@@ -17,7 +18,8 @@
     "ders": 13,
     "seviye": "Başlangıç",
     "img": "/kurslar/freecad-fem.jpg",
-    "grup": "FEM"
+    "grup": "FEM",
+    "ilkVideo": "K2KMLyhuC6I"
   },
   {
     "baslik": "Salome-Meca",
@@ -27,7 +29,8 @@
     "ders": 19,
     "seviye": "Orta",
     "img": "/kurslar/salome-meca.jpg",
-    "grup": "FEM"
+    "grup": "FEM",
+    "ilkVideo": "RtzqtQCb1RA"
   },
   {
     "baslik": "CalculiX FEM",
@@ -37,7 +40,8 @@
     "ders": 3,
     "seviye": "Orta",
     "img": "/kurslar/calculix.jpg",
-    "grup": "FEM"
+    "grup": "FEM",
+    "ilkVideo": "kQXc8mUNtBI"
   },
   {
     "baslik": "FreeCAD Burkulma",
@@ -47,7 +51,8 @@
     "ders": 2,
     "seviye": "Orta",
     "img": "/kurslar/freecad-burkulma.jpg",
-    "grup": "FEM"
+    "grup": "FEM",
+    "ilkVideo": "iZaYncYblFo"
   },
   {
     "baslik": "Yapısal Optimizasyon",
@@ -57,7 +62,8 @@
     "ders": 4,
     "seviye": "İleri",
     "img": "/kurslar/fembygen.jpg",
-    "grup": "FEM"
+    "grup": "FEM",
+    "ilkVideo": "mX0QiXiYDkE"
   },
   {
     "baslik": "OpenRadioss",
@@ -67,7 +73,8 @@
     "ders": 2,
     "seviye": "Orta",
     "img": "/kurslar/openradioss.jpg",
-    "grup": "FEM"
+    "grup": "FEM",
+    "ilkVideo": "8g0e19BbdLM"
   },
   {
     "baslik": "FreeCAD CFD (CfdOF)",
@@ -77,7 +84,8 @@
     "ders": 18,
     "seviye": "Başlangıç",
     "img": "/kurslar/freecad-cfd.jpg",
-    "grup": "CFD"
+    "grup": "CFD",
+    "ilkVideo": "qCBrJcmU47w"
   },
   {
     "baslik": "OpenFOAM (Temel)",
@@ -87,7 +95,8 @@
     "ders": 8,
     "seviye": "Orta",
     "img": "/kurslar/openfoam.jpg",
-    "grup": "CFD"
+    "grup": "CFD",
+    "ilkVideo": "DxA2ihyLokI"
   },
   {
     "baslik": "HelyxOS CFD",
@@ -97,7 +106,8 @@
     "ders": 1,
     "seviye": "Başlangıç",
     "img": "/kurslar/helyxos.jpg",
-    "grup": "CFD"
+    "grup": "CFD",
+    "ilkVideo": "DxA2ihyLokI"
   },
   {
     "baslik": "Açık Donanım",
@@ -107,7 +117,8 @@
     "ders": 3,
     "seviye": "Orta",
     "img": "/kurslar/acik-donanim.jpg",
-    "grup": "Diger"
+    "grup": "Diger",
+    "ilkVideo": "tdpd9_HsV-o"
   },
   {
     "baslik": "FreeCAD Makro",
@@ -117,7 +128,8 @@
     "ders": 4,
     "seviye": "Orta",
     "img": "/kurslar/freecad-makro.jpg",
-    "grup": "Diger"
+    "grup": "Diger",
+    "ilkVideo": "RGxtYLf4Ejw"
   },
   {
     "baslik": "FEniCS",
@@ -127,6 +139,7 @@
     "img": "/kurslar/fenics.jpg",
     "ders": 1,
     "seviye": "İleri",
-    "grup": "FEM"
+    "grup": "FEM",
+    "ilkVideo": "xyaB3YxTgjI"
   }
 ]
