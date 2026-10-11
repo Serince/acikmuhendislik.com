@@ -9,6 +9,8 @@ yazarKanal: "https://www.youtube.com/@ugurcan4366"
 yazilim: "OpenFOAM"
 tarih: 2022-01-28
 ---
+Bu derste, açık kaynak kodlu hesaplamalı akışkanlar mekaniği (CFD) yazılımı OpenFOAM'a temel bir giriş yapılarak yazılımın genel çalışma mantığı ve dosya yapısı ele alınmaktadır. Tipik bir OpenFOAM vaka kurulumunda yer alan 0, constant ve system dizinlerinin işlevleri ile simülasyon parametrelerinin metin tabanlı sözlükler (dictionaries) üzerinden nasıl tanımlandığı üzerinde durulmaktadır. Geometrinin sayısal ağa (mesh) dönüştürülmesi kapsamında temel ağ oluşturma yaklaşımları tanıtılarak, akış alanının ayrıklaştırılması adımları incelenmektedir. Akışkanın termofiziksel özellikleri ile başlangıç ve sınır koşullarının ilgili alan dosyalarına aktarılması süreci aktarılmaktadır. Son olarak, standart bir çözücünün çağrılmasıyla analiz sürecinin başlatılması ve elde edilen sonuçların ParaView gibi görselleştirme araçlarıyla incelenmesine yönelik temel CFD iş akışı özetlenmektedir.
+
 
 Bu ders **Uğur Can** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
 

@@ -10,6 +10,7 @@ export default defineConfig({
       defaultLocale: 'root',
       locales: { root: { label: 'Türkçe', lang: 'tr' } },
       logo: { src: './src/assets/logo.svg', alt: 'Açık Mühendislik' },
+      favicon: '/favicon.svg',
       social: [
         { icon: 'telegram', label: 'Telegram', href: 'https://t.me/acikmuhendislik' },
         { icon: 'github', label: 'GitHub', href: 'https://github.com/Serince/acikmuhendislik.com' },

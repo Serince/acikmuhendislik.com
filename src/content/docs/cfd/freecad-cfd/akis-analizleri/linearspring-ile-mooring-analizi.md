@@ -9,6 +9,8 @@ yazarKanal: "https://www.youtube.com/@AhmetFurkanOymak"
 yazilim: "FreeCAD CfdOF"
 tarih: 2026-09-17
 ---
+Bu derste, FreeCAD CfdOF çalışma tezgâhı kullanılarak yüzen yapıların doğrusal yay (LinearSpring) yaklaşımıyla bağlama (mooring) hattı analizinin kurulum süreci ele alınmaktadır. Akış alanı ve yüzen gövde geometrisinin hazırlanmasının ardından, akışkan özellikleri ile serbest su yüzeyi veya dalga etkileşimlerini temsil eden çok fazlı modelleme adımları yapılandırılmaktadır. Gövde çevresinde ve serbest yüzey geçişlerinde doğruluğu artırmak adına uygun ağ (mesh) yapısı oluşturularak sınır şartları tanımlanmaktadır. Bağlama sistemini modellemek için gövdenin serbestlik derecelerine etki eden kısıtlamalar, eşdeğer yay rijitliği ve bağlantı noktaları tanımlanarak 6-DoF hareket çözücüsü kapsamında LinearSpring yöntemiyle sisteme entegre edilmektedir. Çözücünün çalıştırılmasının ardından, gövdenin zamana bağlı hareket tepkileri, yay kuvvetleri ve akışkan-yapı etkileşiminin dinamik sonuçları değerlendirilmektedir.
+
 
 Yüzen yapıların dalga altında nasıl hareket edeceğini hesaplamak için demirleme (mooring) hatlarının doğru modellenmesi şarttır. Bu derste OpenFOAM CFD ortamında LinearSpring yöntemi ile mooring analizi yapılır: yay katsayıları, bağlantı noktaları ve dalga koşulları tanımlanır. Açık deniz yapılarına ilgi duyanlar için uygulamalı bir giriş niteliğindedir.
 

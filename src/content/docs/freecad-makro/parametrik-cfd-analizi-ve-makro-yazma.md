@@ -9,6 +9,8 @@ yazarKanal: "https://www.youtube.com/@asenacataloluk2419"
 yazilim: "FreeCAD Makro"
 tarih: 2023-06-15
 ---
+Bu derste, FreeCAD ortamında Python makroları kullanılarak parametrik hesaplamalı akışkanlar dinamiği (CFD) süreçlerinin nasıl otomatikleştirileceği ele alınmaktadır. Akış hacminin geometrik modellemesiyle başlayan iş akışında, tasarım parametrelerinin kod aracılığıyla dinamik olarak güncellenmesi ve mesh (ağ) yapısının oluşturulması incelenmektedir. Çalışma kapsamında, akışkan malzeme özelliklerinin tanımlanması ve giriş, çıkış ile cidar gibi sınır şartlarının makro komutlarıyla modele atanması süreçlerine yer verilmektedir. Çözücünün otomatik olarak tetiklenmesi, farklı tasarım varyasyonları için ardışık simülasyonların yürütülmesi ve çözüm sürecinin denetlenmesi aktarılmaktadır. Son olarak, elde edilen basınç, hız dağılımları ve akım çizgileri gibi CFD sonuçlarının parametrik olarak dışa aktarılması ile görselleştirilmesine yönelik adımlar özetlenmektedir.
+
 
 Parametrik analiz mühendislik tasarımlarında optimum tasarımı seçebilmek için oldukça önemlidir.
 

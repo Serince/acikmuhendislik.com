@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Açık Mesh Altıgeni: sağ üst üçgen tamamen yok = açık kapı -->
+  <g fill="none" stroke="#0f6e56" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- merkezden dış düğümlere kollar (sağ üste giden kol yok) -->
+    <path d="M32 36 L51.1 47"/>
+    <path d="M32 36 L32 58"/>
+    <path d="M32 36 L12.9 47"/>
+    <path d="M32 36 L12.9 25"/>
+    <path d="M32 36 L32 14"/>
+    <!-- dış kenarlar (sağ üst iki kenar yok) -->
+    <path d="M51.1 47 L32 58 L12.9 47 L12.9 25 L32 14"/>
+  </g>
+  <g fill="#0f6e56">
+    <circle cx="32" cy="36" r="3.4"/>
+    <circle cx="32" cy="14" r="3"/>
+    <circle cx="51.1" cy="47" r="3"/>
+    <circle cx="32" cy="58" r="3"/>
+    <circle cx="12.9" cy="47" r="3"/>
+    <circle cx="12.9" cy="25" r="3"/>
+  </g>
+</svg>

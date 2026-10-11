@@ -9,6 +9,8 @@ yazarKanal: "https://www.youtube.com/@ugurcan4366"
 yazilim: "OpenFOAM"
 tarih: 2022-01-29
 ---
+Bu derste, OpenFOAM eğitim serisinin ilerleyen aşamalarına paralel olarak tipik hesaplamalı akışkanlar mekaniği (CFD) iş akışının vaka kurulumu ve çözüm adımları ele alınmaktadır. Eğitim içeriğinde, hazırlanan geometrinin hesaplama ağı (mesh) yapısının çözücüye uygun hale getirilmesi ve kalite kontrollerinin gerçekleştirilmesi üzerinde durulmaktadır. Ardından problem türüne uygun fiziksel ve termodinamik malzeme özelliklerinin tanımlanması ile sınır ve başlangıç şartlarının OpenFOAM vaka dizinlerindeki ilgili dosyalarda düzenlenmesi incelenmektedir. Sayısal şemaların ve matris çözücü parametrelerinin ayarlanmasıyla simülasyonun başlatılması, yakınsama kriterlerinin ve kalıntı (residual) değerlerinin takibi bu oturumun odaklandığı konular arasındadır. Son olarak, çözüm sürecinin tamamlanmasının ardından elde edilen hız ve basınç gibi akış alanı sonuçlarının ParaView aracılığıyla görselleştirilmesi ve post-processing aşamaları açıklanmaktadır.
+
 
 Bu ders **Uğur Can** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
 
