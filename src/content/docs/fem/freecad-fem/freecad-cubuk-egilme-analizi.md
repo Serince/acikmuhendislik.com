@@ -8,9 +8,9 @@ yazar: "Nuri Taytan"
 yazarKanal: "https://www.youtube.com/@nuritaytan7838"
 yazilim: "FreeCAD FEM"
 tarih: 2021-08-27
+ozet: "Bu derste, FreeCAD FEM çalışma tezgâhı kullanılarak bir çubuğun eğilme davranışı ve yapısal mukavemet analizi iş akışı ele alınmaktadır. Süreç kapsamında öncelikle analiz edilecek çubuk geometrisinin modellenmesi veya içeri aktarılması adımları üzerinde durulmaktadır. Geometri hazırlandıktan sonra m"
 ---
-Bu derste, FreeCAD FEM çalışma tezgâhı kullanılarak bir çubuğun eğilme davranışı ve yapısal mukavemet analizi iş akışı ele alınmaktadır. Süreç kapsamında öncelikle analiz edilecek çubuk geometrisinin modellenmesi veya içeri aktarılması adımları üzerinde durulmaktadır. Geometri hazırlandıktan sonra modele uygun mekanik malzeme kartı atanarak sistemin malzeme özellikleri tanımlanmaktadır. Ardından, yapının davranışını gerçeğe yakın simüle edebilmek için uygun sınır şartları, mesnet sabitlemeleri ve eğilmeye neden olan yükler çubuk üzerine uygulanmaktadır. Katı modelin sonlu elemanlar ağına (mesh) bölünmesiyle birlikte analiz çözücüye gönderilerek statik hesaplama gerçekleştirilmektedir. Son aşamada ise çözücüden elde edilen von Mises gerilme dağılımları ve sehim (deplasman) değerleri görselleştirilerek çubuğun eğilme performansı değerlendirilmektedir.
-
+## Ders notları
 
 Bu ders **Nuri Taytan** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
 

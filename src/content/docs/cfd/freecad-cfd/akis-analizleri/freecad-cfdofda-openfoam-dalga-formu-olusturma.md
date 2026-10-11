@@ -8,9 +8,9 @@ yazar: "İbrahim Furkan Ercanlı"
 yazarKanal: "https://www.youtube.com/@fercanl2442"
 yazilim: "FreeCAD CfdOF"
 tarih: 2025-06-25
+ozet: "Bu derste, FreeCAD ortamında CfdOF eklentisi ve OpenFOAM altyapısı kullanılarak serbest yüzeyli dalga formlarının oluşturulması ve modellenmesi süreçleri ele alınmaktadır. İlk olarak dalga tankı veya akış alanını temsil eden geometrinin hazırlanması, ardından çok fazlı akış (genellikle hava ve su) a"
 ---
-Bu derste, FreeCAD ortamında CfdOF eklentisi ve OpenFOAM altyapısı kullanılarak serbest yüzeyli dalga formlarının oluşturulması ve modellenmesi süreçleri ele alınmaktadır. İlk olarak dalga tankı veya akış alanını temsil eden geometrinin hazırlanması, ardından çok fazlı akış (genellikle hava ve su) analizine uygun hesaplama ağının (mesh) oluşturulması adımları üzerinde durulmaktadır. Çok fazlı akışkan özellikleri tanımlandıktan sonra, istenen dalga özelliklerini sağlayacak sınır şartları ve giriş koşulları CfdOF arayüzü üzerinden belirlenmektedir. Çözücü ayarları yapılarak OpenFOAM tabanlı zamana bağlı (transient) çözüm süreci başlatılmakta ve faz etkileşimleri simüle edilmektedir. Çözümün ardından, dalga profilinin gelişimi, yüzey deformasyonu ve faz dağılımı gibi sonuçların görselleştirilip incelenmesi adımları aktarılmaktadır.
-
+## Ders notları
 
 Çift fazlı analizlerde OpenFOAM'un sunduğu dalga formülasyonlarından yararlanılarak dalgalı su analizleri gerçekleştirilebilir.
 

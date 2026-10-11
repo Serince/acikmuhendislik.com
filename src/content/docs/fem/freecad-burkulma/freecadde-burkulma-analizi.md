@@ -8,9 +8,9 @@ yazar: "Berat Yağmur"
 yazarKanal: "https://www.youtube.com/@beratyyagmur"
 yazilim: "FreeCAD FEM"
 tarih: 2023-05-15
+ozet: "Bası yükleri altında hasar sadece akma sınırı üzerindeki gerilmeler ile gerçekleşmez. Ayrıca yapının narinliğine bağlı olarak bir kararsızlık hali olan burkulma olarak da gerçekleşebilir. Özellikle elastik bölgede yani akma sınırının altıda gerçekleşecek burkulma oldukça tehlikelidir. Bu sebeple bir"
 ---
-
-Bası yükleri altında hasar sadece akma sınırı üzerindeki gerilmeler ile gerçekleşmez. Ayrıca yapının narinliğine bağlı olarak bir kararsızlık hali olan burkulma olarak da gerçekleşebilir. Özellikle elastik bölgede yani akma sınırının altıda gerçekleşecek burkulma oldukça tehlikelidir. Bu sebeple bir sistemde bası yükleri altında ayrıca lokal bölgelerin burkulma analizine tabi tutulması önemlidir.
+## Ders notları
 
 Akma sınırının altıda gerçekleşecek burkulma oldukça tehlikelidir. Bu sebeple bir sistemde bası yükleri altında ayrıca burkulma analizine tabi tutulması önemlidir.
 

@@ -8,9 +8,9 @@ yazar: "Furkan Arıkan"
 yazarKanal: "https://www.youtube.com/@FurkanAr%C4%B1kan-y2f"
 yazilim: "Salome-Meca"
 tarih: 2023-11-06
+ozet: "Bu derste, açık kaynaklı sonlu elemanlar analizi platformu Salome-Meca’nın Windows işletim sisteminde çalışır hale getirilmesi için izlenen temel kurulum adımları ele alınmaktadır. Linux tabanlı bir altyapıya sahip olan yazılımın Windows ortamında sorunsuz çalışabilmesi için gerekli sanallaştırma ar"
 ---
-Bu derste, açık kaynaklı sonlu elemanlar analizi platformu Salome-Meca’nın Windows işletim sisteminde çalışır hale getirilmesi için izlenen temel kurulum adımları ele alınmaktadır. Linux tabanlı bir altyapıya sahip olan yazılımın Windows ortamında sorunsuz çalışabilmesi için gerekli sanallaştırma araçlarının veya uyumluluk katmanlarının yapılandırılması incelenmektedir. Kurulum paketlerinin indirilmesi, ortam değişkenlerinin ayarlanması ve gerekli bağımlılıkların eksiksiz tamamlanması üzerinde durulmaktadır. Kullanıcıların geometri modelleme, ağ (mesh) oluşturma ve Code_Aster çözücüsü ile analiz yürütme iş akışına geçebilmesi için platformun grafik arayüzünün ilk çalıştırılma süreci açıklanmaktadır. Ayrıca, kurulum sonrası sistemin ve çözücünün doğru çalıştığını doğrulamaya yönelik genel test adımlarına odaklanılmaktadır.
-
+## Ders notları
 
 Salome meca, code aster çözücüsüyle birlikte herşeyi içeren bir sonlu elemanlar çözüm programıdır. pre, post ve solver aynı paket içinde yer almaktadır. Öncelikle Salome-Meca’yı yükleme ile ilgili videoda izlenen yolları şu linkten erişebilirisiniz.
 

@@ -8,9 +8,9 @@ yazar: "Pakrad Amini"
 yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD CfdOF"
 tarih: 2021-11-06
+ozet: "Bu derste, FreeCAD CfdOF çalışma tezgahı kullanılarak gözenekli bölge (porous zone) içeren akış problemlerinin modellenmesi ve hekzahedral (hex) ağ yapısının oluşturulması konuları ele alınmaktadır. İş akışı kapsamında ilk olarak, akış hacmi ile birlikte gözenekli ortamı temsil eden alt bölgenin geo"
 ---
-Bu derste, FreeCAD CfdOF çalışma tezgahı kullanılarak gözenekli bölge (porous zone) içeren akış problemlerinin modellenmesi ve hekzahedral (hex) ağ yapısının oluşturulması konuları ele alınmaktadır. İş akışı kapsamında ilk olarak, akış hacmi ile birlikte gözenekli ortamı temsil eden alt bölgenin geometrik modelleri hazırlanarak analize uygun hale getirilir. Çözüm doğruluğunu ve hesaplama verimliliğini artırmak amacıyla, snappyHexMesh veya benzeri algoritmalar üzerinden yüzey ve hacim için hekzahedral hücrelerden oluşan yapısal bir ağ (hex mesh) tanımlaması yapılır. Ardından akışkan malzeme özellikleri, sistemin giriş-çıkış sınır şartları ve gözenekli bölgenin akışa karşı göstereceği direnci modelleyen Darcy-Forchheimer parametreleri CfdOF arayüzünde belirlenir. Son olarak, OpenFOAM tabanlı çözücü çalıştırılarak gözenekli ortamdan geçen akışın oluşturduğu basınç düşüşü ve hız profilindeki değişimler görselleştirilerek sonuçlar değerlendirilir.
-
+## Ders notları
 
 Bu ders **Pakrad Amini** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
 

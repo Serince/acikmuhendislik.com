@@ -8,9 +8,9 @@ yazar: "Yiğit İslamoğlu"
 yazarKanal: "https://www.youtube.com/@yigitislamoglu1"
 yazilim: "Salome-Meca"
 tarih: 2026-09-17
+ozet: "Bu derste, Salome-Meca ortamında tek boyutlu (1D) elemanlar kullanılarak bir kolonun elastik burkulma analizi iş akışı ele alınmaktadır. Eğitim kapsamında ilk olarak kiriş geometrisinin çizgi modeli olarak oluşturulması ve buna uygun 1D ağ (mesh) yapısının atanması üzerinde durulmaktadır. Ardından A"
 ---
-Bu derste, Salome-Meca ortamında tek boyutlu (1D) elemanlar kullanılarak bir kolonun elastik burkulma analizi iş akışı ele alınmaktadır. Eğitim kapsamında ilk olarak kiriş geometrisinin çizgi modeli olarak oluşturulması ve buna uygun 1D ağ (mesh) yapısının atanması üzerinde durulmaktadır. Ardından AsterStudy arayüzünde malzemeye ait elastisite modülü ile kesit özelliklerinin (profil geometrisi ve atalet momentleri) tanımlanması süreci incelenmektedir. Sistemin mesnetlenme biçimine göre sınır koşulları belirlenerek, kolonun serbest ucuna burkulmayı tetikleyecek eksenel basma yükü uygulanmaktadır. Çözüm aşamasında ise lineer elastik analiz ve ardından kritik yük çarpanlarını veren özdeğer (buckling) analizi kurulumu gösterilmektedir. Son olarak, elde edilen kritik burkulma yükleri ve bunlara karşılık gelen burkulma mod şekilleri ParaViS modülü üzerinden görselleştirilerek sonuçların teorik yaklaşımlarla doğrulanması ele alınmaktadır.
-
+## Ders notları
 
 Basınç altındaki bir kolonun ne zaman burkulacağını bilmek, tasarımın en kritik sorularından biridir. Bu derste Salome-Meca ile 1D bir kolonun lineer burkulma analizi yapılır: kiriş modeli, mesnet şartları ve burkulma yükünün hesaplanması adım adım gösterilir. Statik analizden burkulma analizine geçişin mantığını kavramak için sade ve öğretici bir örnektir.
 

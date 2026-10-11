@@ -8,9 +8,9 @@ yazar: "Ahmet Emre Yüksel"
 yazarKanal: "https://www.youtube.com/@ahmetemreyuksel3694"
 yazilim: "OpenRadioss"
 tarih: 2024-05-20
+ozet: "OpenRadioss Altair firmasının uzun yıllardır geliştirdiği bir çözücüdür. Altair 2022 tılı itibariyle tüm kaynak kodlarını açık kaynağa çevirmiştir. Çözücünün model hazırlama ve sonuçların görüntülenmesi için başka yazılıma ihtiyaç duymaktadır. Bunun için bu videoda hyperview ve paraview yazılımlarıd"
 ---
-
-OpenRadioss Altair firmasının uzun yıllardır geliştirdiği bir çözücüdür. Altair 2022 tılı itibariyle tüm kaynak kodlarını açık kaynağa çevirmiştir. Çözücünün model hazırlama ve sonuçların görüntülenmesi için başka yazılıma ihtiyaç duymaktadır. Bunun için bu videoda hyperview ve paraview yazılımlarıda yüklenmiş ve örnek iki analiz çalıştırılarak sonuçları görselleştirilmiştir.
+## Ders notları
 
 OpenRadioss güçlü bir implicit ve explicit sonlu elemanlar çözücüsüdür. Yani zamana bağlı analizleri (patlama, çarpışma, şok) hızlıca çözebilirsiniz. Elde edilen sonuçları Hyperview ve Paraview ile görselleştirebilirsiniz.
 

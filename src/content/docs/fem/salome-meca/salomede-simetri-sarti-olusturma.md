@@ -8,9 +8,9 @@ yazar: "Nedir Ymamov"
 yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-11-06
+ozet: "Bu derste ele alınan temel konu, sonlu elemanlar analizlerinde hesaplama süresini ve model boyutunu optimize etmek amacıyla Salome-Meca ortamında simetri sınır şartlarının nasıl tanımlandığıdır. İş akışı kapsamında ilk olarak, simetrik geometriye sahip modelin uygun simetri düzlemleri belirlenerek M"
 ---
-Bu derste ele alınan temel konu, sonlu elemanlar analizlerinde hesaplama süresini ve model boyutunu optimize etmek amacıyla Salome-Meca ortamında simetri sınır şartlarının nasıl tanımlandığıdır. İş akışı kapsamında ilk olarak, simetrik geometriye sahip modelin uygun simetri düzlemleri belirlenerek Mesh modülünde ilgili yüzeyler için sınır grupları (group of faces) oluşturulur. Ardından AsterStudy arayüzüne geçilerek malzeme ve eleman özellikleri tanımlanır, simetri düzlemi üzerindeki serbestlik derecelerini kısıtlayan mekanik sınır şartları uygulanır. Çözücü parametreleri ve yüklemeler ayarlandıktan sonra analiz Code_Aster ile koşturulur. Son olarak post-processing aşamasında, kısmi model üzerinden elde edilen gerilme ve yer değiştirme sonuçlarının tam model davranışını nasıl yansıttığı değerlendirilir.
-
+## Ders notları
 
 Bu ders **Nedir Ymamov** tarafından hazırlanmıştır. Videoyu izledikten sonra sorularınızı [Telegram grubumuzda](https://t.me/acikmuhendislik) sorabilirsiniz.
 
