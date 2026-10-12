@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@AhmetFurkanOymak"
 yazilim: "FreeCAD CfdOF"
 tarih: 2026-09-17
 ozet: "Bu derste, FreeCAD CfdOF ortamı kullanılarak MoorDyn kütüphanesi entegrasyonu ile açık deniz ve yüzer yapıların bağlama (mooring) hattı analizlerinin gerçekleştirilme süreci ele alınmaktadır. İş akışında öncelikle yüzer gövdenin geometrik modeli oluşturulmakta veya içe aktarılmakta, ardından akışkan"
+teaser: "Yüzer yapıların dalgalar altında konumunu nasıl koruduğunu görmek için bağlama hatlarını MoorDyn ile modelleyip akışkan simülasyonuna adım adım bağlamayı öğreneceksiniz."
 ---
 ## Ders notları
 

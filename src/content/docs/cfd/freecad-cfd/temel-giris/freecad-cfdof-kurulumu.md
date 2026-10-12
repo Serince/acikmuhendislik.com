@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD CfdOF"
 tarih: 2021-10-13
 ozet: "Bu derste, FreeCAD ortamında hesaplamalı akışkanlar mekaniği (CFD) analizleri gerçekleştirebilmek için gerekli olan CfdOF çalışma tezgahının (workbench) sisteme entegrasyonu ele alınmaktadır. Eğitim kapsamında, FreeCAD Eklenti Yöneticisi (Addon Manager) üzerinden CfdOF modülünün indirilmesi ve arka "
+teaser: "Akışkan simülasyonlarına adım atmak isteyenler için CfdOF'u FreeCAD'e ekleyip OpenFOAM gibi arka plan araçlarıyla çalışır hâle getirmenin yolunu keşfedin."
 ---
 ## Ders notları
 

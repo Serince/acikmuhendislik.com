@@ -9,7 +9,8 @@ export const collections = {
       extend: z.object({
         // Ders sayfalarına özel alanlar (Pages CMS formunda da bunlar görünür)
         youtube: z.union([z.string(), z.array(z.string())]).optional(),
-        ozet: z.string().optional(), // "Bu derste" kutusunun kaynagi; govdede tekrar etmez
+        ozet: z.string().optional(),
+        teaser: z.string().optional(), // kutuda gosterilen bagimsiz cumle // "Bu derste" kutusunun kaynagi; govdede tekrar etmez
         kapak: z.string().optional(), // ders kartı resmi; yoksa kurs kapağı kullanılır
         yazar: z.string().optional(),
         yazarKanal: z.string().url().optional(),

@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD FEM"
 tarih: 2021-10-07
 ozet: "Bu derste FreeCAD FEM çalışma tezgahı kullanılarak derinlikle doğrusal olarak değişen hidrostatik basınç yükünün bir yapıya uygulanması konusu ele alınmaktadır. Tipik analiz akışına uygun olarak, öncelikle geometrik modelin hazırlanması ve analizi yapılacak gövdeye uygun malzeme tanımlamasının gerçe"
+teaser: "Su tankı veya baraj duvarı gibi yapılarda derinlikle artan sıvı basıncını FreeCAD FEM ile modelleyip gerçekçi yük dağılımını adım adım uyguluyoruz."
 ---
 ## Ders notları
 

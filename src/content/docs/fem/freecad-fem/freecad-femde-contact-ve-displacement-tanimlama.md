@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD FEM"
 tarih: 2021-09-23
 ozet: "Bu derste, FreeCAD FEM çalışma tezgahı kullanılarak temas (contact) mekaniği ve yer değiştirme (displacement) sınır şartlarının sonlu elemanlar analizine nasıl entegre edildiği ele alınmaktadır. İş akışı kapsamında, öncelikle birbirleriyle etkileşim halinde olan çoklu katı modellerin geometri hazırl"
+teaser: "Birbirine dokunan parçaların kuvvet aktarımını gerçekçi biçimde modelleyip sabitleme koşullarıyla analizi doğru kurmayı adım adım öğrenin."
 ---
 ## Ders notları
 

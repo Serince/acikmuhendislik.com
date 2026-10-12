@@ -8,6 +8,7 @@ yazar: "Volkan Bayrak"
 yazarKanal: "https://www.youtube.com/@volkanbayrak8896"
 yazilim: "FreeCAD FEMbyGEN"
 tarih: 2024-05-01
+teaser: "FEMbyGEN ile malzemeyi yalnızca yükün gerçekten aktığı yerlerde bırakarak hafif ve dayanıklı parça geometrileri türetmeyi keşfedeceksiniz."
 ---
 
 Topoloji optimizasyonu gerçekleştirilirken sonlu elemanlar analizi sonuçlarına göre mukavemete en az katkısı olan elemanların iteratif olarak silinmesiyle optimum tasarımın bulunması amaçlanmaktadır.

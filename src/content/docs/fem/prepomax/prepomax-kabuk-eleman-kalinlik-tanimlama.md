@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@huseyinkursadnamli1015"
 yazilim: "PrePoMax"
 tarih: 2024-04-17
 ozet: "Bu derste, PrePoMax yazılımında kabuk (shell) elemanlar kullanılarak gerçekleştirilen sonlu elemanlar analizi sürecinde kalınlık parametresinin nasıl tanımlandığı ele alınmaktadır. Yüzey geometrisi olarak içe aktarılan veya hazırlanan modelin kabuk eleman ağına (mesh) dönüştürülmesi ve ilgili yüzeyl"
+teaser: "PrePoMax'te yüzey modellerine gerçek fiziksel kalınlık kazandırarak ince cidarlı yapıları kabuk elemanlarla doğru ve verimli biçimde analiz etmeyi öğrenin."
 ---
 ## Ders notları
 

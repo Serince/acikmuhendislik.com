@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD FEM"
 tarih: 2021-09-02
 ozet: "Bu derste, FreeCAD FEM çalışma tezgahı kullanılarak bir çekme testi numunesinin yapısal analiz süreci ele alınmaktadır. İş akışı kapsamında ilk olarak çekme numunesi geometrisinin analize hazırlanması ve ardından FEM ortamına aktarılarak malzeme özelliklerinin tanımlanması üzerinde durulmaktadır. Mo"
+teaser: "Bir çekme numunesine kuvvet uygulandığında oluşan gerilmeleri görmek için geometriyi hazırlayıp malzeme tanımlayarak FreeCAD'de adım adım sanal bir test kuracaksınız."
 ---
 ## Ders notları
 

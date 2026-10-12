@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-10-08
 ozet: "Bu derste, açık kaynaklı sonlu elemanlar yazılımı Salome-Meca kullanılarak basit bir kirişin yapısal analiz süreci ele alınmaktadır. Eğitim kapsamında ilk olarak Salome arayüzünde kiriş geometrisinin oluşturulması ve ardından analiz için uygun sonlu elemanlar ağının (mesh) tanımlanması adımları işle"
+teaser: "Geometriden mesh'e uzanan adımlarla bir kirişin davranışını Salome-Meca ortamında modelleyip sonlu elemanlar yöntemiyle nasıl çözümleyeceğinizi uygulamalı olarak keşfedin."
 ---
 ## Ders notları
 

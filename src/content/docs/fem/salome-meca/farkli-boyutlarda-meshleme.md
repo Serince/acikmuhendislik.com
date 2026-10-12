@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-10-25
 ozet: "Bu derste, Salome-Meca ortamında analiz modelinin geometrisine bağlı olarak farklı boyutlarda (1D, 2D ve 3D) mesh oluşturma teknikleri ele alınmaktadır. Geometri modülünde hazırlanan veya içe aktarılan parçalar üzerinde Mesh modülü kullanılarak çizgi, yüzey ve hacim elemanlarının nasıl tanımlandığı "
+teaser: "Çizgi, yüzey ve hacim elemanlarıyla modelinize en uygun ağ yapısını seçmeyi ve Salome-Meca'nın Mesh modülünde adım adım uygulamayı öğrenin."
 ---
 ## Ders notları
 

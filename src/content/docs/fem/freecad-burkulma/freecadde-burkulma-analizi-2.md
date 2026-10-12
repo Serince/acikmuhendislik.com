@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@beratyyagmur"
 yazilim: "FreeCAD FEM"
 tarih: 2023-06-15
 ozet: "Bu derste FreeCAD FEM çalışma tezgahı kullanılarak ince cidarlı veya bası etkisindeki yapısal elemanların burkulma (buckling) analizi süreçleri ele alınmaktadır. İş akışı kapsamında ilk olarak incelenecek parçanın geometrisi hazırlanmakta ve ardından analiz için uygun elastisite modülü ile yoğunluk "
+teaser: "İnce cidarlı parçaların bası yükü altında hangi şekillerde çökeceğini FreeCAD FEM ile öngörmeyi, kritik yük katsayılarını ve burkulma mod şekillerini yorumlamayı öğrenin."
 ---
 ## Ders notları
 

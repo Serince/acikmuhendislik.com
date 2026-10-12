@@ -14,6 +14,7 @@ ozet: "Bu derste, FreeCAD CfdOF çalışma tezgahı kullanılarak hesaplamalı a
 y
 +
  parametresinin hesaplanması ve ağ yapısının (mesh) iyileştirilmesi adımları ele alınmaktadır. Akış modeli oluşturulduktan sonra, se"
+teaser: "Duvar yakınındaki akışı doğru yakalamak için FreeCAD CfdOF'ta y+ değerini hesaplamayı ve sınır tabakası ağını buna göre iyileştirmeyi öğreneceksiniz."
 ---
 ## Ders notları
 

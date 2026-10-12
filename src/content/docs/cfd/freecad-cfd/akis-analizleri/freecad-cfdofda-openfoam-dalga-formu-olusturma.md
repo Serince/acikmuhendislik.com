@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@fercanl2442"
 yazilim: "FreeCAD CfdOF"
 tarih: 2025-06-25
 ozet: "Bu derste, FreeCAD ortamında CfdOF eklentisi ve OpenFOAM altyapısı kullanılarak serbest yüzeyli dalga formlarının oluşturulması ve modellenmesi süreçleri ele alınmaktadır. İlk olarak dalga tankı veya akış alanını temsil eden geometrinin hazırlanması, ardından çok fazlı akış (genellikle hava ve su) a"
+teaser: "Hava ve su arasındaki ara yüzeyi canlandırarak, sanal bir tankta gerçekçi dalgalar üretmeyi ve bunların davranışını adım adım simüle etmeyi keşfedin."
 ---
 ## Ders notları
 

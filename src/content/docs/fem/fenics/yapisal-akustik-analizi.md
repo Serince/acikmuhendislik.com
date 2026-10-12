@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhammetfurkansar9418"
 yazilim: "FEniCS"
 tarih: 2025-06-25
 ozet: "Bu derste, açık kaynaklı sonlu elemanlar kütüphanesi FEniCS kullanılarak katı yapılar ile akustik akışkan ortamı arasındaki etkileşimi modelleyen yapısal akustik (vibroakustik) analiz iş akışı ele alınmaktadır. Eğitim kapsamında ilk olarak elastodinamik ve Helmholtz/dalga denklemleri üzerinden çoklu"
+teaser: "Titreşen bir yapının çevresindeki havaya nasıl ses yaydığını, FEniCS ile elastodinamik ve Helmholtz denklemlerini birleştirerek adım adım simüle etmeyi öğreneceksiniz."
 ---
 ## Ders notları
 

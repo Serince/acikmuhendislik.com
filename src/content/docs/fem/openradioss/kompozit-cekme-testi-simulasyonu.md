@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@ahmetemreyuksel3694"
 yazilim: "OpenRadioss"
 tarih: 2026-09-17
 ozet: "Bu derste, OpenRadioss çözücüsü kullanılarak bir kompozit numunenin çekme testi simülasyonunun uçtan uca kurulum süreci ele alınmaktadır. Eğitim kapsamında ilk olarak test kuponunun geometrik modeli hazırlanarak kompozit tabakalanma yapısına uygun sonlu elemanlar ağı (mesh) oluşturulmaktadır. Ardınd"
+teaser: "Kompozit kuponun katman yapısından ağ örgüsüne, yükleme koşullarından sonuç değerlendirmesine kadar sanal çekme deneyini OpenRadioss'ta adım adım kurmayı öğrenin."
 ---
 ## Ders notları
 

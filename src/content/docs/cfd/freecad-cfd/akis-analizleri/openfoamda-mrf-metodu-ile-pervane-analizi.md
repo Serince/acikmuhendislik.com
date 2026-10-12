@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@fnurozdagl"
 yazilim: "OpenFOAM"
 tarih: 2025-06-25
 ozet: "Bu derste, OpenFOAM ortamında dönen ekipmanların aerodinamik veya hidrodinamik davranışlarını incelemek için sıkça başvurulan Çoklu Referans Çerçevesi (MRF) yöntemiyle pervane analizinin genel iş akışı ele alınmaktadır. Süreç, pervane geometrisinin ve dönen akışkan hacmini temsil eden MRF bölgesinin"
+teaser: "Dönen pervaneyi sabit ağ üzerinde modelleyerek itki ve tork değerlerini verimli biçimde hesaplamanın adımlarını uygulamalı olarak keşfedin."
 ---
 ## Ders notları
 

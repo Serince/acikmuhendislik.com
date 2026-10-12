@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD CfdOF"
 tarih: 2021-10-29
 ozet: "Bu derste, FreeCAD CfdOF çalışma tezgahı kullanılarak hesaplamalı akışkanlar mekaniği (CFD) analizlerinde sınır tabaka (boundary layer) modellemesi ve bölgesel ağ (mesh) yoğunlaştırma adımları ele alınmaktadır. Akış hacmi geometrisi üzerinde, cidar etkilerinin ve viskoz kayıpların kritik olduğu yüze"
+teaser: "Duvar yakınındaki hız gradyanlarını doğru yakalamak için akış hacminin kritik yüzeylerine katmanlı ince hücreler ekleyerek çözüm hassasiyetini artırmayı öğreneceksiniz."
 ---
 ## Ders notları
 

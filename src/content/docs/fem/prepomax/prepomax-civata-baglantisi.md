@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@zibidibabbubbaov3538"
 yazilim: "PrePoMax"
 tarih: 2026-09-17
 ozet: "Bu derste, PrePoMax yazılımı kullanılarak sonlu elemanlar analizinde cıvata bağlantılarının modellenmesi ve ön gerilme (bolt pretension) ayarlarının yapılması süreci ele alınmaktadır. İş akışı kapsamında ilk olarak cıvatalı geometri PrePoMax ortamına aktarılmakta, ilgili parçalara uygun malzeme özel"
+teaser: "Cıvatalı montajlarda ön gerilmeyi doğru tanımlayarak PrePoMax'te gerçekçi temas ve gerilme sonuçları elde etmenin adımlarını keşfedin."
 ---
 ## Ders notları
 

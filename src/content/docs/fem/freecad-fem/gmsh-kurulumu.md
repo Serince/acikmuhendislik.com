@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD FEM"
 tarih: 2021-09-02
 ozet: "Bu derste, FreeCAD FEM çalışma tezgahında gelişmiş sonlu elemanlar ağı (mesh) oluşturabilmek için harici bir ağ üretici olan Gmsh yazılımının sisteme entegrasyonu ele alınmaktadır. FEM iş akışında geometrisi tamamlanan modellerin analiz doğruluğu ağ kalitesine doğrudan bağlı olduğundan, Gmsh'in indi"
+teaser: "Analiz sonuçlarınızın güvenilirliğini artıracak yüksek kaliteli ağlar için Gmsh'i indirip FreeCAD'e tanıtmayı ve yol ayarlarını doğru yapılandırmayı adım adım öğrenin."
 ---
 ## Ders notları
 

@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@engineer-e4y"
 yazilim: "FreeCAD FEMbyGEN"
 tarih: 2024-06-20
 ozet: "FembyGen eklentisi kullanılarak parametrik analiz yapılan bir yapıda parametrelerin istatistiksel olarak değerlendirilmesi optimum tasarımı bulmak için önemlidir. Bu çalışmada FreeCAD FEMbyGEN eklentisi içinde bulunan istatistiksel karar verme araçlarından olan Pareto ve Pearson R yöntemlerinin kull"
+teaser: "Pareto ve Pearson R yöntemleriyle parametreler arasındaki ilişkileri çözümleyerek çok sayıda tasarım alternatifi içinden en verimli olanı seçmeyi öğrenin."
 ---
 ## Ders notları
 

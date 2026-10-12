@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@yigitislamoglu1"
 yazilim: "Salome-Meca"
 tarih: 2026-09-17
 ozet: "Bu derste, Salome-Meca ortamında tek boyutlu (1D) elemanlar kullanılarak bir kolonun elastik burkulma analizi iş akışı ele alınmaktadır. Eğitim kapsamında ilk olarak kiriş geometrisinin çizgi modeli olarak oluşturulması ve buna uygun 1D ağ (mesh) yapısının atanması üzerinde durulmaktadır. Ardından A"
+teaser: "Çizgi modelden kritik yük faktörüne uzanan süreçte, bir kolonun hangi yükte stabilitesini yitirdiğini Salome-Meca ile adım adım keşfedeceksiniz."
 ---
 ## Ders notları
 

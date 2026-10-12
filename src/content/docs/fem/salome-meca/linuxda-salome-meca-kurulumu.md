@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-09-10
 ozet: "Bu derste, açık kaynaklı sonlu elemanlar analiz paketi Salome-Meca'nın Linux işletim sistemi üzerine kurulum adımları ele alınmaktadır. Eğitim içeriğinde, yazılımın sorunsuz çalışabilmesi için gereken sistem bağımlılıklarının kontrol edilmesi ve kurulum paketinin sisteme entegrasyon süreci üzerinde "
+teaser: "Linux makinenizde Salome-Meca'yı çalışır hâle getirmek için gerekli bağımlılıkları doğrulayıp kurulum paketini sisteme nasıl sorunsuzca entegre edeceğinizi adım adım keşfedin."
 ---
 ## Ders notları
 

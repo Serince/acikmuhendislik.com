@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD CfdOF"
 tarih: 2021-11-14
 ozet: "Bu derste, FreeCAD CfdOF çalışma tezgahı kullanılarak sabit sıcaklık sınır şartları altında gerçekleştirilen kararlı durum termal akış analizi iş akışı ele alınmaktadır. Süreç, analiz edilecek geometrik modelin hazırlanması ve akışkan ya da katı etki alanının CfdOF arayüzüne aktarılmasıyla başlamakt"
+teaser: "Sabit sıcaklık koşullarında ısının akışkan ve katı bölgelerde nasıl dağıldığını, modeli hazırlamaktan sonuçları yorumlamaya kadar adım adım keşfedin."
 ---
 ## Ders notları
 

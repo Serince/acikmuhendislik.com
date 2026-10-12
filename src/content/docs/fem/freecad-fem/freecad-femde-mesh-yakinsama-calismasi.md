@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD FEM"
 tarih: 2021-09-24
 ozet: "Bu derste, FreeCAD FEM çalışma tezgahı kullanılarak sonlu elemanlar analizinde sonuçların ağ yoğunluğuna bağımlılığını inceleyen mesh yakınsama (mesh convergence) süreci ele alınmaktadır. İş akışı kapsamında, hazırlanan katı model geometriye uygun malzeme ataması gerçekleştirilmekte, ardından analiz"
+teaser: "Ağ inceldikçe gerilme sonuçlarının nasıl değiştiğini adım adım gözlemleyerek simülasyonunuzun güvenilir, eleman boyutundan bağımsız sonuçlar verdiğinden nasıl emin olacağınızı öğrenin."
 ---
 ## Ders notları
 

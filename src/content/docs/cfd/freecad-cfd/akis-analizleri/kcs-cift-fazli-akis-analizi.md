@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@Askleipos"
 yazilim: "FreeCAD CfdOF"
 tarih: 2025-01-31
 ozet: "Bu derste, FreeCAD CfdOF çalışma tezgâhı kullanılarak KCS (KRISO Container Ship) gövdesi etrafındaki çift fazlı (su ve hava) serbest yüzeyli akış analizi süreci ele alınmaktadır. İş akışı kapsamında ilk olarak gemi geometrisinin hesaplama hacmi içerisine yerleştirilmesi, su ve hava fazlarını tanımla"
+teaser: "Konteyner gemisi gövdesinin su ve hava arasındaki ara yüzde nasıl dalga oluşturduğunu, açık kaynaklı araçlarla adım adım modelleyerek serbest yüzey davranışını keşfedin."
 ---
 ## Ders notları
 

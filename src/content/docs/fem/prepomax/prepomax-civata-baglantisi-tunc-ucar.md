@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@tuunch"
 yazilim: "PrePoMax"
 tarih: 2026-09-17
 ozet: "Bu derste, PrePoMax yazılımı kullanılarak montaj yapılarında cıvata bağlantılarının sonlu elemanlar yöntemiyle modellenmesi ve analizi ele alınmaktadır. İş akışı kapsamında, birleştirilecek parçaların ve cıvata geometrisinin sisteme aktarılması, uygun malzeme özelliklerinin tanımlanması ve temas yüz"
+teaser: "Ön yüklemeli cıvataların temas tanımlarıyla nasıl modellendiğini ve birleşen parçalarda oluşan gerilmelerin PrePoMax'te adım adım nasıl yorumlandığını keşfedin."
 ---
 ## Ders notları
 

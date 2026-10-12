@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-11-23
 ozet: "Bu derste, Salome-Meca ortamında sonlu elemanlar analizlerinin güvenilirliğini doğrulamak amacıyla uygulanan ağ (mesh) yakınsama çalışması iş akışı ele alınmaktadır. Süreç, mevcut geometrik modelin Salome platformunun Mesh modülüne aktarılması ve temel malzeme özellikleri ile sınır şartlarının tanım"
+teaser: "Ağ yoğunluğunu kademeli artırarak sonuçların hangi noktada kararlı hâle geldiğini görecek, Salome-Meca analizlerinize güvenle dayanabileceğiniz ideal mesh boyutunu belirleyeceksiniz."
 ---
 ## Ders notları
 

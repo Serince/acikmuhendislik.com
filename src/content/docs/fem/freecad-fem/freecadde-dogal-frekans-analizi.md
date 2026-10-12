@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD FEM"
 tarih: 2021-12-21
 ozet: "Bu derste, FreeCAD FEM çalışma tezgâhı kullanılarak katı bir model üzerinde doğal frekans (modal) analizinin gerçekleştirilme adımları ele alınmaktadır. Süreç, analiz edilecek geometrinin FEM ortamına aktarılması ve dinamik davranışı doğrudan etkileyen malzeme özelliklerinin (özellikle elastisite mo"
+teaser: "Modelinizin hangi frekanslarda titreşeceğini önceden görmek için malzeme tanımından mod şekillerinin yorumlanmasına kadar modal analizi adım adım keşfedin."
 ---
 ## Ders notları
 

@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD FEM"
 tarih: 2021-10-12
 ozet: "Bu derste, FreeCAD FEM çalışma tezgahı kullanılarak simetrik geometriye ve yüklemeye sahip parçaların sonlu elemanlar analizi sürecinde simetri sınır şartlarının uygulanması ele alınmaktadır. Tam model yerine simetri düzlemleri üzerinden sadeleştirilmiş geometrilerin analize hazırlanması, mesh yoğun"
+teaser: "Modelin yalnızca bir kısmını çözerek hesaplama yükünü azaltmayı ve kesit görünümleriyle iç gerilme dağılımını net biçimde incelemeyi öğreneceksiniz."
 ---
 ## Ders notları
 

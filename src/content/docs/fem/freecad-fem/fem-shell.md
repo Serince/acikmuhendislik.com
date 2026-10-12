@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD FEM"
 tarih: 2021-09-06
 ozet: "Bu derste, FreeCAD FEM çalışma tezgahı kullanılarak ince cidarlı yapıların analizinde kabuk (shell) kalınlığı tanımlama adımları ele alınmaktadır. İki boyutlu veya yüzey geometrileriyle çalışırken katı modelleme yerine kabuk eleman yaklaşımının nasıl kurulduğu ve ilgili yüzeylere kalınlık parametres"
+teaser: "İnce cidarlı parçaları hacimsel ağ yükü olmadan modellemek için yüzeylere kalınlık atayarak kabuk eleman analizini adım adım kurmayı öğreneceksiniz."
 ---
 ## Ders notları
 

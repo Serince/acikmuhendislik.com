@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-11-22
 ozet: "Bu derste, Salome-Meca ortamında 1D kiriş elemanları kullanılarak modellenen yapısal elemanlara Hollanda profili (bulb flat) kesit geometrisinin tanımlanması süreci ele alınmaktadır. İş akışı kapsamında ilk olarak kiriş geometrisinin ve buna uygun sonlu elemanlar ağının (mesh) hazırlanması, ardından"
+teaser: "Gemi yapılarında sıkça kullanılan Hollanda profilini 1D kiriş modelinize nasıl kazandıracağınızı, geometri ve ağ hazırlığından kesit atamasına kadar adım adım keşfedin."
 ---
 ## Ders notları
 

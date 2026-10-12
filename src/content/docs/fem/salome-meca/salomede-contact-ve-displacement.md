@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-11-06
 ozet: "Bu derste, Salome-Meca ortamında temas (contact) mekaniği ve yerdeğiştirme (displacement) sınır şartlarının sonlu elemanlar analizine dahil edilme süreci ele alınmaktadır. İş akışı kapsamında, birbirleriyle etkileşimde olan geometri parçalarının tanımlanması, malzeme özelliklerinin atanması ve temas"
+teaser: "Birbirine dokunan parçaların gerçek etkileşimini modelleyip yerdeğiştirme koşullarıyla Salome-Meca'da güvenilir ve gerçekçi yapısal analizler kurmayı öğrenin."
 ---
 ## Ders notları
 

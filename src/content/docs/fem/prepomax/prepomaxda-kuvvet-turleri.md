@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@efsltn"
 yazilim: "PrePoMax"
 tarih: 2024-05-03
 ozet: "Bu derste, PrePoMax sonlu elemanlar analizi yazılımında model üzerine tanımlanabilen farklı kuvvet ve yükleme türleri ele alınmaktadır. Tipik sonlu elemanlar iş akışına uygun olarak, geometri içe aktarımı ve malzeme tanımlamalarının ardından sınır şartları ile yükleme aşamalarının nasıl kurgulandığı"
+teaser: "Noktasal kuvvetten yüzey basıncına kadar PrePoMax'te modelinize yük uygulamanın yollarını keşfedin ve analiz kurulumunuzu doğru yükleme seçimiyle güçlendirin."
 ---
 ## Ders notları
 

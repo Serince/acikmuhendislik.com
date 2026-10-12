@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-11-22
 ozet: "Bu derste, Salome-Meca ortamında 1D (çubuk/kiriş) ve 2D (kabuk/plaka) sonlu eleman tiplerinin aynı model içerisinde birlikte nasıl tanımlandığı ve çözüme dahil edildiği ele alınmaktadır. İş akışı kapsamında, öncelikle geometrinin veya ağ yapısının (mesh) farklı boyutlardaki eleman gruplarını içerece"
+teaser: "Kiriş ve kabuk elemanlarını tek bir Salome-Meca modelinde buluşturarak karma yapıların gerçekçi analizini adım adım kurmayı öğreneceksiniz."
 ---
 ## Ders notları
 

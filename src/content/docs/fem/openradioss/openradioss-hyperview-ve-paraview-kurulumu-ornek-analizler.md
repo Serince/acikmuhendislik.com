@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@ahmetemreyuksel3694"
 yazilim: "OpenRadioss"
 tarih: 2024-05-20
 ozet: "OpenRadioss Altair firmasının uzun yıllardır geliştirdiği bir çözücüdür. Altair 2022 tılı itibariyle tüm kaynak kodlarını açık kaynağa çevirmiştir. Çözücünün model hazırlama ve sonuçların görüntülenmesi için başka yazılıma ihtiyaç duymaktadır. Bunun için bu videoda hyperview ve paraview yazılımlarıd"
+teaser: "Açık kaynaklı çözücünün sonuçlarını görselleştirmek için Hyperview ve Paraview'i adım adım kurup örnek analizlerle pratik yapacaksınız."
 ---
 ## Ders notları
 

@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@ugurcan4366"
 yazilim: "OpenFOAM"
 tarih: 2022-01-28
 ozet: "Bu derste, OpenFOAM eğitim serisinin ikinci gününe geçişle birlikte temel CFD iş akışının pekiştirilmesi ve daha ileri vaka kurulum adımları ele alınmaktadır. Eğitim içeriğinde genellikle hesaplamalı akışkanlar dinamiği analizleri için geometri hazırlığı, blockMesh veya snappyHexMesh gibi araçlarla "
+teaser: "Mesh oluşturmadan çözücü ayarlarına uzanan adımlarla, ilk günün temellerini gerçek bir akış simülasyonu kurulumuna dönüştürmeyi keşfedin."
 ---
 ## Ders notları
 

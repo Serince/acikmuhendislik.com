@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-10-08
 ozet: "Bu derste, Salome-Meca ortamında iki boyutlu yüzey geometrilerine kabuk (shell) modelleme yaklaşımıyla et kalınlığı tanımlama iş akışı ele alınmaktadır. İlk olarak geometri modülünde hazırlanan veya içe aktarılan yüzey modeli için ağ (mesh) yapısı oluşturulmakta ve analiz için gerekli düğüm ile elem"
+teaser: "İnce cidarlı parçaları hacimsel modellemeye gerek kalmadan analiz etmek için yüzey ağına kabuk elemanlarıyla et kalınlığı atamayı adım adım öğrenin."
 ---
 ## Ders notları
 

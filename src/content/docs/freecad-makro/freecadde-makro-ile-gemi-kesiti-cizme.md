@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@FatihYegul-ix1td"
 yazilim: "FreeCAD Makro"
 tarih: 2024-01-22
 ozet: "Bu derste, FreeCAD ortamında Python tabanlı makro betikleri kullanılarak gemi en kesitlerinin parametrik ve otomatik olarak çizilmesi süreci ele alınmaktadır. Tipik iş akışı kapsamında öncelikle gemi geometrisine ait koordinat verilerinin veya matematiksel formülasyonların makro koduna girdi olarak "
+teaser: "Koordinat verilerini birkaç satırlık Python koduna dönüştürerek gemi en kesitlerini elle çizmeden, tek tıkla ve parametrik biçimde oluşturmayı keşfedin."
 ---
 ## Ders notları
 

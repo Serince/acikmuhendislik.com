@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@baharebruezer6894"
 yazilim: "PrePoMax"
 tarih: 2023-05-11
 ozet: "Prepomax oldukça kolay bir sonlu elemanlar pre-post programı. Yani calculix sonlu elemanlar çözücüsü için sınır şartları ve meshinizi ayarlayacağınız ve sonucunuzu gösterebileceğiniz program. Bu ilk videoda kurulum ve basit bir analiz dosyası gösterilmiştir. ."
+teaser: "CalculiX çözücüsüyle çalışan ücretsiz arayüzü bilgisayarınıza kurup ilk çubuk modelinizi oluşturarak eğilme gerilmelerini adım adım görselleştirin."
 ---
 Prepomax oldukça kolay bir sonlu elemanlar pre-post programı. Yani calculix sonlu elemanlar çözücüsü için sınır şartları ve meshinizi ayarlayacağınız ve sonucunuzu gösterebileceğiniz program. Bu ilk videoda kurulum ve basit bir analiz dosyası gösterilmiştir. .
 

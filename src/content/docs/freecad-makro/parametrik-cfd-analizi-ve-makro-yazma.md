@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@asenacataloluk2419"
 yazilim: "FreeCAD Makro"
 tarih: 2023-06-15
 ozet: "Bu derste, FreeCAD ortamında Python makroları kullanılarak parametrik hesaplamalı akışkanlar dinamiği (CFD) süreçlerinin nasıl otomatikleştirileceği ele alınmaktadır. Akış hacminin geometrik modellemesiyle başlayan iş akışında, tasarım parametrelerinin kod aracılığıyla dinamik olarak güncellenmesi v"
+teaser: "Tasarım değişkenlerini kodla yöneterek akış simülasyonlarını tekrar tekrar elle kurmadan, farklı geometri senaryolarını hızla karşılaştırmayı öğreneceksiniz."
 ---
 ## Ders notları
 

@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@AhmetFurkanOymak"
 yazilim: "FreeCAD CfdOF"
 tarih: 2026-09-17
 ozet: "Bu derste, FreeCAD CfdOF çalışma tezgâhı kullanılarak yüzen yapıların doğrusal yay (LinearSpring) yaklaşımıyla bağlama (mooring) hattı analizinin kurulum süreci ele alınmaktadır. Akış alanı ve yüzen gövde geometrisinin hazırlanmasının ardından, akışkan özellikleri ile serbest su yüzeyi veya dalga et"
+teaser: "Yüzen gövdenin bağlama hatlarını doğrusal yaylarla modelleyerek dalga ve akış etkisindeki hareketini CfdOF ortamında simüle etmeyi adım adım öğreneceksiniz."
 ---
 ## Ders notları
 

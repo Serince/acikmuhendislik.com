@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@beratyyagmur"
 yazilim: "FreeCAD FEM"
 tarih: 2023-05-15
 ozet: "Bası yükleri altında hasar sadece akma sınırı üzerindeki gerilmeler ile gerçekleşmez. Ayrıca yapının narinliğine bağlı olarak bir kararsızlık hali olan burkulma olarak da gerçekleşebilir. Özellikle elastik bölgede yani akma sınırının altıda gerçekleşecek burkulma oldukça tehlikelidir. Bu sebeple bir"
+teaser: "Narin yapıların akma sınırına ulaşmadan nasıl çökebileceğini FreeCAD FEM ile modelleyerek kritik burkulma yükünü belirlemeyi öğreneceksiniz."
 ---
 ## Ders notları
 

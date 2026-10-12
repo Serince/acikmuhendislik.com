@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@FurkanAr%C4%B1kan-y2f"
 yazilim: "Salome-Meca"
 tarih: 2023-11-06
 ozet: "Bu derste, açık kaynaklı sonlu elemanlar analizi platformu Salome-Meca’nın Windows işletim sisteminde çalışır hale getirilmesi için izlenen temel kurulum adımları ele alınmaktadır. Linux tabanlı bir altyapıya sahip olan yazılımın Windows ortamında sorunsuz çalışabilmesi için gerekli sanallaştırma ar"
+teaser: "Linux kökenli güçlü simülasyon aracını Windows bilgisayarınızda adım adım ayağa kaldırıp, sanallaştırma desteğiyle analizlere hazır bir çalışma ortamı kurmayı öğrenin."
 ---
 ## Ders notları
 

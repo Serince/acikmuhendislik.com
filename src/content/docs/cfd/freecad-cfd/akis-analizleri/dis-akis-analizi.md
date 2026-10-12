@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD CfdOF"
 tarih: 2021-11-02
 ozet: "Bu derste, FreeCAD CfdOF çalışma tezgâhı kullanılarak katı bir cisim etrafındaki dış akış analizinin temel adımları ele alınmaktadır. Süreç, analiz edilecek geometrinin hazırlanması ve akışkan hacmini temsil eden bir hesaplama hacminin (akış etki alanı/rüzgâr tüneli) oluşturulması ile başlar. Ardınd"
+teaser: "Sanal bir rüzgâr tüneli kurup cismin çevresindeki havanın davranışını simüle ederek, geometriden sonuçlara uzanan dış akış iş akışını adım adım keşfedin."
 ---
 ## Ders notları
 

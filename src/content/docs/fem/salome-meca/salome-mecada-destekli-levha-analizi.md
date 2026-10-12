@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-10-21
 ozet: "Bu derste, açık kaynak kodlu sonlu elemanlar yazılımı Salome-Meca kullanılarak takviyeli veya destekli bir levhanın yapısal analiz süreci ele alınmaktadır. Eğitim kapsamında ilk olarak, levha ve destek geometrisinin Shaper veya GEOM modülünde oluşturulması ya da dışarıdan içe aktarılarak analize uyg"
+teaser: "Geometriden mesh'e, sınır koşullarından sonuç yorumuna kadar destekli bir levhanın gerilme ve deformasyon davranışını açık kaynak araçlarla adım adım keşfedin."
 ---
 ## Ders notları
 

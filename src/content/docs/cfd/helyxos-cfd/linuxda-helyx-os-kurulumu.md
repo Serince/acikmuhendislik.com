@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@sarpgurenli3218"
 yazilim: "HELYX-OS"
 tarih: 2021-12-21
 ozet: "Bu derste, açık kaynaklı CFD çözücüsü OpenFOAM için kullanıcı dostu bir grafiksel arayüz sunan HELYX-OS yazılımının Linux işletim sistemi üzerindeki kurulum aşamaları ele alınmaktadır. Temel CFD iş akışlarına hazırlık amacıyla gerçekleştirilen bu süreçte; sistem gereksinimlerinin kontrol edilmesi, g"
+teaser: "OpenFOAM'un gücünü grafik arayüzle kullanmak isteyenler için HELYX-OS'u Linux sisteminize adım adım kurup ilk CFD projelerinize hazır hâle getirin."
 ---
 ## Ders notları
 

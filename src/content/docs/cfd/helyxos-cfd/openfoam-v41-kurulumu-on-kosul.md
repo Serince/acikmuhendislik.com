@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@sarpgurenli3218"
 yazilim: "OpenFOAM"
 tarih: 2022-01-28
 ozet: "Bu derste, hesaplamalı akışkanlar mekaniği (CFD) analizlerinin yürütüleceği OpenFOAM ortamının temel kurulum aşamaları ve gerekli ön koşul paketleri ele alınmaktadır. CFD iş akışında ağ yapısının oluşturulması, sınır şartlarının tanımlanması ve çözücülerin çalıştırılabilmesi için öncelikle ihtiyaç d"
+teaser: "Simülasyonlarınıza başlamadan önce OpenFOAM'u sisteminize sorunsuz kurmanın ve gerekli bağımlılıkları hazırlamanın adımlarını uygulamalı olarak öğreneceksiniz."
 ---
 ## Ders notları
 

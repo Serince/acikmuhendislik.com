@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@acikmuhendislik"
 yazilim: "Salome-Meca"
 tarih: 2024-07-24
 ozet: "Bu derste, açık kaynaklı sonlu elemanlar yazılımı Salome-Meca kullanılarak harmonik titreşim analizinin uçtan uca iş akışı ele alınmaktadır. Süreç, incelenecek geometrinin hazırlanması veya içe aktarılmasıyla başlayıp, dinamik analize uygun sonlu elemanlar ağının (mesh) ve gerekli grup tanımlamaları"
+teaser: "Geometriden mesh'e, sınır koşullarından frekans yanıtı grafiklerine kadar yapınızın periyodik yükler altında nasıl titreştiğini adım adım keşfedin."
 ---
 ## Ders notları
 

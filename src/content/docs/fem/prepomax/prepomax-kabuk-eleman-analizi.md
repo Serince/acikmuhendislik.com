@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@huseyinkursadnamli1015"
 yazilim: "PrePoMax"
 tarih: 2024-04-17
 ozet: "Bu derste PrePoMax yazılımı kullanılarak kabuk (shell) elemanlar ile gerçekleştirilen sonlu elemanlar analizi iş akışı ele alınmaktadır. İnce cidarlı geometrilerin yüzey modeli olarak içe aktarılması veya kabuk formuna dönüştürülmesiyle başlayan süreçte, ilgili parçaya malzeme özellikleri ve kabuk k"
+teaser: "İnce cidarlı parçaları hacim yerine yüzey olarak modelleyip kalınlık tanımlayarak, PrePoMax'te hızlı ve verimli kabuk analizi kurmayı adım adım öğrenin."
 ---
 ## Ders notları
 

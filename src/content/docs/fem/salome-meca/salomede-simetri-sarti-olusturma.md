@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-11-06
 ozet: "Bu derste ele alınan temel konu, sonlu elemanlar analizlerinde hesaplama süresini ve model boyutunu optimize etmek amacıyla Salome-Meca ortamında simetri sınır şartlarının nasıl tanımlandığıdır. İş akışı kapsamında ilk olarak, simetrik geometriye sahip modelin uygun simetri düzlemleri belirlenerek M"
+teaser: "Simetrik geometrinin yalnızca bir bölümünü modelleyip doğru düzlemlere uygun kısıtları atayarak Salome-Meca'da daha hafif ve hızlı çözümler elde etmeyi öğrenin."
 ---
 ## Ders notları
 

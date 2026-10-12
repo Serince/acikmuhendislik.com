@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-11-23
 ozet: "Bu derste, Salome-Meca ortamında bir yapının dinamik karakteristiklerini belirlemeye yönelik doğal frekans (modal) analizi iş akışı ele alınmaktadır. Süreç, Shaper veya Geometry modülünde CAD geometrisinin hazırlanması ya da içe aktarılmasıyla başlayıp, ardından SMESH modülünde dinamik yanıtı doğru "
+teaser: "Geometriden ağ oluşturmaya, malzeme tanımından mod şekillerinin görselleştirilmesine kadar bir yapının titreşim davranışını Salome-Meca ile adım adım keşfedin."
 ---
 ## Ders notları
 

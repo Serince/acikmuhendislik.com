@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@Askleipos"
 yazilim: "FreeCAD CfdOF"
 tarih: 2025-02-03
 ozet: "Bu derste, standart bir kıyaslama geometrisi olan DARPA denizaltı modeli üzerinde FreeCAD CfdOF çalışma tezgahı kullanılarak harici akış analizinin gerçekleştirilme adımları ele alınmaktadır. İlk aşamada denizaltı geometrisinin içe aktarılması, akış hacminin (hesaplama etki alanının) oluşturulması v"
+teaser: "Su altında süzülen ünlü DARPA gövdesinin etrafındaki akışı, geometriden hesaplama alanına uzanan adımlarla FreeCAD CfdOF ortamında adım adım simüle ediyoruz."
 ---
 ## Ders notları
 

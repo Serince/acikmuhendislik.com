@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD FEM"
 tarih: 2021-09-30
 ozet: "Bu derste FreeCAD FEM çalışma tezgahı kullanılarak bir geometri üzerinde bölgesel ağ (mesh) yoğunlaştırma ve basınç yükü tanımlama iş akışı ele alınmaktadır. Süreç, analiz edilecek katı modelin çalışma ortamına aktarılması veya modellenmesiyle başlar; ardından yapısal analiz için gerekli malzeme ata"
+teaser: "Kritik yüzeylerde ağı inceltip modele basınç uygulayarak, FreeCAD FEM ile daha güvenilir gerilme sonuçlarına nasıl ulaşacağınızı adım adım keşfedin."
 ---
 ## Ders notları
 

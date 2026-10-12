@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@ahmeterdm12"
 yazilim: "FreeCAD Makro"
 tarih: 2026-09-17
 ozet: "Bu derste, FreeCAD ortamında FEMbyGEN eklentisi kullanılarak parametrik hesaplamalı akışkanlar mekaniği (CFD) analizlerinin nasıl kurgulandığı ele alınmaktadır. İş akışı kapsamında ilk olarak, akış hacmini temsil eden parametrik geometrinin modellenmesi ve değişken parametrelerin FEMbyGEN arayüzü il"
+teaser: "Akış hacmi geometrisini değişkenlere bağlayarak tek bir modelden çok sayıda CFD senaryosunu otomatik üretmeyi ve sonuçlarını karşılaştırmayı keşfedin."
 ---
 ## Ders notları
 

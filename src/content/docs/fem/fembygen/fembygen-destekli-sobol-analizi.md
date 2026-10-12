@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@tolgayildiz2110"
 yazilim: "FreeCAD FEMbyGEN"
 tarih: 2026-09-17
 ozet: "Bu derste, FreeCAD ortamında parametrik tasarım ile sonlu elemanlar analizini bir araya getiren FEMbyGEN eklentisi üzerinden Sobol duyarlılık analizinin uygulanması ele alınmaktadır. Süreç, parametrik olarak tanımlanmış geometrik modelin oluşturulması, malzeme özelliklerinin atanması ve ardından çöz"
+teaser: "Hangi tasarım parametresinin yapısal performansı gerçekten etkilediğini keşfetmek için FEMbyGEN ile varyasyonlar üretip Sobol indeksleriyle duyarlılığı ölçmeyi öğreneceksiniz."
 ---
 ## Ders notları
 

@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-11-06
 ozet: "Bu derste, Salome-Meca ortamında sonlu elemanlar analizine hazırlık aşamasında bağımsız veya ayrık yüzey ağlarının (mesh) birbirine dikilmesi ve birleştirilmesi süreci ele alınmaktadır. Geometrik model üzerinde veya doğrudan ağ düzeyinde oluşan süreksizliklerin giderilmesi amacıyla, temas eden arayü"
+teaser: "Ayrık mesh parçalarındaki süreksizlikleri gidererek temas eden arayüzleri tek bir bütünleşik ağda buluşturmanın yollarını Salome-Meca üzerinde adım adım keşfedin."
 ---
 ## Ders notları
 

@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nuritaytan7838"
 yazilim: "CalculiX"
 tarih: 2021-09-01
 ozet: "Bu derste, CalculiX çözücüsü kullanılarak ikinci dereceden kabuk (S8R) ve kiriş (B32R) eleman tipleriyle doğrusal statik analiz gerçekleştirme iş akışı ele alınmaktadır. İlgili geometri tanımlandıktan sonra, indirgenmiş integrasyonlu bu elemanların davranışına uygun lineer elastik malzeme özellikler"
+teaser: "Kabuk ve kiriş yapılarını S8R ile B32R elemanlarla modelleyip malzeme tanımından sonuç değerlendirmesine kadar doğrusal statik çözümün tüm adımlarını uygulamalı olarak keşfedin."
 ---
 ## Ders notları
 

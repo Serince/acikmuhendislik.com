@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD Makro"
 tarih: 2024-03-05
 ozet: "Bu derste, FreeCAD ortamında Python makroları kullanılarak parametrik modellerin zamana veya döngüye bağlı olarak nasıl hareketlendirildiği ele alınmaktadır. İş akışı kapsamında öncelikle animasyona tabi tutulacak geometrik modelin ve serbestlik derecelerinin tanımlanması, ardından bu bileşenleri ko"
+teaser: "Birkaç satır Python koduyla durağan parçalarınızı canlandırın; döngüler ve parametre güncellemeleriyle mekanizmalarınızı adım adım hareket ettiren makrolar oluşturmayı keşfedin."
 ---
 ## Ders notları
 

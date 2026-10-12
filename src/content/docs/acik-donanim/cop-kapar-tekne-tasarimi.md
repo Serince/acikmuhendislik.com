@@ -16,6 +16,7 @@ yazarKanal: "https://www.youtube.com/@cankantarc6507"
 yazilim: "Açık Donanım"
 tarih: 2022-07-19
 ozet: "Bu derste, su yüzeyindeki atıkları toplamak amacıyla geliştirilen bir 'çöp kapar tekne' projesinin açık donanım prensipleri doğrultusunda mekanik ve yapısal tasarım süreci ele alınmaktadır. Tekne gövdesi ve çöp toplama mekanizmasının üç boyutlu modellenmesiyle başlayan iş akışında, su üzerinde stabi"
+teaser: "Göl ve kıyılardaki yüzen atıkları avlayan bir teknenin gövdesini ve toplama düzeneğini sıfırdan modelleyip suda dengeli kalmasını sağlamanın püf noktalarını keşfedin."
 ---
 ## Ders notları
 

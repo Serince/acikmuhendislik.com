@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@AhmetOzkanCanli"
 yazilim: "FreeCAD FEMbyGEN"
 tarih: 2022-11-18
 ozet: "Bu derste, FreeCAD ortamında üretken tasarım (generative design) ve yapısal optimizasyon süreçlerini mümkün kılan FEMbyGEN eklentisinin kurulum adımları ve temel kullanım mantığı ele alınmaktadır. Çalışma kapsamında, örnek bir braket geometrisi üzerinden tasarım alanı ile korunan bölgelerin belirlen"
+teaser: "Bir braketin hangi kısımlarının korunacağını belirleyip gerisini algoritmaya bırakarak, FEMbyGEN ile FreeCAD'de malzemeyi akıllıca azaltmanın yolunu keşfedin."
 ---
 ## Ders notları
 

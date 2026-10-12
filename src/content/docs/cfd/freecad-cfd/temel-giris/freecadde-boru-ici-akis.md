@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD CfdOF"
 tarih: 2021-10-17
 ozet: "Bu derste, FreeCAD'in CfdOF (Computational Fluid Dynamics Workbench) modülü kullanılarak dairesel bir boru içerisindeki akışın modellenmesi ve hesaplamalı akışkanlar mekaniği (CFD) analizi adımları ele alınmaktadır. İlk olarak boru geometrisinin veya akış hacminin CAD ortamında hazırlanması ve anali"
+teaser: "Dairesel bir borudaki sıvı hareketini CAD geometrisinden çözüm sonuçlarına kadar adım adım simüle ederek akış davranışını görselleştirmeyi keşfedin."
 ---
 ## Ders notları
 

@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@ugurcan4366"
 yazilim: "OpenFOAM"
 tarih: 2022-01-28
 ozet: "Bu derste, açık kaynak kodlu hesaplamalı akışkanlar mekaniği (CFD) yazılımı OpenFOAM'a temel bir giriş yapılarak yazılımın genel çalışma mantığı ve dosya yapısı ele alınmaktadır. Tipik bir OpenFOAM vaka kurulumunda yer alan 0, constant ve system dizinlerinin işlevleri ile simülasyon parametrelerinin"
+teaser: "OpenFOAM'da bir simülasyonun hangi klasörlerde nasıl kurgulandığını keşfederek ilk vakanızı çalıştırmaya hazır hâle geleceksiniz."
 ---
 ## Ders notları
 

@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@ugurcan4366"
 yazilim: "OpenFOAM"
 tarih: 2022-01-29
 ozet: "Bu derste, OpenFOAM eğitiminin ilerleyen aşamalarına paralel olarak tipik hesaplamalı akışkanlar dinamiği (CFD) iş akışının vaka kurulumu ve çözüm adımları ele alınmaktadır. Eğitim sürecinde hesaplama alanına ait geometrinin tanımlanması, uygun ağ yapısının (mesh) oluşturulması veya harici kaynaklar"
+teaser: "Geometri tanımından ağ üretimine ve çözücü çalıştırmaya uzanan adımlarla, OpenFOAM'da bir CFD vakasını baştan sona nasıl kuracağınızı keşfedin."
 ---
 ## Ders notları
 

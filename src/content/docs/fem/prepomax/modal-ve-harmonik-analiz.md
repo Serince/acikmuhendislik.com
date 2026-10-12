@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@baharebruezer6894"
 yazilim: "PrePoMax"
 tarih: 2023-06-19
 ozet: "Bu derste, PrePoMax yazılımı kullanılarak sonlu elemanlar yöntemiyle yapıların dinamik davranışlarını incelemeye yönelik modal ve harmonik analiz iş akışı ele alınmaktadır. Süreç, incelenecek geometrinin PrePoMax ortamına aktarılması, elastisite modülü, Poisson oranı ve dinamik analizler için kritik"
+teaser: "Yapınızın hangi frekanslarda titreştiğini ve rezonansa nasıl tepki verdiğini PrePoMax ile adım adım keşfedin, doğal modlardan frekans yanıtına uzanan dinamik bir yolculuğa çıkın."
 ---
 ## Ders notları
 

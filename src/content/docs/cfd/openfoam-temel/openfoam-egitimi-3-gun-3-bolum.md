@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@ugurcan4366"
 yazilim: "OpenFOAM"
 tarih: 2022-01-29
 ozet: "Bu derste, OpenFOAM eğitim serisinin ilerleyen aşamalarına paralel olarak hesaplamalı akışkanlar mekaniği (CFD) iş akışının vaka kurulumu ve çözümleme adımları ele alınmaktadır. Ön işleme sürecinde oluşturulan veya dışarıdan aktarılan hesaplama ağının (mesh) kalite kontrolü ile sınır yüzeylerinin do"
+teaser: "Mesh kalitesini denetleyip sınır koşullarını tanımlayarak OpenFOAM vakanızı çözüme hazır hâle getirmeyi ve simülasyonu adım adım çalıştırmayı öğreneceksiniz."
 ---
 ## Ders notları
 

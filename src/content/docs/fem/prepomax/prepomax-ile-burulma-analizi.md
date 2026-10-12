@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@baharebruezer6894"
 yazilim: "PrePoMax"
 tarih: 2023-05-29
 ozet: "Bu derste, PrePoMax yazılımı kullanılarak burulma (torsiyon) etkisine maruz kalan bir bileşenin sonlu elemanlar analizi (FEA) iş akışı ele alınmaktadır. Süreç, geometri modelinin PrePoMax arayüzüne aktarılması ve analize uygun izotropik malzeme özelliklerinin tanımlanmasıyla başlamaktadır. Geometri "
+teaser: "Döndürme momenti altındaki bir parçada gerilme ve şekil değiştirme dağılımını adım adım hesaplayıp sonuçları görselleştirmeyi PrePoMax üzerinde uygulamalı olarak keşfedin."
 ---
 ## Ders notları
 

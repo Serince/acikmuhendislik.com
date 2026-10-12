@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@taygantaskran8711"
 yazilim: "FreeCAD CfdOF"
 tarih: 2026-09-17
 ozet: "Bu derste, FreeCAD CfdOF çalışma tezgâhı kullanılarak gövde-boru (shell and tube) tipi bir ısı eşanjörünün hesaplamalı akışkanlar dinamiği (CFD) analizi iş akışı ele alınmaktadır. İlk aşamada, gövde ve boru tarafındaki akışkan hacimlerinin geometrik olarak hazırlanması ve termal etkileşimi sağlayaca"
+teaser: "Sıcak ve soğuk akışkanların borular arasında nasıl ısı alışverişi yaptığını, geometri hazırlığından simülasyon kurulumuna kadar açık kaynaklı CFD araçlarıyla adım adım keşfedin."
 ---
 ## Ders notları
 

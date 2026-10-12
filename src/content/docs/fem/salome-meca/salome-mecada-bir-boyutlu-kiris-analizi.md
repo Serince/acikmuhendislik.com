@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nedir.y"
 yazilim: "Salome-Meca"
 tarih: 2021-10-07
 ozet: "Bu derste, açık kaynaklı sonlu elemanlar yazılımı Salome-Meca kullanılarak 1D (bir boyutlu) kiriş elemanlarının yapısal analiz süreci ele alınmaktadır. Çalışma kapsamında öncelikle geometri modülünde kiriş eksenini temsil eden bir doğru çizilmekte ve sınır koşulları ile yüklerin atanacağı uç noktala"
+teaser: "Basit bir doğru çizgisinden yola çıkarak kirişinizi modelleyin, mesnet ve yükleri tanımlayın, ardından gerilme ve deplasman sonuçlarını adım adım yorumlamayı öğrenin."
 ---
 ## Ders notları
 

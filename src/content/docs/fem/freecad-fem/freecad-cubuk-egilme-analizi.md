@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nuritaytan7838"
 yazilim: "FreeCAD FEM"
 tarih: 2021-08-27
 ozet: "Bu derste, FreeCAD FEM çalışma tezgâhı kullanılarak bir çubuğun eğilme davranışı ve yapısal mukavemet analizi iş akışı ele alınmaktadır. Süreç kapsamında öncelikle analiz edilecek çubuk geometrisinin modellenmesi veya içeri aktarılması adımları üzerinde durulmaktadır. Geometri hazırlandıktan sonra m"
+teaser: "Bir çubuğa yük bindiğinde nerede ne kadar eğileceğini, FreeCAD FEM ile sınır koşullarından sonuç yorumlamaya kadar adım adım keşfedin."
 ---
 ## Ders notları
 

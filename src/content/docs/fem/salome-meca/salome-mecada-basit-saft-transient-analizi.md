@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhammetali-g7v"
 yazilim: "Salome-Meca"
 tarih: 2026-09-17
 ozet: "Bu derste, Salome-Meca ortamında basit bir şaft modelinin zamana bağlı (transient) dinamik analiz adımları ele alınmaktadır. Süreç, şaft geometrisinin Shaper veya Geometry modülünde hazırlanması ya da içe aktarılmasıyla başlayıp, dinamik davranışı doğru yakalayacak uygun ağ (mesh) yapısının SMESH mo"
+teaser: "Zamanla değişen yükler altında dönen bir şaftın nasıl tepki verdiğini, modelden sonuç görselleştirmesine kadar Salome-Meca ile adım adım keşfedin."
 ---
 ## Ders notları
 

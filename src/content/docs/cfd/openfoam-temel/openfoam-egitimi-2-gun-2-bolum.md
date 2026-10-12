@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@ugurcan4366"
 yazilim: "OpenFOAM"
 tarih: 2022-01-28
 ozet: "Bu derste, OpenFOAM eğitiminin ilerleyen aşamalarına paralel olarak tipik bir hesaplamalı akışkanlar mekaniği (CFD) iş akışının temel adımları ele alınmaktadır. Eğitim kapsamında, oluşturulan hesaplama ağı (mesh) yapısının kontrolü ve sınır bölgelerinin (boundary patch) tanımlanması üzerinde durulma"
+teaser: "Hesaplama ağının doğruluğunu sınayıp sınır bölgelerini tanımlayarak, simülasyona hazır sağlam bir CFD kurulumunun nasıl oluşturulduğunu adım adım keşfedin."
 ---
 ## Ders notları
 

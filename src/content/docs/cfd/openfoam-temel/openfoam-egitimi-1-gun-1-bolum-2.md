@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@ugurcan4366"
 yazilim: "OpenFOAM"
 tarih: 2022-01-28
 ozet: "Bu derste, OpenFOAM ortamında tipik bir hesaplamalı akışkanlar mekaniği (CFD) simülasyonunun temel vaka (case) dosya yapısı ve çözüm öncesi hazırlık adımları ele alınmaktadır. Başlangıç aşaması kapsamında genellikle geometrinin ve hesaplama ağının (mesh) blockMesh gibi temel araçlarla oluşturulması "
+teaser: "OpenFOAM'da bir simülasyonu sıfırdan kurmanın ilk adımlarını keşfedin: klasör düzenini tanıyın, blockMesh ile ağınızı oluşturun ve çözüme hazır bir vaka hazırlayın."
 ---
 ## Ders notları
 

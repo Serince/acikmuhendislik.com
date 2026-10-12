@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@EnesDurukan-r4p"
 yazilim: "Salome-Meca"
 tarih: 2025-08-04
 ozet: "Bu derste, Salome-Meca ortamında sonlu elemanlar analizi için rijit bağlantı (rigid link) modelleme iş akışı ele alınmaktadır. Süreç, geometri modülünde rijit şekilde bağlanacak yüzey veya düğüm gruplarının tanımlanması ve ardından Mesh modülünde bu bölgeleri içerecek ağ yapısının oluşturulmasıyla b"
+teaser: "Yükü dağıtmadan iki bölgeyi kusursuz biçimde birbirine kilitleyen rijit bağlantıları, geometriden ağa uzanan adımlarla Salome-Meca'da nasıl kuracağınızı keşfedin."
 ---
 ## Ders notları
 

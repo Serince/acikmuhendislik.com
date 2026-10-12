@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@sarpgurenli3218"
 yazilim: "OpenFOAM"
 tarih: 2022-01-28
 ozet: "Bu derste Ubuntu işletim sistemi üzerinde açık kaynak kodlu CFD çözücüsü OpenFOAM kurulum adımları ele alınmaktadır. Kurulum sürecinde gerekli sistem bağımlılıklarının ve kütüphanelerin terminal üzerinden yüklenmesi, ardından kaynak veya paket depolarının sisteme tanıtılması aşamaları üzerinde durul"
+teaser: "Terminalde birkaç komutla açık kaynaklı CFD dünyasına adım atın: bağımlılıklardan depo tanımlamaya kadar OpenFOAM'u Ubuntu sisteminize sorunsuzca kazandırın."
 ---
 ## Ders notları
 

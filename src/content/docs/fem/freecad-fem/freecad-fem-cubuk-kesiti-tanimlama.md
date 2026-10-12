@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@muhendislik1012"
 yazilim: "FreeCAD FEM"
 tarih: 2021-09-07
 ozet: "Bu derste, FreeCAD FEM tezgahı üzerinde 1D çubuk (beam/truss) elemanları kullanılarak gerçekleştirilen sonlu elemanlar analizlerinde kesit geometrisi tanımlama adımları ele alınmaktadır. Süreç, çubuk eksenini temsil eden çizgi geometrisinin sonlu elemanlar ortamına aktarılması ve sisteme uygun malze"
+teaser: "Çizgi geometrisinden gerçekçi yapısal modele geçişte, kiriş ve kafes elemanlarına doğru kesit profilini atayarak analiz sonuçlarınızı güvenilir hâle getirmeyi öğrenin."
 ---
 ## Ders notları
 

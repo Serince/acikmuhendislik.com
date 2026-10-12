@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@nuritaytan7838"
 yazilim: "CalculiX"
 tarih: 2021-09-01
 ozet: "Bu derste, CalculiX sonlu elemanlar analiz yazılımında bir boyutlu (1D kiriş/çubuk) ve iki boyutlu (2D kabuk/levha) elemanların geometrik kesit parametrelerinin tanımlanması süreci ele alınmaktadır. İş akışı kapsamında öncelikle çizgi ve yüzey modellerinin ağ yapısı (mesh) oluşturulmakta, ardından b"
+teaser: "Kiriş, çubuk ve kabuk modellerinizi gerçekçi kılmak için mesh sonrası kesit kalınlığı ile genişlik değerlerini CalculiX'te adım adım atamayı öğreneceksiniz."
 ---
 ## Ders notları
 

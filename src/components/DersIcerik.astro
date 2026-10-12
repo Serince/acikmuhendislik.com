@@ -18,16 +18,9 @@ const tarih = d.tarih ? new Date(d.tarih).toLocaleDateString('tr-TR', { year: 'n
   <p class="uyari">⚠️ Bu dersin video eşleşmesi arşivden otomatik kurtarıldı; lütfen doğru video olduğunu kontrol edin.</p>
 )}
 {videos.map((id, i) => <YouTube id={id} title={d.title} eager={i === 0} />)}
-{videos.length > 0 && d.ozet && (
+{videos.length > 0 && (d.teaser || d.ozet) && (
   <p class="ogrenme-hedefi">
-    <strong>Bu derste:</strong> {(() => {
-      // Ozetin ilk cumlesini atla (govdede aynen var); devamindan kisa teaser goster.
-      const cumleler = d.ozet.match(/[^.!?]+[.!?]+/g) || [d.ozet];
-      let teaser = (cumleler.length > 1 ? cumleler.slice(1).join(' ') : d.ozet).trim();
-      teaser = teaser.replace(/^bu derste[,\s]*/i, '');
-      teaser = teaser.charAt(0).toLocaleUpperCase('tr-TR') + teaser.slice(1);
-      return teaser.length > 160 ? teaser.slice(0, 160).trimEnd() + '…' : teaser;
-    })()}
+    <strong>Bu derste:</strong> {d.teaser || (d.ozet.length > 160 ? d.ozet.slice(0, 160).trimEnd() + '…' : d.ozet)}
   </p>
 )}
 <Default><slot /></Default>

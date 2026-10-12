@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@kenanaslan1702"
 yazilim: "FreeCAD CfdOF"
 tarih: 2022-06-20
 ozet: "Tek fazlı akışta bir valf analizi gerçekleştirildi. Bu analizde mesh boyutlarının sınır tabakada hassaslaştırılması yapıldı ve analiz sonuçlarına göre y+ değerinin hesaplanması gösterildi. y+ değeri için videoda gösterilen yere aşağıdaki komut verilerek gösterilebilir."
+teaser: "Sınır tabakasına yakın ağ inceltmesinin sürgülü valf akışını nasıl etkilediğini keşfedin ve CfdOF sonuçlarından y+ değerini adım adım görselleştirmeyi öğrenin."
 ---
 ## Ders notları
 

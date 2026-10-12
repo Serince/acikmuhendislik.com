@@ -9,6 +9,7 @@ yazarKanal: "https://www.youtube.com/@fercanl2442"
 yazilim: "FreeCAD CfdOF"
 tarih: 2024-06-21
 ozet: "Bu derste, FreeCAD CfdOF çalışma tezgahı kullanılarak iki farklı akışkanın etkileşimini içeren çok fazlı (çift fazlı) bir hesaplamalı akışkanlar dinamiği (CFD) analizinin temel iş akışı ele alınmaktadır. Süreç, akış hacmini temsil eden geometrik modelin hazırlanması veya içe aktarılmasıyla başlayıp "
+teaser: "İki akışkanın aynı hacimde nasıl etkileştiğini görmek için geometriyi hazırlamaktan sonuçları yorumlamaya kadar çift fazlı bir CFD simülasyonunu adım adım kuruyoruz."
 ---
 ## Ders notları
 
