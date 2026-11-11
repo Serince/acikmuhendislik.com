@@ -57,13 +57,15 @@ const ikonlar = {
   ))}
 </div>
 <script>
-  // Her ziyarette kartları karıştır
+  // Her ziyarette kartları karıştır; Serdar Turgut İnce her zaman ilk sırada sabit kalır
   document.querySelectorAll('[data-karistir]').forEach((alan) => {
     const kartlar = [...alan.children];
-    for (let i = kartlar.length - 1; i > 0; i--) {
+    const sabit = kartlar.filter((k) => (k.textContent || '').includes('Serdar Turgut İnce'));
+    const digerleri = kartlar.filter((k) => !(k.textContent || '').includes('Serdar Turgut İnce'));
+    for (let i = digerleri.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      alan.appendChild(kartlar[j]);
-      kartlar.splice(j, 1);
+      [digerleri[i], digerleri[j]] = [digerleri[j], digerleri[i]];
     }
+    alan.replaceChildren(...sabit, ...digerleri);
   });
 </script>

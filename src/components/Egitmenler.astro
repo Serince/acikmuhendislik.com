@@ -12,6 +12,7 @@ const havuz = [
   { ad: 'Fatih Yegül', alan: 'FreeCAD Makro', kanal: 'https://www.youtube.com/@FatihYegul-ix1td', foto: '/ekip/fatih.jpg' },
   { ad: 'Sarp Gürenli', alan: 'OpenFOAM + HELYX-OS', kanal: 'https://www.youtube.com/@sarpgurenli3218', foto: '/ekip/sarp.jpg' },
   { ad: 'Erencan Kahveci', alan: 'CFD (y+)', kanal: 'https://www.youtube.com/@Cankahveci78', foto: '/ekip/erencan.jpg' },
+  { ad: 'Serdar Turgut İnce', alan: 'Site Kurucusu', kanal: 'https://www.linkedin.com/in/s-turgut-ince-a1b54b45/', foto: '/ekip/serdar.jpg' },
 ];
 ---
 <h2 class="bolum-baslik">Eğitmenler</h2>
@@ -29,14 +30,17 @@ const havuz = [
   ))}
 </div>
 <script>
-  // Her ziyarette karıştır, rastgele 8 tanesini göster
+  // Her ziyarette karıştır, rastgele 8 tanesini göster; Serdar Turgut İnce her zaman ilk sırada sabit kalır
   document.querySelectorAll('[data-goster]').forEach((alan) => {
     const kartlar = [...alan.children];
-    for (let i = kartlar.length - 1; i > 0; i--) {
+    const sabit = kartlar.filter((k) => (k.textContent || '').includes('Serdar Turgut İnce'));
+    const digerleri = kartlar.filter((k) => !(k.textContent || '').includes('Serdar Turgut İnce'));
+    for (let i = digerleri.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [kartlar[i], kartlar[j]] = [kartlar[j], kartlar[i]];
+      [digerleri[i], digerleri[j]] = [digerleri[j], digerleri[i]];
     }
-    kartlar.forEach((k) => alan.appendChild(k));
-    kartlar.slice(Number(alan.dataset.goster)).forEach((k) => k.style.display = 'none');
+    const sirali = [...sabit, ...digerleri];
+    sirali.forEach((k) => alan.appendChild(k));
+    sirali.slice(Number(alan.dataset.goster)).forEach((k) => k.style.display = 'none');
   });
 </script>
