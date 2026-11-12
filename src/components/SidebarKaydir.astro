@@ -5,29 +5,25 @@ import Default from '@astrojs/starlight/components/Sidebar.astro';
 <Default />
 
 <script is:inline>
-  // Tıklayınca-yüklenen YouTube videoları: tek dinleyici, sayfadaki tüm cepheler için.
-  // Starlight sayfa geçişlerinde (astro:page-load) yeniden bağlanır.
-  function ytLiteBagla() {
-    document.querySelectorAll('.video-wrap[data-yt-lite]:not([data-yt-bagli])').forEach((kutu) => {
-      kutu.setAttribute('data-yt-bagli', '1');
-      const btn = kutu.querySelector('[data-yt-dugme]');
-      if (!btn) return;
-      btn.addEventListener('click', () => {
-        const id = kutu.getAttribute('data-yt') || '';
-        const baslik = btn.getAttribute('aria-label') || 'YouTube video';
-        const cerceve = document.createElement('iframe');
-        cerceve.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
-        cerceve.title = baslik;
-        cerceve.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-        cerceve.referrerPolicy = 'strict-origin-when-cross-origin';
-        cerceve.allowFullscreen = true;
-        cerceve.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0';
-        kutu.replaceChildren(cerceve);
-      }, { once: true });
-    });
-  }
-  document.addEventListener('astro:page-load', ytLiteBagla);
-  ytLiteBagla();
+  // Tıklayınca-yüklenen YouTube videoları: document düzeyinde tek dinleyici (delegasyon).
+  // Butonlar betikten sonra gelse bile çalışır; Starlight sayfa geçişlerinde de sorun çıkarmaz.
+  document.addEventListener('click', (olay) => {
+    const dugme = olay.target instanceof Element ? olay.target.closest('[data-yt-dugme]') : null;
+    if (!dugme) return;
+    const kutu = dugme.closest('.video-wrap[data-yt-lite]');
+    if (!kutu || kutu.querySelector('iframe')) return;
+    const id = kutu.getAttribute('data-yt') || '';
+    if (!id) return;
+    const baslik = dugme.getAttribute('aria-label') || 'YouTube video';
+    const cerceve = document.createElement('iframe');
+    cerceve.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
+    cerceve.title = baslik;
+    cerceve.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    cerceve.referrerPolicy = 'strict-origin-when-cross-origin';
+    cerceve.allowFullscreen = true;
+    cerceve.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0';
+    kutu.replaceChildren(cerceve);
+  });
 </script>
 
 <script>
